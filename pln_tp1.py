@@ -8,31 +8,38 @@ with open("data/medicina_raw.txt", "r", encoding="utf-8") as f:
     texto = f.read()
 
 # ---------------------------------------------------------
-# 2) Limpeza básica
+# 2) Remover tudo antes da primeira entrada real (id 1)
+# ---------------------------------------------------------
+if "\n1 " in texto:
+    texto = texto.split("\n1 ")[1]   # corta tudo antes do "1 "
+    texto = "1 " + texto             # repõe o "1 " removido no split
+
+# ---------------------------------------------------------
+# 3) Limpeza básica
 # ---------------------------------------------------------
 texto = re.sub(r"\f", "", texto)   # remover quebras de página
 
 # ---------------------------------------------------------
-# 3) Criar marcas para separar entradas
+# 4) Criar marcas para separar entradas
 # ---------------------------------------------------------
 
 # Entradas completas começam com número
 texto = re.sub(r"\n(?=\d+\s)", "\n@", texto)
 
-# Entradas remissivas começam com texto e têm "Vid.-"
+# Entradas alternativas começam com texto e têm "Vid.-"
 texto = re.sub(r"\n(?=[A-Za-zÁÉÍÓÚÜÑáéíóúüñ].+Vid\.-)", "\n#", texto)
 
 # ---------------------------------------------------------
-# 4) Separar entradas
+# 5) Separar entradas
 # ---------------------------------------------------------
 entradas_completas = re.split(r"@", texto)
-entradas_remissivas = re.split(r"#", texto)
+entradas_alternativas = re.split(r"#", texto)
 
 # Lista final
 vocabulario = []
 
 # ---------------------------------------------------------
-# 5) Função auxiliar
+# 6) Função auxiliar
 # ---------------------------------------------------------
 def limpa(linha):
     linha = linha.strip()
@@ -41,7 +48,7 @@ def limpa(linha):
 
 
 # ---------------------------------------------------------
-# 6) Processar ENTRADAS COMPLETAS
+# 7) Processar ENTRADAS COMPLETAS
 # ---------------------------------------------------------
 for e in entradas_completas:
     e = e.strip()
@@ -50,36 +57,38 @@ for e in entradas_completas:
 
     linhas = e.split("\n")
 
-    # Linha 1 → id + termo + categoria
+    # Linha 1 → id + termo + género
     m = re.match(r"^(\d+)\s+(.+?)\s+([mf])$", linhas[0])
     if not m:
         continue
 
     id_ = int(m.group(1))
     termo = m.group(2)
-    categoria = m.group(3)
+    genero = m.group(3)
 
     entrada = {
-        "entrada": "definicao",
-        "id": id_,
+        "tipo_entrada": "definicao_completa",
+        "id_entrada": id_,
         "termo_galego": {
             "palavra": termo,
-            "classe_gramatical": categoria,
+            "genero_palavra": genero,
             "sinonimos_galego": []
         },
         "tema": [],
-        "espanhol": [],
-        "ingles": [],
-        "portugues": [],
-        "latim": [],
+        "termo_espanhol": [],
+        "termo_ingles": [],
+        "termo_portugues": [],
+        "termo_latim": [],
         "nota": None
     }
 
-    # Processar restantes linhas
-    for linha in linhas[1:]:
-        linha = limpa(linha)
+    # Processar restantes linhas COM ÍNDICE
+    i = 1
+    while i < len(linhas):
+        linha_bruta = linhas[i]
+        linha = limpa(linha_bruta)
 
-        # Área temática (linha com palavra inicial maiúscula e sem prefixos)
+        # Área temática
         if (
             re.match(r"^[A-ZÁÉÍÓÚ].+", linha)
             and not linha.startswith(("SIN.-", "es ", "en ", "pt ", "la ", "Nota"))
@@ -95,31 +104,52 @@ for e in entradas_completas:
 
         # Espanhol
         elif linha.startswith("es "):
-            entrada["espanhol"] = [s.strip() for s in linha[3:].split(";")]
+            entrada["termo_espanhol"] = [s.strip() for s in linha[3:].split(";")]
 
         # Inglês
         elif linha.startswith("en "):
-            entrada["ingles"] = [s.strip() for s in linha[3:].split(";")]
+            entrada["termo_ingles"] = [s.strip() for s in linha[3:].split(";")]
 
         # Português
         elif linha.startswith("pt "):
-            entrada["portugues"] = [s.strip() for s in linha[3:].split(";")]
+            entrada["termo_portugues"] = [s.strip() for s in linha[3:].split(";")]
 
         # Latim
         elif linha.startswith("la "):
-            entrada["latim"] = [s.strip() for s in linha[3:].split(";")]
+            entrada["termo_latim"] = [s.strip() for s in linha[3:].split(";")]
 
-        # Nota
+        # Nota (multi-linha)
         elif linha.startswith("Nota.-"):
-            entrada["nota"] = linha.replace("Nota.-", "").strip()
+            nota = linha.replace("Nota.-", "").strip()
+
+            j = i + 1
+            while j < len(linhas):
+                prox = limpa(linhas[j])
+
+                # Se a próxima linha começar um novo bloco, parar
+                if prox.startswith(("es ", "en ", "pt ", "la ", "SIN.-", "Nota.-")):
+                    break
+                if re.match(r"^\d+\s", prox):  # nova entrada
+                    break
+                if prox == "":
+                    break
+
+                nota += " " + prox
+                j += 1
+
+            entrada["nota"] = nota
+            i = j
+            continue  # já avançámos j, não queremos i++ normal aqui
+
+        i += 1
 
     vocabulario.append(entrada)
 
 
 # ---------------------------------------------------------
-# 7) Processar ENTRADAS REMISSIVAS
+# 8) Processar ENTRADAS ALTERNATIVAS
 # ---------------------------------------------------------
-for e in entradas_remissivas:
+for e in entradas_alternativas:
     e = e.strip()
     if "Vid.-" not in e:
         continue
@@ -129,22 +159,22 @@ for e in entradas_remissivas:
         continue
 
     termo = limpa(m.group(1))
-    destino = limpa(m.group(2))
+    equivalente = limpa(m.group(2))
 
     entrada = {
-        "entrada": "remissiva",
+        "tipo_entrada": "alternativa",
         "termo_galego": {
             "palavra": termo,
-            "classe_gramatical": None
+            "genero_palavra": None
         },
-        "remete_para": destino
+        "termo_equivalente": equivalente
     }
 
     vocabulario.append(entrada)
 
 
 # ---------------------------------------------------------
-# 8) Guardar JSON final
+# 9) Guardar JSON final
 # ---------------------------------------------------------
 with open("pln_tp1.json", "w", encoding="utf-8") as f:
     json.dump({"Vocabulário médico": vocabulario}, f, ensure_ascii=False, indent=4)
