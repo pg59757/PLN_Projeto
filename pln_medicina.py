@@ -176,5 +176,5 @@ for e in entradas_alternativas:
 # ---------------------------------------------------------
 # 9) Guardar JSON final
 # ---------------------------------------------------------
-with open("pln_tp1.json", "w", encoding="utf-8") as f:
+with open("pln_vocab_medicina.json", "w", encoding="utf-8") as f:
     json.dump({"Vocabulário médico": vocabulario}, f, ensure_ascii=False, indent=4)
