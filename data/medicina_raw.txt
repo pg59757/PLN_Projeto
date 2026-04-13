@@ -303,7 +303,7 @@ pt abdome em tábua; abdômen em
 6 abdome globuloso      m
 Semioloxía
 		 SIN.- abdome prominente; abdome
-		 distendido
+		 distendidoAl
 es abdomen distendido; abdomen
 				 globuloso; abdomen prominente
 en distended abdomen
@@ -61448,7 +61448,7 @@ vestibulum, 5257
 vomer, 5328
 vulva, 5330Bibliografía
 849
-������������ Bibliografía
+             Bibliografía
 Obras lexicográficas
 Castro Maciá, L. (2007): Dicionario
 Xerais de sinónimos e antónimos. Vigo
