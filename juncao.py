@@ -76,13 +76,13 @@ for chave_covid, info in covid_data.items():
         vocabulario.append(nova_entrada)
 
 # 5. Guardar
-with open('pln_final_com_todas_linguas_teste.json', 'w', encoding='utf-8') as f:
+with open('pln_final_com_todas_linguas.json', 'w', encoding='utf-8') as f:
     json.dump(pln_data, f, ensure_ascii=False, indent=4)
 
 
 
 # --- Teste ---
-with open('pln_final_com_todas_linguas_teste.json', 'r', encoding='utf-8') as f:
+with open('pln_final_com_todas_linguas.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 vocab = data["Vocabulário médico"]
