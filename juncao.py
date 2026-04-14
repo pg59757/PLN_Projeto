@@ -1,7 +1,7 @@
 import json
 
 # Carregar os ficheiros
-with open('pln_tp1.json', 'r', encoding='utf-8') as f:
+with open('pln_vocab_medicina.json', 'r', encoding='utf-8') as f:
     pln_data = json.load(f)
 
 with open('dicionario_covid_final_gemini.json', 'r', encoding='utf-8') as f:
