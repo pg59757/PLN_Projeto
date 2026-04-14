@@ -4,102 +4,90 @@ import json
 with open('pln_vocab_medicina.json', 'r', encoding='utf-8') as f:
     pln_data = json.load(f)
 
-with open('dicionario_covid_final_gemini.json', 'r', encoding='utf-8') as f:
+with open('dicionario_covid.json', 'r', encoding='utf-8') as f:
     covid_data = json.load(f)
 
 vocabulario = pln_data["Vocabulário médico"]
 
-# 1. Mapa de termos galegos para busca rápida
-pln_lookup = {str(item["termo_galego"]["palavra"]).lower().strip(): i 
-              for i, item in enumerate(vocabulario) if "termo_galego" in item}
-
-# 2. Mapa de normalização de nomes de línguas (COVID -> PLN)
-# O PLN usa nomes sem acentos. Vamos mapear os principais e o resto fica como está.
-mapa_nomes_linguas = {
-    "inglês": "ingles",
-    "espanhol": "espanhol",
-    "português": "portugues",
-    "português (PT)": "portugues",
-    "francês": "frances",
-    "holandês": "holandes",
-    "euskera": "basco",
-    "occitan": "occitano"
+# 1. Mapa de termos galegos do PLN para busca rápida
+pln_lookup = {
+    item["termo_galego"]["palavra"].lower().strip(): i
+    for i, item in enumerate(vocabulario)
+    if "termo_galego" in item
 }
 
-# 3. Processar
-for entrada_id, info in covid_data.items():
-    traducoes = info.get("traduções", {})
-    termo_gl_covid = traducoes.get("galego", "").lower().strip()
-    
-    if not termo_gl_covid:
+# 2. Línguas a ignorar (galego já está no termo_galego do PLN)
+linguas_ignorar = {"galego"}
+
+# 3. Função para juntar traduções sem duplicar
+def juntar_traducao(atual, novo):
+    if not atual:
+        return novo
+    partes = [p.strip() for p in atual.split(";")]
+    if novo not in partes:
+        partes.append(novo)
+    return "; ".join(partes)
+
+# 4. Processar cada entrada do COVID
+for chave_covid, info in covid_data.items():
+    traducoes = info.get("traducoes", {})
+
+    # Obter o termo em galego
+    termo_galego = traducoes.get("galego", "").lower().strip()
+
+    if not termo_galego:
         continue
 
-    if termo_gl_covid in pln_lookup:
-        item = vocabulario[pln_lookup[termo_gl_covid]]
-        
-        # --- JUNTAR TRADUÇÕES DINAMICAMENTE ---
-        for ling_covid, valor in traducoes.items():
-            if not valor or ling_covid == "galego": continue
-            
-            # Normaliza o nome da língua (ex: "neerlandês" -> "neerlandes")
-            ling_pln = mapa_nomes_linguas.get(ling_covid, ling_covid)
-            
-            # Se o campo não existir no item do PLN, cria uma lista vazia
-            if ling_pln not in item or item[ling_pln] is None:
-                item[ling_pln] = []
-            
-            # Adiciona a tradução se ela ainda não estiver lá
-            if isinstance(item[ling_pln], list):
-                if valor not in item[ling_pln]:
-                    item[ling_pln].append(valor)
-            else:
-                # Caso o campo original não seja uma lista (segurança)
-                if item[ling_pln] != valor:
-                    item[ling_pln] = [item[ling_pln], valor]
+    if termo_galego in pln_lookup:
+        # --- TERMO EXISTE: acrescentar traduções em línguas novas ---
+        item = vocabulario[pln_lookup[termo_galego]]
 
-        # --- JUNTAR DEFINIÇÃO E TEMA ---
-        def_covid = info.get("definição") or ""
-        nota_atual = item.get("nota") or ""
-        if def_covid and def_covid not in nota_atual:
-            item["nota"] = f"{nota_atual} | [Def. COVID]: {def_covid}".strip(" | ")
-            
-        cat = info.get("categoria")
-        if cat and cat not in item.get("tema", []):
-            if "tema" not in item or item["tema"] is None: item["tema"] = []
-            item["tema"].append(cat)
-            
+        if "traducoes" not in item or item["traducoes"] is None:
+            item["traducoes"] = {}
+
+        for lingua, valor in traducoes.items():
+            if not valor or lingua in linguas_ignorar:
+                continue
+            # Só acrescenta se a língua ainda não existir
+            if lingua not in item["traducoes"]:
+                item["traducoes"][lingua] = valor
+            else:
+                item["traducoes"][lingua] = juntar_traducao(item["traducoes"][lingua], valor)
+
     else:
-        # Criar nova entrada com todas as traduções
+        # --- TERMO NÃO EXISTE: criar nova entrada no formato PLN ---
         nova_entrada = {
-            "entrada": "definicao",
-            "termo_galego": {"palavra": termo_gl_covid, "classe_gramatical": None, "sinonimos_galego": []},
-            "tema": [info.get("categoria")] if info.get("categoria") else [],
-            "nota": f"Fonte COVID: {info.get('definição', '')}",
-            "latim": []
+            "tipo_entrada": "definicao_completa",
+            "id_entrada": None,
+            "termo_galego": {
+                "palavra": termo_galego,
+                "genero_palavra": None,
+                "sinonimos_galego": []
+            },
+            "tema": [info["categoria"]] if info.get("categoria") else [],
+            "traducoes": {
+                lingua: valor
+                for lingua, valor in traducoes.items()
+                if valor and lingua not in linguas_ignorar
+            },
+            "nota": info.get("definicao") or None
         }
-        # Adiciona as línguas dinamicamente
-        for ling_covid, valor in traducoes.items():
-            if valor and ling_covid != "galego":
-                ling_pln = mapa_nomes_linguas.get(ling_covid, ling_covid)
-                nova_entrada[ling_pln] = [valor]
-        
+
         vocabulario.append(nova_entrada)
 
-# Guardar
-with open('pln_final_com_todas_linguas.json', 'w', encoding='utf-8') as f:
+# 5. Guardar
+with open('pln_final_com_todas_linguas_teste.json', 'w', encoding='utf-8') as f:
     json.dump(pln_data, f, ensure_ascii=False, indent=4)
 
 
 
-import json
-
-with open('pln_final_com_todas_linguas.json', 'r', encoding='utf-8') as f:
+# --- Teste ---
+with open('pln_final_com_todas_linguas_teste.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 vocab = data["Vocabulário médico"]
 
-# 1. Testar um termo que devia ter sido fundido
-teste = [item for item in vocab if item["termo_galego"]["palavra"].lower() == "acalabrutinib"]
+teste = [item for item in vocab if item["termo_galego"]["palavra"].lower() == "aerosol"]
 
 if teste:
     print("--- Exemplo de Termo Fundido ---")
@@ -107,6 +95,6 @@ if teste:
 else:
     print("Termo não encontrado.")
 
-# 2. Contar quantos têm a marca de [COVID] na nota
-fundidos = [item for item in vocab if "[COVID]" in (item.get("nota") or "")]
-print(f"\nTotal de termos que receberam dados do COVID: {len(fundidos)}")
+novas = [item for item in vocab if item.get("id_entrada") is None]
+print(f"\nNovas entradas criadas: {len(novas)}")
+print(f"Total de entradas: {len(vocab)}")

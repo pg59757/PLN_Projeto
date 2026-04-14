@@ -11,22 +11,18 @@ with open("data/medicina_raw.txt", "r", encoding="utf-8") as f:
 # 2) Remover tudo antes da primeira entrada real (id 1)
 # ---------------------------------------------------------
 if "\n1 " in texto:
-    texto = texto.split("\n1 ")[1]   # corta tudo antes do "1 "
-    texto = "1 " + texto             # repõe o "1 " removido no split
+    texto = texto.split("\n1 ")[1]
+    texto = "1 " + texto
 
 # ---------------------------------------------------------
 # 3) Limpeza básica
 # ---------------------------------------------------------
-texto = re.sub(r"\f", "", texto)   # remover quebras de página
+texto = re.sub(r"\f", "", texto)
 
 # ---------------------------------------------------------
 # 4) Criar marcas para separar entradas
 # ---------------------------------------------------------
-
-# Entradas completas começam com número
 texto = re.sub(r"\n(?=\d+\s)", "\n@", texto)
-
-# Entradas alternativas começam com texto e têm "Vid.-"
 texto = re.sub(r"\n(?=[A-Za-zÁÉÍÓÚÜÑáéíóúüñ].+Vid\.-)", "\n#", texto)
 
 # ---------------------------------------------------------
@@ -35,7 +31,6 @@ texto = re.sub(r"\n(?=[A-Za-zÁÉÍÓÚÜÑáéíóúüñ].+Vid\.-)", "\n#", tex
 entradas_completas = re.split(r"@", texto)
 entradas_alternativas = re.split(r"#", texto)
 
-# Lista final
 vocabulario = []
 
 # ---------------------------------------------------------
@@ -57,7 +52,6 @@ for e in entradas_completas:
 
     linhas = e.split("\n")
 
-    # Linha 1 → id + termo + género
     m = re.match(r"^(\d+)\s+(.+?)\s+([mf])$", linhas[0])
     if not m:
         continue
@@ -75,14 +69,10 @@ for e in entradas_completas:
             "sinonimos_galego": []
         },
         "tema": [],
-        "termo_espanhol": [],
-        "termo_ingles": [],
-        "termo_portugues": [],
-        "termo_latim": [],
+        "traducoes": {},   # <- substituiu os campos separados por língua
         "nota": None
     }
 
-    # Processar restantes linhas COM ÍNDICE
     i = 1
     while i < len(linhas):
         linha_bruta = linhas[i]
@@ -95,28 +85,30 @@ for e in entradas_completas:
         ):
             entrada["tema"].append(linha)
 
-        # Sinónimos galegos
+         # Sinónimos galegos
         elif linha.startswith("SIN.-"):
             sin = linha.replace("SIN.-", "").strip()
-            entrada["termo_galego"]["sinonimos_galego"] = [
-                s.strip() for s in sin.split(";")
-            ]
+            entrada["termo_galego"]["sinonimos_galego"] = sin
 
         # Espanhol
         elif linha.startswith("es "):
-            entrada["termo_espanhol"] = [s.strip() for s in linha[3:].split(";")]
+            vals = [s.strip() for s in linha[3:].split(";")]
+            entrada["traducoes"]["espanhol"] = vals[0] if len(vals) == 1 else "; ".join(vals)
 
         # Inglês
         elif linha.startswith("en "):
-            entrada["termo_ingles"] = [s.strip() for s in linha[3:].split(";")]
+            vals = [s.strip() for s in linha[3:].split(";")]
+            entrada["traducoes"]["inglês"] = vals[0] if len(vals) == 1 else "; ".join(vals)
 
         # Português
         elif linha.startswith("pt "):
-            entrada["termo_portugues"] = [s.strip() for s in linha[3:].split(";")]
+            vals = [s.strip() for s in linha[3:].split(";")]
+            entrada["traducoes"]["português"] = vals[0] if len(vals) == 1 else "; ".join(vals)
 
         # Latim
         elif linha.startswith("la "):
-            entrada["termo_latim"] = [s.strip() for s in linha[3:].split(";")]
+            vals = [s.strip() for s in linha[3:].split(";")]
+            entrada["traducoes"]["latim"] = vals[0] if len(vals) == 1 else "; ".join(vals)
 
         # Nota (multi-linha)
         elif linha.startswith("Nota.-"):
@@ -125,21 +117,18 @@ for e in entradas_completas:
             j = i + 1
             while j < len(linhas):
                 prox = limpa(linhas[j])
-
-                # Se a próxima linha começar um novo bloco, parar
                 if prox.startswith(("es ", "en ", "pt ", "la ", "SIN.-", "Nota.-")):
                     break
-                if re.match(r"^\d+\s", prox):  # nova entrada
+                if re.match(r"^\d+\s", prox):
                     break
                 if prox == "":
                     break
-
                 nota += " " + prox
                 j += 1
 
             entrada["nota"] = nota
             i = j
-            continue  # já avançámos j, não queremos i++ normal aqui
+            continue
 
         i += 1
 

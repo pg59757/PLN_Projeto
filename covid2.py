@@ -90,7 +90,7 @@ for bloco in blocos:
     contagem += 1
 
 # --- 4. EXPORTAÇÃO ---
-with open("dicionario_covid_final_gemini.json", "w", encoding="utf8") as f:
+with open("dicionario_covid.json", "w", encoding="utf8") as f:
     json.dump(dicionario, f, indent=4, ensure_ascii=False)
 
-print(f"Concluído! {contagem} termos guardados em 'dicionario_covid_final.json'.")
+print(f"Concluído! {contagem} termos guardados em 'dicionario_covid.json'.")
