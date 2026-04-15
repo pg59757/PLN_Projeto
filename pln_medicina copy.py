@@ -2,8 +2,8 @@ from bs4 import BeautifulSoup
 import json
 import re
 
-def parser_medicina_v3(xml_path, json_path):
-    with open(xml_path, 'r', encoding='utf-8') as f:
+def medicina_xml(f_in, f_out):
+    with open(f_in, 'r', encoding='utf-8') as f:
         soup = BeautifulSoup(f, 'xml')
 
     vocabulario = []
@@ -22,18 +22,13 @@ def parser_medicina_v3(xml_path, json_path):
         
         # 1. DETETAR ENTRADA NUMÉRICA (Ex: 4 abdome agudo m)
         match_id = re.match(r'^(\d+)\s+(.+?)\s+([fma])$', texto)
-        
-        # 2. DETETAR REFERÊNCIA ISOLADA (Ex: "aberración cromosómica Vid.- ...")
-        # Se o texto contém Vid.- mas NÃO começa por números
-        is_vid = "Vid.-" in texto
 
         if fonte == '3' and match_id:
             # Guarda a anterior antes de começar
-            if entrada_atual: vocabulario.append(entrada_atual)
+            if entrada_atual: 
+                vocabulario.append(entrada_atual)
             
             entrada_atual = {
-                "tipo_entrada": "definicao_completa",
-                "id_entrada": int(match_id.group(1)),
                 "termo_galego": {
                     "palavra": match_id.group(2).strip(),
                     "genero_palavra": match_id.group(3),
@@ -43,35 +38,6 @@ def parser_medicina_v3(xml_path, json_path):
                 "traducoes": {"espanhol": "", "inglês": "", "português": "", "latim": ""},
                 "nota": None
             }
-            lingua_ativa = None
-
-        elif is_vid:
-            # Se encontrarmos um Vid.-, ele deve ser uma nova entrada de referência
-            # Primeiro guardamos a que estava aberta
-            if entrada_atual:
-                vocabulario.append(entrada_atual)
-            
-            # Criamos a entrada de reencaminhamento
-            # Tentamos separar o termo do "Vid.-"
-            partes = texto.split("Vid.-")
-            termo_referencia = partes[0].strip()
-            destino = "Vid.-" + partes[1]
-
-            entrada_atual = {
-                "tipo_entrada": "referencia",
-                "id_entrada": None,
-                "termo_galego": {
-                    "palavra": termo_referencia,
-                    "genero_palavra": None,
-                    "sinonimos_galego": []
-                },
-                "tema": [destino],
-                "traducoes": {},
-                "nota": None
-            }
-            # Após criar a referência, "fechamos" logo para não misturar com as traduções seguintes
-            vocabulario.append(entrada_atual)
-            entrada_atual = None 
             lingua_ativa = None
 
         elif entrada_atual:
@@ -102,15 +68,11 @@ def parser_medicina_v3(xml_path, json_path):
     if entrada_atual:
         vocabulario.append(entrada_atual)
 
-    # Limpeza final: remover entradas de referência que ficaram vazias ou duplicadas
-    vocabulario = [e for e in vocabulario if e["termo_galego"]["palavra"] or e["id_entrada"]]
-
     resultado = {"Vocabulário médico": vocabulario}
 
-    with open(json_path, 'w', encoding='utf-8') as f_json:
+    with open(f_out, 'w', encoding='utf-8') as f_json:
         json.dump(resultado, f_json, indent=4, ensure_ascii=False)
 
-    print(f"Feito! O Vid.- agora gera uma entrada separada.")
+    print(f"Json {f_out} gerado com sucesso")
 
-if __name__ == "__main__":
-    parser_medicina_v3('pdfs/medicina.xml', 'medicina.json')
+medicina_xml('pdfs/medicina.xml', 'medicina2.json')
