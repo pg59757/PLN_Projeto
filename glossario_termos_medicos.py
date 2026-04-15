@@ -2,63 +2,59 @@ import re
 import json
 from bs4 import BeautifulSoup
 
-# --- 1. LEITURA E PRÉ-PROCESSAMENTO ---
-file_path = "data/glossario_termos_medicos.xml"
-with open(file_path, "r", encoding="utf8") as f:
+# Passo 1: Leitura do ficheiro
+with open("data/glossario_termos_medicos.xml", "r", encoding="utf8") as f:
     conteudo = f.read()
 
-# Remoção do DOCTYPE para evitar problemas de parsing
+# Passo 2: Limpeza de estrutura do PDF
 conteudo = re.sub(r'<!DOCTYPE[^>]*>', '', conteudo)
 soup = BeautifulSoup(conteudo, "xml")
 
-# --- 2. CONFIGURAÇÃO DE FONTES ---
-# Com base na análise do XML:
-# Font 1 = Termo Técnico (ex: "micrograma", "perioral")
-# Font 5 = Termo Popular/Descrição (ex: "a milionésima parte de um grama")
+# Identificação da fonte de cada elemento
 FONT_TECNICO = "1"
 FONT_POPULAR = "5"
 
 glossario = {}
-termo_tecnico_atual = None
-desc_partes = []
+termo_atual = None
+termo_pop = []
 
-def guardar_par():
-    """Guarda o par técnico-popular no dicionário."""
-    global termo_tecnico_atual, desc_partes
-    if termo_tecnico_atual and desc_partes:
-        descricao = ' '.join(desc_partes).strip()
-        descricao = re.sub(r'\s+', ' ', descricao)
-        glossario[termo_tecnico_atual] = descricao
-    desc_partes = []
 
-# --- 3. PARSING DOS TEXTOS ---
+# Passo 3: Extração dos termos e descrições
 todos_textos = soup.find_all('text')
 
 for elem in todos_textos:
     font = elem.get('font', '')
     texto = elem.get_text(strip=True)
     
+    #se for a tag de termo popular e não o termo, ignorar
     if not texto or texto in [",", "(pop) ,", "(pop)"]:
         continue
 
-    # Se encontrarmos um termo técnico (Font 1)
+    # Se for um termo técnico
     if font == FONT_TECNICO:
-        # Se já tínhamos um termo e descrição pendentes, guardamos
-        if termo_tecnico_atual and desc_partes:
-            guardar_par()
-        termo_tecnico_atual = texto
+        # Guarda o anterior e começa um novo
+        if termo_atual and termo_pop:
+            termo_popular = ' '.join(termo_pop).strip()
+            termo_popular = re.sub(r'\s+', ' ', termo_popular)
+            glossario[termo_atual] = termo_popular
+            
+        termo_atual = texto
+        termo_pop = []
         
-    # Se encontrarmos uma descrição/termo popular (Font 5)
+    # Se for um termo popular
     elif font == FONT_POPULAR:
-        desc_partes.append(texto)
+        # Adiciona ao 
+        termo_pop.append(texto)
 
-# Guardar o último par
-guardar_par()
+# Passo 4: Guarda o último termo processado
+if termo_atual and termo_pop:
+    termo_popular = ' '.join(termo_pop).strip()
+    termo_popular = re.sub(r'\s+', ' ', termo_popular)
+    glossario[termo_atual] = termo_popular
 
-# --- 4. EXPORTAÇÃO ---
-output_path = "glossario_medico_portugal.json"
-with open(output_path, "w", encoding="utf8") as f:
+# Passo 5: Criação do ficheiro JSON com a informação
+f_out = "glossario_termos_medicos.json"
+with open(f_out, "w", encoding="utf8") as f:
     json.dump(glossario, f, indent=4, ensure_ascii=False)
 
-print(f"Sucesso! {len(glossario)} termos processados.")
-print("Exemplo de output:", list(glossario.items())[:3])
+print(f"Concluído. Termos guardados em {f_out}.")

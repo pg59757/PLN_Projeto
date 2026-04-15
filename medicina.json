@@ -4924,7 +4924,7 @@
             "traducoes": {
                 "espanhol": "antihistamina ; antihistamínico",
                 "inglês": "antihistamine ; antihistaminic",
-                "português": "anti-histamina ; anti-histamínico",
+                "português": "VAR.- antihistamina (f) anti-histamina ; anti-histamínico",
                 "latim": ""
             },
             "nota": null
@@ -6023,7 +6023,7 @@
             "traducoes": {
                 "espanhol": "aortitis",
                 "inglês": "aortitis",
-                "português": "aortite V",
+                "português": "Patoloxías aortite V",
                 "latim": ""
             },
             "nota": null
@@ -8658,7 +8658,7 @@
             "traducoes": {
                 "espanhol": "asintomático",
                 "inglês": "asymptomatic",
-                "português": "assintomático",
+                "português": "Termos xerais assintomático",
                 "latim": ""
             },
             "nota": null
@@ -10527,7 +10527,7 @@
             "traducoes": {
                 "espanhol": "beta-lactamasa",
                 "inglês": "beta-lactamase",
-                "português": "betalactamase ; beta-lactamase",
+                "português": "VAR.- beta-lactamase betalactamase ; beta-lactamase",
                 "latim": ""
             },
             "nota": null
@@ -17527,7 +17527,7 @@
             "traducoes": {
                 "espanhol": "coeficiente de variación",
                 "inglês": "coefficient of variation ; variation coefficient",
-                "português": "coeficiente de variação",
+                "português": "Epidemioloxía coeficiente de variação",
                 "latim": ""
             },
             "nota": null
@@ -20729,7 +20729,7 @@
                 "espanhol": "corticoide ; corticosteroide",
                 "inglês": "corticoid ; corticosteroid",
                 "português": "corticóide ; corticosteróide",
-                "latim": ""
+                "latim": "VAR.- corticosteroide"
             },
             "nota": null
         },
@@ -52672,7 +52672,7 @@
             "traducoes": {
                 "espanhol": "micrognatia ; micrognatismo",
                 "inglês": "micrognathia ; micrognathism",
-                "português": "micrognatia ; micrognatismo V",
+                "português": "VAR.- micrognatismo (m) micrognatia ; micrognatismo V",
                 "latim": ""
             },
             "nota": null
@@ -55600,7 +55600,7 @@
                 "espanhol": "músculo glúteo menor",
                 "inglês": "gluteus minimus ; gluteus minimus muscle",
                 "português": "músculo glúteo mínimo",
-                "latim": "musculus gluteus minimus"
+                "latim": "VAR.- músculo glúteo menor musculus gluteus minimus"
             },
             "nota": null
         },
@@ -73578,7 +73578,7 @@
             "traducoes": {
                 "espanhol": "REL (sg) ; retículo endoplasmático agranular ; retículo endoplasmático liso RER (sg) ; retículo endoplasmático granular ; retículo endoplasmático rugoso",
                 "inglês": "AER (sg) ; agranular endoplasmic reticulum ; SER (sg) ; smooth endoplasmic reticulum GER (sg) ; granular endoplasmic reticulum ; RER (sg) ; rough endoplasmic reticulum",
-                "português": "REL (sg) ; retículo endoplasmático liso RER (sg) ; retículo endoplasmático rugoso",
+                "português": "REL (sg) VAR.- retículo endoplásmico liso REL (sg) ; retículo endoplasmático liso RER (sg) ; retículo endoplasmático rugoso",
                 "latim": ""
             },
             "nota": null
@@ -83147,7 +83147,7 @@
             "traducoes": {
                 "espanhol": "transposición transposición de las grandes arterias ; transposición de los grandes vasos",
                 "inglês": "transposition transposition of the great arteries ; transposition of the great vessels",
-                "português": "transposição V transposição das grandes artérias ; transposição dos grandes vasos",
+                "português": "Xenética transposição V transposição das grandes artérias ; transposição dos grandes vasos",
                 "latim": ""
             },
             "nota": null

@@ -12,7 +12,9 @@
             "português (PT)": "acalabrutinib",
             "português (BR)": "acalabrutinibe",
             "holandês": "acalabrutinib"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antineoplàstic que bloca la tirosina-cinasa de Bruton i inhibeix la replicació dels limfòcits T cancerosos."
     },
     "àcid desoxiribonucleic": {
         "id": 3,
@@ -22,7 +24,7 @@
             "inglês": "deoxyribonucleic acid",
             "holandês": "desoxyribonucleïnezuur"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Àcid nucleic constituït per nucleòtids de desoxiribosa, àcid fosfòric i les bases nitrogenades adenina, citosina, guanina i timina, que es troba fonamentalment en el nucli, en els mitocondris i en els cloroplasts, i que constitueix la base molecular de l'herència biològica."
     },
     "àcid ribonucleic": {
@@ -38,7 +40,7 @@
             "português": "ácido ribonucleico",
             "holandês": "ribonucleïnezuur"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Àcid nucleic constituït per nucleòtids de ribosa, àcid fosfòric i les bases nitrogenades adenina, citosina, guanina i uracil, Diccionari \t\t limitação do suporte de vida n f; \t\t limite terapêutico n m; LSV n f nl\t\u0007 basislevensondersteuning n; elementaire levensondersteuning n; geavanceerde levensondersteuning n; gevorderde levensondersteuning n ar ‫العالجي‬ ‫الجهد‬ ‫من‬ ‫حد‬ TRACTAMENT. Decisió clínica que comporta l’aplicació de les actuacions sanitàries que afavoreixen el màxim benestar al pacient i l’abstenció de les que no li aporten prou beneficis, tenint en compte la seva situació concreta."
     },
     "ADG20": {
@@ -53,7 +55,9 @@
             "francês": "ADG20",
             "português (PT)": "ADG20",
             "holandês": "ADG20"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac en investigació, amb efecte neutralitzant i antivíric, que s’uneix a la superfície de la proteïna S del SARS-CoV-2 per a evitar que el virus infecti la cèl·lula hoste."
     },
     "adequació de les actuacions sanitàries": {
         "id": 7,
@@ -76,7 +80,7 @@
             "português": "aerossol",
             "holandês": "aerosol"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Cadascuna de les petites gotes de saliva o de fluid respiratori menors de 100 micròmetres que, en romandre més temps a l’aire i viatjar a distàncies més llargues que les gotetes respiratòries, tenen una infecciositat potencial més elevada."
     },
     "agent biològic": {
@@ -92,7 +96,7 @@
             "português": "agente biológico",
             "holandês": "biologisch agens"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Agent nociu animal o vegetal, generalment capaç de fer un cicle vital complet, que pot provocar malalties infeccioses, parasitàries, al·lèrgiques o tòxiques."
     },
     "agèusia": {
@@ -108,7 +112,7 @@
             "português": "ageusia",
             "holandês": "ageusie"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Pèrdua o disminució del sentit del gust."
     },
     "agrupament": {
@@ -124,7 +128,7 @@
             "português (BR)": "cluster",
             "holandês": "cluster"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Subconjunt d’elements d’una mostra que s’agreguen en realitzar una anàlisi d’agrupaments."
     },
     "aïllament": {
@@ -150,7 +154,9 @@
             "inglês": "discharge",
             "francês": "sortie",
             "português": "alta"
-        }
+        },
+        "categoria": "ENTORN SOCIAL.",
+        "definicao": "Declaració mèdica que constata que un treballador està en condicions de reincorporar-se a la feina després d’una malaltia, un accident o una situació de risc durant l’embaràs."
     },
     "alunacedasa alfa": {
         "id": 19,
@@ -164,7 +170,7 @@
             "francês": "alunacédase alfa",
             "português": "alunacedase alfa"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Conjunt de mesures que s’apliquen a una persona amb una malaltia contagiosa durant el període en què aquesta malaltia és transmissible amb la finalitat d’evitar el contagi d’altres persones."
     },
     "aïllat víric": {
@@ -180,7 +186,7 @@
             "português (BR)": "isolado viral",
             "holandês": "geïsoleerd virus"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Virus que ha estat isolat d’un hoste infectat i s’ha multiplicat en un cultiu de laboratori."
     },
     "anakinra": {
@@ -196,7 +202,9 @@
             "português (PT)": "anacinra",
             "português (BR)": "anakinra",
             "holandês": "anakinra"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac analgèsic i antiinflamatori que neutralitza l’activitat biològica de les interleucines 1 alfa i 1 beta mitjançant la inhibició competitiva del receptor de tipus I de la interleucina 1."
     },
     "analgèsic": {
         "id": 23,
@@ -224,7 +232,9 @@
             "português": "ambroxol",
             "português (BR)": "cloridrato de ambroxol",
             "holandês": "ambroxol"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac mucolític que disminueix la viscositat de les secrecions bronquials i en facilita l’expectoració, i estimula la síntesi i la secreció de surfactant pulmonar, que redueix l’adhesió del moc."
     },
     "AMY-101": {
         "id": 21,
@@ -240,7 +250,7 @@
             "português (BR)": "molécula AMY-101",
             "holandês": "AMY-101"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Ansietat provocada pel pensament o l’amenaça d’estar exposat de nou a una situació que en una ocasió prèvia ha desencadenat una resposta d’ansietat."
     },
     "antibiòtic": {
@@ -255,7 +265,9 @@
             "francês": "antibiotique",
             "português": "antibiótico",
             "holandês": "antibioticum"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac o agent que actua contra microorganismes, els elimina o n’inhibeix el creixement i la reproducció."
     },
     "anticòs": {
         "id": 28,
@@ -271,7 +283,7 @@
             "holandês": "analgeticum",
             "português (PT)": "antiálgico"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Immunoglobulina secretada per les cèl·lules plasmàtiques en resposta a l’estimulació exercida per un antigen, al qual és capaç d’unir-se de manera específica."
     },
     "anòsmia": {
@@ -287,7 +299,7 @@
             "português": "anosmia",
             "holandês": "anosmie"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Pèrdua o disminució del sentit de l’olfacte."
     },
     "ansietat anticipatòria": {
@@ -314,7 +326,9 @@
             "inglês": "antipyretic",
             "francês": "antipyrétique",
             "português": "antipirético"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac o pràctica terapèutica amb què es rebaixa o s’elimina la febre."
     },
     "antiretroviral": {
         "id": 31,
@@ -327,7 +341,9 @@
             "francês": "antirétroviral",
             "português": "antirretroviral",
             "holandês": "antiretroviraal middel"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac o substància que té capacitat per a inhibir la reproducció d’un retrovirus o per a combatre’n l’acció. proporció, globulines beta. Cada molècula d’anticòs té una estructura única, que li permet unir-se de forma específica a l’antigen corresponent. 2. Els símbols Ac i Ab, creats amb les inicials del prefix i el radical de les denominacions completes, es distribueixen segons la llengua: • En les llengües romàniques s’utilitza el símbol Ac (corresponent al català anticòs, el castellà anticuerpo, el francès anticorps i el portuguès anticorpo). • En anglès s’utilitza el símbol Ab (corresponent a antibody)."
     },
     "antigen": {
         "id": 29,
@@ -343,7 +359,7 @@
             "português (BR)": "antígeno",
             "holandês": "antigeen"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Molècula capaç de produir una resposta immunitària en l’organisme."
     },
     "aplanar la corba v intr": {
@@ -359,7 +375,7 @@
             "português": "achatar a curva v intr",
             "holandês": "de curve afvlakken v intr"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Dur a terme una estratègia planificada de salut pública amb l’objectiu d’alentir l’augment de casos d’una epidèmia i evitar la saturació dels serveis sanitaris."
     },
     "apremilast": {
@@ -374,7 +390,9 @@
             "francês": "aprémilast",
             "português": "apremilast",
             "holandês": "apremilast"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antiinflamatori no esteroidal, inhibidor de la fosfodiesterasa 4, que redueix la producció inflamatòria de citocines que fan els limfòcits T."
     },
     "antivíric": {
         "id": 34,
@@ -389,7 +407,9 @@
             "português": "antiviral",
             "português (PT)": "antivírico",
             "holandês": "antiviraal middel"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac o substància que té capacitat per a inactivar selectivament els virus o per a debilitar-ne l’acció."
     },
     "apilimod": {
         "id": 35,
@@ -403,7 +423,9 @@
             "francês": "ASC09F",
             "português": "ASC09F",
             "holandês": "ASC09F"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antineoplàstic en investigació que inhibeix l’enzim fosfatidil inositol fosfat (PIP)-cinasa tipus 3. gl ASC09F n m es ASC09F n m en ASC09F n fr ASC09F n m pt ASC09F n m nl ASC09F n ar ASC09F ‫راقع‬"
     },
     "asimptomàtic -a adj": {
         "id": 44,
@@ -418,7 +440,7 @@
             "português": "assintomático",
             "holandês": "asymptomatisch -e"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Dit de la persona o la malaltia que no presenta cap manifestació clínica aparent."
     },
     "assaig aleatoritzat": {
@@ -439,7 +461,7 @@
             "português": "arritmia",
             "holandês": "aritmie"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Trastorn o alteració del ritme cardíac."
     },
     "ASC09F": {
@@ -450,7 +472,9 @@
             "euskera": "ASC09F",
             "português (PT)": "ensaio clínico aleatorizado",
             "português (BR)": "ensaio clínico randomizado"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Assaig clínic en què l’assignació dels participants als grups d’estudi es fa de manera aleatòria."
     },
     "assaig amb cegament": {
         "id": 46,
@@ -464,7 +488,9 @@
             "francês": "essai à l’insu",
             "português (PT)": "ensaio clínico em ocultaçao",
             "português (BR)": "estudo cego"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Assaig clínic en què s’oculta als participants, a l’investigador o a l’avaluador la intervenció assignada a cadascun dels participants."
     },
     "assaig amb cegament doble": {
         "id": 47,
@@ -475,7 +501,9 @@
             "português (PT)": "ensaio clínico em dupla ocultação",
             "português (BR)": "estudo duplo-cego",
             "inglês": "què s’oculta tant als participants com als"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Assaig amb cegament en què s’oculta tant als participants com als investigadors la intervenció assignada a cadascun dels participants."
     },
     "assaig amb cegament triple": {
         "id": 48,
@@ -488,7 +516,9 @@
             "português (BR)": "estudo comunitário",
             "francês": "essai communautaire",
             "português": "ensaio comunitário"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Assaig el resultat del qual s’avalua en el conjunt de la població d’una comunitat determinada."
     },
     "assaig d’intervenció comunitària": {
         "id": 52,
@@ -508,8 +538,8 @@
             "português": "astenia",
             "holandês": "asthenie"
         },
-        "categoria": "CLÍNICA",
-        "definicao": "Sensació patològica de debilitat generalitzada."
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Assaig amb cegament en què s’oculta tant als participants com a l’investigador i l’avaluador la intervenció assignada a cadascun dels participants."
     },
     "assaig clínic": {
         "id": 49,
@@ -524,7 +554,9 @@
             "português": "ensaio clínico",
             "português (PT)": "ensaio clínico controlado",
             "português (BR)": "estudo clínico"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Estudi clínic, generalment comparatiu, que es duu a terme amb la finalitat d’avaluar l’eficàcia i la seguretat d’una intervenció i en què l’investigador controla directament les condicions en què es desenvolupa la recerca, especialment l’assignació de la intervenció."
     },
     "assaig clínic aleatoritzat": {
         "id": 50,
@@ -550,7 +582,7 @@
             "português (BR)": "atenção ao luto",
             "holandês": "rouwzorg"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Atenció que té per objectiu atenuar el patiment per la pèrdua d’una persona estimada."
     },
     "atenció domiciliària": {
@@ -564,7 +596,7 @@
             "holandês": "buurtzorg",
             "espanhol": "presta a una persona en el lloc on viu, amb"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Atenció social o sanitària que es presta a una persona en el lloc on viu, amb l’objectiu de mantenir-la en el seu entorn habitual i aconseguir així el seu màxim nivell de salut, qualitat de vida, benestar i autonomia."
     },
     "atenció hospitalària": {
@@ -581,7 +613,7 @@
             "português (BR)": "assistência hospitalar",
             "holandês": "ziekenhuisverpleging"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Activitats assistencials, diagnòstiques, terapèutiques, rehabilitadores i de cures que tenen lloc en un centre hospitalari, on també es realitzen tasques d’educació, prevenció i promoció de la salut."
     },
     "atenció primària": {
@@ -597,7 +629,7 @@
             "português": "cuidados primários n m pl",
             "português (BR)": "atenção primária"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Assistència sanitària essencial a què tenen accés de manera general totes les persones i famílies d’una comunitat, que proporciona informació, assessorament, tractament, prevenció, teleassistència sanitària, atenció domiciliària i, si cal, la derivació de la persona atesa als serveis a conseqüència d’una sarcoïdosi. Se n’ha suggerit l’ús per al tractament de la COVID-19. És d’origen biotecnològic."
     },
     "autoinflamació": {
@@ -613,7 +645,7 @@
             "português (PT)": "auto-inflamação",
             "português (BR)": "autoinflamação"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Procés que es produeix per una activació excessiva dels mecanismes de la immunitat innata a causa d’una desregulació en la secreció de citocines proinflamatòries, amb el dany tissular consegüent en els teixits propis de l’organisme."
     },
     "automostra": {
@@ -629,9 +661,7 @@
             "português (PT)": "auto-amostragem",
             "português (BR)": "auto coleta de amostra",
             "holandês": "zelfbemonstering"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Presa d’una mostra biològica duta a terme per la persona mateixa a qui s’ha de fer la prova biològica en què s’ha de processar aquesta mostra."
+        }
     },
     "atibuclimab": {
         "id": 58,
@@ -645,7 +675,9 @@
             "francês": "atibuclimab",
             "português": "atibuclimab",
             "holandês": "atibuclimab"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac en investigació que actua contra la proteïna CD14 humana de cèl·lules del sistema immunitaria i modula la resposta inflamatòria."
     },
     "ATYR1923": {
         "id": 59,
@@ -659,7 +691,9 @@
             "francês": "ATYR1923",
             "português": "ATYR1923",
             "holandês": "ATYR1923"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac immunomodulador en investigació que actua sobre la neuropilina 2, amb possibles efectes preventius de la fibrosi."
     },
     "autoritat sanitària": {
         "id": 62,
@@ -673,7 +707,9 @@
             "francês": "autorité de santé",
             "português (PT)": "autoridade de saúde",
             "português (BR)": "autoridade sanitária"
-        }
+        },
+        "categoria": "ENTORN SOCIAL.",
+        "definicao": "Òrgan que té la competència per a aplicar la normativa vigent en matèria de salut pública, en funció de la qual pot limitar termporalment drets individuals o col·lectius en benefici dels drets de la comunitat."
     },
     "aviptadil": {
         "id": 63,
@@ -687,7 +723,9 @@
             "francês": "aviptadil",
             "português": "aviptadil",
             "holandês": "aviptadil"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac vasodilatador que redueix la pressió sanguínia i actua sobre el sistema immunitari."
     },
     "azitromicina": {
         "id": 64,
@@ -701,7 +739,9 @@
             "francês": "azithromycine",
             "português": "azitromicina",
             "holandês": "azitromycine"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antibiòtic del grup dels macròlids que inhibeix la síntesi de les proteïnes bacterianes mitjançant la unió a la subunitat 50S del ribosoma bacterià, de manera que impossibilita la translocació dels pèptids."
     },
     "bemcentinib": {
         "id": 68,
@@ -716,7 +756,9 @@
             "português (PT)": "bemcentinib",
             "português (BR)": "bemcentinibe",
             "holandês": "bemcentinib"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac en investigació amb efectes antiinflamatoris i antineoplàstics, que actua sobre el receptor AXL de la tirosina-cinasa per a inhibir la producció de citocines proinflamatòries."
     },
     "bamlanivimab": {
         "id": 65,
@@ -731,7 +773,9 @@
             "português (PT)": "bamlanivimab",
             "português (BR)": "bamlanivimabe",
             "holandês": "bamlanivimab"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac en investigació, amb efecte neutralitzant i antivíric, que s’uneix a la superfície de la proteïna S del SARS-CoV-2 per a evitar que el virus infecti la cèl·lula hoste."
     },
     "baricitinib": {
         "id": 66,
@@ -761,7 +805,9 @@
             "português (PT)": "bevacizumab",
             "português (BR)": "bevacizumabe",
             "holandês": "bevacizumab"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac immunomodulador i antineoplàstic que inhibeix l’angiogènesi mitjançant la inactivació de la proteïna sèrica VEGF-A."
     },
     "boceprevir": {
         "id": 70,
@@ -775,7 +821,9 @@
             "francês": "bocéprévir",
             "português": "boceprevir",
             "holandês": "boceprevir"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antivíric que inhibeix la proteasa viral NS3/4A del virus de la hepatitis C i, en evitar la ruptura dels polipèptids necessaris per la producció de partícules virals infeccioses, impedeix la replicació viral."
     },
     "bombolla ampliada": {
         "id": 72,
@@ -787,7 +835,7 @@
             "português (BR)": "bolha social ampliada",
             "holandês": "bubbel"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Grup bombolla format per les persones entre les quals s’estableixen relacions familiars, laborals, escolars o recreatives en un àmbit acotat, reduït i estable."
     },
     "bombolla de convivència": {
@@ -810,7 +858,9 @@
             "francês": "bréquinar",
             "português": "brequinar",
             "holandês": "brequinar"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac en investigació, antineoplàstic i immunosupressor, que inhibeix la dihidroorotat-deshidrogenasa i bloca la biosíntesi de novo de la pirimidina, amb la consegüent inhibició del creixement cel·lular."
     },
     "brincidofovir": {
         "id": 76,
@@ -825,7 +875,7 @@
             "português": "bolha",
             "holandês": "huisbubbel"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Grup bombolla format per les persones que habiten sota el mateix sostre i les que interactuen dins d’aquest espai, com ara les persones cuidadores."
     },
     "brensocatib": {
@@ -841,7 +891,9 @@
             "português (PT)": "brensocatib",
             "português (BR)": "brensocatibe",
             "holandês": "brensocatib"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac en investigació, amb acció d’immunomodulador, que inhibeix l’activació de l’elastasa dels neutròfils mitjançant la inhibició directa de la dipeptidil-peptidasa I."
     },
     "bromhexina": {
         "id": 77,
@@ -856,7 +908,9 @@
             "português": "bromexina",
             "português (BR)": "cloridrato de bromexina",
             "holandês": "bromhexine"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac mucolític i expectorant que incrementa l’activitat dels lisosomes pulmonars, amb la disminució consegüent de la viscositat de les secrecions mucoses que, en ser més fluides, resulten més fàcils d’eliminar."
     },
     "broncodilatador": {
         "id": 78,
@@ -870,7 +924,9 @@
             "francês": "bronchodilatateur",
             "português": "broncodilatador",
             "holandês": "bronchodilator"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac o agent que dilata els bronquis."
     },
     "bronqui": {
         "id": 79,
@@ -885,7 +941,7 @@
             "português": "brônquio",
             "holandês": "bronchus"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Cadascun dels dos conductes en què es bifurca la tràquea i les seves ramificacions, a través de les quals l’aire arriba als pulmons."
     },
     "bronquíol": {
@@ -901,7 +957,7 @@
             "português": "bronquíolo",
             "holandês": "bronchiolus"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Unitat estructural i funcional de la via respiratòria a continuació del bronqui."
     },
     "budesonida": {
@@ -916,7 +972,9 @@
             "francês": "budésonide",
             "português": "budesonida",
             "holandês": "budesonide"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antiinflamatori local i immunosupressor de la família dels corticoesteroides que bloqueja la síntesi de mediadors de la cascada d’inflamació, disminueix la permeabilitat dels capil·lars i inhibeix la migració de leucòcits cap al focus de la inflamació mitjançant la unió als receptors de glucocorticoides."
     },
     "bronquiolitis": {
         "id": 81,
@@ -931,7 +989,7 @@
             "português": "bronquiolite",
             "holandês": "bronchiolitis"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Inflamació dels bronquíols."
     },
     "brot epidèmic": {
@@ -948,7 +1006,7 @@
             "português (PT)": "surto epidemiológico",
             "português (BR)": "surto"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Increment significatiu en un període de temps curt i determinat del nombre de persones d’una població afectades per una malaltia, produïda per un únic agent etiològic o una soca microbiana."
     },
     "cadena epidemiològica": {
@@ -960,7 +1018,7 @@
             "português (PT)": "cadeia epidemiológica",
             "holandês": "besmettingsketen"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Seqüència d’elements que s’articulen en la transmissió d’un agent des d’una font d’infecció a un hoste susceptible."
     },
     "camostat": {
@@ -976,7 +1034,9 @@
             "português (PT)": "camostat",
             "português (BR)": "camostato",
             "holandês": "camostat"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antivíric en investigació que inhibeix la serina-proteasa i evita l’entrada del SARS-CoV-2 a la cèl·lula hoste."
     },
     "camrelizumab": {
         "id": 88,
@@ -991,7 +1051,9 @@
             "português (PT)": "camrelizumab",
             "português (BR)": "camrelizumabe",
             "holandês": "camrelizumab"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac amb potencial efecte inhibidor dels punts de control immunitari i antineoplàstic mitjançant el blocatge del receptor del lligand 1 de l’apoptosi."
     },
     "càrrega antigènica": {
         "id": 95,
@@ -1006,7 +1068,7 @@
             "português (PT)": "carga antigénica",
             "português (BR)": "carga antigênica"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Quantitat d’antigen que conté una vacuna."
     },
     "càrrega viral": {
@@ -1036,7 +1098,9 @@
             "português (PT)": "canacinumab",
             "português (BR)": "canakinumabe",
             "holandês": "canakinumab"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac immunomodulador que s’uneix específicament als receptors de la interleucina 1 beta i permet prevenir la producció de mediadors inflamatoris."
     },
     "càpsida": {
         "id": 92,
@@ -1050,9 +1114,7 @@
             "francês": "capside",
             "português (PT)": "cápside",
             "português (BR)": "capsíde"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Quantitat d’unitats víriques per mil·límetre cúbic que hi ha en un fluid orgànic."
+        }
     },
     "càrrega vírica": {
         "id": 97,
@@ -1072,7 +1134,7 @@
             "português": "caso",
             "holandês": "geval"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Persona que, en una població o un grup d’estudi, pateix una determinada malaltia, trastorn o problema de salut."
     },
     "cas confirmat": {
@@ -1088,7 +1150,7 @@
             "português": "caso confirmado",
             "holandês": "bevestigd geval"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Persona amb resultat positiu en una prova diagnòstica d'una determinada malaltia."
     },
     "cas descartat": {
@@ -1104,7 +1166,7 @@
             "português": "caso descartado",
             "holandês": "negatief geval"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Persona amb resultat negatiu en una prova diagnòstica d'una determinada malaltia."
     },
     "cas índex": {
@@ -1119,7 +1181,7 @@
             "português (PT)": "doente zero n m, f paciente zero n m, f",
             "holandês": "indexgeval"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Persona que és el primer cas confirmat d'una determinada malaltia dins d’una població."
     },
     "cas sospitós": {
@@ -1134,7 +1196,7 @@
             "português (BR)": "gorro",
             "holandês": "hoofdkapje"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Peça de tela o de punt que s’adapta al cap, sobre els cabells, i que actua com a barrera de protecció per a possibles contactes amb microorganismes patògens."
     },
     "casset": {
@@ -1150,9 +1212,7 @@
             "português (PT)": "cassete",
             "português (BR)": "cassete",
             "holandês": "cassette"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Peça rectangular de plàstic utilitzada en les proves de determinació ràpida d’anticossos IgG i IgM contra el SARS-CoV-2 en sang total, sèrum o plasma."
+        }
     },
     "CD24Fc": {
         "id": 107,
@@ -1167,7 +1227,7 @@
             "português": "caso suspeito",
             "português (PT)": "caso possível"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Persona amb símptomes compatibles amb una determinada malaltia, pendent del resultat de la prova diagnòstica."
     },
     "casirivimab": {
@@ -1183,7 +1243,9 @@
             "português (PT)": "casirivimab",
             "português (BR)": "casirivimabe",
             "holandês": "casirivimab"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac en investigació, amb efecte neutralitzant i antivíric, que s’uneix a la superfície de la proteïna S del SARS-CoV-2 per a evitar que el virus infecti la cèl·lula hoste."
     },
     "casquet": {
         "id": 105,
@@ -1196,7 +1258,9 @@
             "francês": "CD24Fc",
             "português": "CD24Fc",
             "holandês": "CD24Fc"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac immunomodulador, amb potencial inhibidor dels punts de control del sistema immunitari, amb acció antiinflamatòria i antineoplàstica."
     },
     "cefalea": {
         "id": 109,
@@ -1209,7 +1273,7 @@
             "francês": "céphalalgie",
             "português": "cefaleia"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Dolor cefàlic difús generat per l’estimulació d’estructures cranials sensibles al dolor."
     },
     "cenicriviroc": {
@@ -1224,7 +1288,9 @@
             "francês": "cenicriviroc",
             "português": "cenicriviroc",
             "holandês": "cenicriviroc"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac immunomodulador en investigació antagonista dels receptors de les citocines CCR2 i CCR5."
     },
     "ciclesonida": {
         "id": 113,
@@ -1239,7 +1305,7 @@
             "português": "ciclesonida",
             "holandês": "ciclesonide"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Mamífer de la família dels vivèrrids, més gran que el gat domèstic, de color grisenc amb faixes negres, que té una rastellera de pèls eriçables a voluntat de l’animal damunt l’esquena i una glàndula que segrega almesc."
     },
     "clazakizumab": {
@@ -1255,7 +1321,9 @@
             "português (PT)": "clazacizumab",
             "português (BR)": "clazacizumabe",
             "holandês": "clazakizumab"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac immunomodulador en investigació dirigit contra la interleucina 6."
     },
     "clínica": {
         "id": 117,
@@ -1282,7 +1350,9 @@
             "francês": "cytokine",
             "português": "citocina",
             "holandês": "cytokine"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Proteïna amb funció reguladora, de pes molecular baix, secretada per diferents tipus cel·lulars en resposta a estímuls diversos, que afecta el comportament d’aquestes mateixes cèl·lules o el d’altres."
     },
     "civeta": {
         "id": 115,
@@ -1299,7 +1369,7 @@
             "holandês": "klinische verschijnselen n pl",
             "português (BR)": "apresentação clínica"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Conjunt de símptomes i signes associats a una malaltia."
     },
     "clofazimina": {
@@ -1314,7 +1384,9 @@
             "francês": "clofazimine",
             "português": "clofazimina",
             "holandês": "clofazimine"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antileprós, amb un cert efecte antiinflamatori, actiu sobre Mycobacterium leprae i altres espècies de micobacteris, que s’uneix al DNA del microorganisme i n’inhibeix el creixement i la replicació."
     },
     "cloroquina": {
         "id": 119,
@@ -1328,7 +1400,9 @@
             "francês": "chloroquine",
             "português": "cloroquina",
             "holandês": "chloroquine"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antipalúdic, antiprotozoari i antireumàtic del grup de les 4-aminoquinolines que causa la mort dels paràsits del gènere Plasmodium mitjançant la inhibició de l’enzim hemopolimerasa i la consegüent acumulació tòxica del grup hemo dins el paràsit."
     },
     "coagulopatia": {
         "id": 120,
@@ -1343,7 +1417,7 @@
             "português": "coagulopatia",
             "holandês": "coagulopathie"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Trastorn de la coagulació de la sang."
     },
     "cobertura de vacunació": {
@@ -1367,7 +1441,7 @@
             "português (BR)": "grupo de risco",
             "holandês": "kwetsbare risicogroep"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Conjunt de persones amb unes característiques determinades que augmenten el perill de contreure una determinada malaltia."
     },
     "colquicina": {
@@ -1384,7 +1458,7 @@
             "holandês": "colchicine",
             "português (PT)": "taxa de vacinação"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Proporció de persones vacunades contra una malaltia en un moment o període concret entre el total de persones per a les quals està indicada la vacunació contra aquesta malaltia."
     },
     "cobicistat": {
@@ -1400,7 +1474,9 @@
             "português (PT)": "cobicistat",
             "português (BR)": "cobicistate",
             "holandês": "cobicistat"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antivíric, inhibidor del citocrom P450 3A, que augmenta l’exposició sistèmica als substrats d’aquest citocrom."
     },
     "comitè de bioètica": {
         "id": 128,
@@ -1416,7 +1492,7 @@
             "português (BR)": "comitê de bioética",
             "holandês": "comité voor bio-ethiek"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Comitè plural i pluridisciplinari que s’encarrega de l’avaluació i la resolució dels problemes ètics en l’àmbit de les ciències de la vida i de la salut."
     },
     "comorbiditat": {
@@ -1433,7 +1509,7 @@
             "português (BR)": "comorbidade",
             "holandês": "comorbiditeit"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Coincidència en una persona d’un o més problemes de salut crònics addicionals a un altre problema de salut, sovint també crònic, que es considera principal o que és l’objecte d’estudi."
     },
     "conestat alfa": {
@@ -1448,7 +1524,9 @@
             "francês": "conestat alfa",
             "português": "conestate alfa",
             "holandês": "conestat alfa"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac anàleg a la proteïna inhibidora de l’esterasa C1, dissenyat per a modular la resposta inflamatòria mediada pel sistema del complement."
     },
     "confinament": {
         "id": 133,
@@ -1476,7 +1554,7 @@
             "português": "conjuntivite",
             "holandês": "bindvliesontsteking"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Inflamació de la conjuntiva, deguda en general a una infecció o a una causa al·lèrgica."
     },
     "contacte": {
@@ -1493,7 +1571,7 @@
             "português (BR)": "contactante",
             "holandês": "contact"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Persona sana que ha estat en relació pròxima amb una altra que pateix una malaltia contagiosa."
     },
     "contacte estret": {
@@ -1510,7 +1588,7 @@
             "português (BR)": "contato próximo",
             "holandês": "lockdown"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Tancament d’una persona o població en un espai limitat per motius de salut pública, de seguretat ciutadana o judicials."
     },
     "confinament perimetral": {
@@ -1527,7 +1605,7 @@
             "português (BR)": "confinamento perimetral",
             "holandês": "plaatselijke lockdown"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Confinament que s’aplica a un territori delimitant-lo pel seu perímetre."
     },
     "congestió nasal": {
@@ -1542,8 +1620,8 @@
             "francês": "congestion nasale",
             "português": "congestão nasal"
         },
-        "categoria": "CLÍNICA",
-        "definicao": "Sensació de disminució del flux d’aire que entra per les fosses nasals deguda a la inflamació dels vasos sanguinis de la mucosa nasal per agents exògens nocius. EPIDEMIOLOGIA. Contacte amb qui s’ha compartit espai a menys de 2 metres de distància, durant més de 15 minuts, des de les 48 hores prèvies a l’inici dels símptomes d’una malaltia."
+        "categoria": "EPIDEMIOLOGIA.",
+        "definicao": "Contacte amb qui s’ha compartit espai a menys de 2 metres de distància, durant més de 15 minuts, des de les 48 hores prèvies a l’inici dels símptomes d’una malaltia."
     },
     "contagi": {
         "id": 139,
@@ -1558,7 +1636,7 @@
             "português": "contágio",
             "holandês": "besmetting"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Transmissió d’una malaltia infecciosa d’un individu, ja sigui un ésser humà o un animal, a un altre individu."
     },
     "contagi directe": {
@@ -1572,7 +1650,7 @@
             "português": "contágio direto",
             "português (PT)": "contágio imediato"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Contagi que es produeix quan hi ha una situació de proximitat o intimitat entre l’individu infectat i l’individu receptor."
     },
     "contagi indirecte": {
@@ -1587,7 +1665,7 @@
             "francês": "transmission indirecte",
             "português": "contágio indireto"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Contagi que es produeix a través d’un medi, d’un objecte o d’un fòmit que han estat en contacte amb un individu infectat."
     },
     "contagiositat": {
@@ -1599,7 +1677,7 @@
             "galego": "contaxiosidade",
             "espanhol": "contagiosidad"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Participant en un estudi clínic assignat al grup de comparació."
     },
     "convalescència": {
@@ -1614,7 +1692,9 @@
             "francês": "convalescence",
             "português": "convalescença",
             "holandês": "herstel"
-        }
+        },
+        "categoria": "ENTORN SOCIAL.",
+        "definicao": "Període de recuperació després d’una malaltia, una operació o una lesió, fins a la restauració completa de la salut."
     },
     "corba epidèmica": {
         "id": 150,
@@ -1628,7 +1708,7 @@
             "francês": "contagiosité",
             "holandês": "besmettelijkheid"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Qualitat d’allò que es transmet o es pot transmetre per contagi."
     },
     "contenció": {
@@ -1643,7 +1723,7 @@
             "francês": "contention",
             "português": "contenção"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Acció d'impedir que una situació es descontroli i traspassi els seus límits."
     },
     "control": {
@@ -1660,7 +1740,7 @@
             "português (BR)": "controle",
             "holandês": "controlegroepdeelnemer -neemster"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Gràfic de la distribució dels casos d’una determinada malaltia en el context d’una epidèmia."
     },
     "coronavirus n m pl": {
@@ -1676,7 +1756,7 @@
             "português": "coronavírus n m pl",
             "holandês": "corona"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Família de virus amb RNA monocatenari de sentit positiu, de forma esfèrica i amb càpsida de simetria helicoidal, amb un diàmetre de 80 a 130 nm, que presenten un embolcall amb espícules en forma de pètals o punxes."
     },
     "coronavirus 2 de la síndrome respiratòria": {
@@ -1697,7 +1777,7 @@
             "português (BR)": "\u0007",
             "holandês": "SARS-coronavirus"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Virus de l’espècie coronavirus relacionat amb la síndrome respiratòria aguda greu, del gènere Betacoronavirus, de la família dels coronavirus, causant de la SARS."
     },
     "coronavirus associat a la MERS": {
@@ -1711,7 +1791,7 @@
             "português (BR)": "coronavírus associado a MERS",
             "holandês": "MERS-coronavirus"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Virus de l'espècie coronavirus associat a la síndrome respiratòria de l'Orient Mitjà, del subgènere Merbecovirus, de la família dels coronavirus, causant de la MERS."
     },
     "COVID-19": {
@@ -1724,7 +1804,7 @@
             "português (BR)": "COVID-19 n m/f doença do novo",
             "holandês": "corona"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Malaltia respiratòria causada pel SARS- CoV-2, que en casos lleus produeix símptomes similars als de la grip, com ara febre, tos, dispnea, miàlgia i astènia, i que en casos greus pot derivar en una pneumònia associada a un procés inflamatori general amb complicacions multisistèmiques que requereix atenció intensiva."
     },
     "COVID-19 persistent": {
@@ -1737,9 +1817,7 @@
             "português (PT)": "rastreio",
             "português (BR)": "triagem",
             "holandês": "screening"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Recerca sistemàtica que s’aplica a una població determinada per a identificar les persones que podrien estar afectades per un problema de salut o una malaltia, generalment abans que es manifesti."
+        }
     },
     "cultiu": {
         "id": 165,
@@ -1756,7 +1834,7 @@
             "português (PT)": "COVID-19 persistente",
             "português (BR)": "COVID-19 longa"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Situació clínica que es dona en alguns pacients que han patit una infecció pel SARS- CoV-2 lleu o moderada, en què, després de la fase aguda, no es torna a l’estat de salut basal."
     },
     "cribratge": {
@@ -1782,7 +1860,9 @@
             "francês": "dazcapistat",
             "português": "dazcapistat",
             "holandês": "dazcapistat"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac neuroprotector en investigació que podria actuar inhibint la calpaïna."
     },
     "defenses n f pl": {
         "id": 170,
@@ -1796,7 +1876,9 @@
             "francês": "défenses n f pl",
             "português": "defesas n f pl",
             "português (BR)": "mecanismos de defesa n m pl"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Conjunt de mecanismes inflamatoris, fagocitaris o immunobiològics amb"
     },
     "danoprevir": {
         "id": 167,
@@ -1810,7 +1892,9 @@
             "francês": "danoprevir",
             "português": "danoprevir",
             "holandês": "danoprevir"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antivíric que inhibeix la proteasa NS3/4A del virus de l’hepatitis C."
     },
     "darunavir": {
         "id": 168,
@@ -1824,7 +1908,9 @@
             "francês": "darunavir",
             "português": "darunavir",
             "holandês": "darunavir"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antiretroviral inhibidor de la proteasa 1 del virus de la immunodeficiència humana."
     },
     "desescalada": {
         "id": 173,
@@ -1840,7 +1926,7 @@
             "português (BR)": "flexibilização de medidas",
             "holandês": "exitstrategie"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Reducció gradual de les mesures excepcionals adoptades per a frenar la pandèmia de COVID-19, amb l’objectiu de permetre una tornada esglaonada a la normalitat."
     },
     "desinfectant adj": {
@@ -1856,7 +1942,7 @@
             "português": "desinfetante",
             "holandês": "ontsmettingsmiddel"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Dit de la substància o el mètode que té la propietat d’eliminar els microorganismes patògens presents en un objecte. què l’organisme resisteix l’acció d’allò que l’ataca o que amenaça de causar-li algun dany."
     },
     "delegat de prevenció |": {
@@ -1868,7 +1954,9 @@
             "português (PT)": "delegado de segurança | delegada",
             "português (BR)": "representante dos empregados",
             "holandês": "preventieverantwoordelijke"
-        }
+        },
+        "categoria": "ENTORN SOCIAL.",
+        "definicao": "Representant dels treballadors amb funcions específiques en matèria de prevenció de riscos a la feina."
     },
     "desconfinament": {
         "id": 172,
@@ -1882,7 +1970,7 @@
             "português": "desconfinamento",
             "holandês": "lockdownexit"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Procés de recuperació gradual de la normalitat en l’activitat d’una població després d’un confinament. malalties amb un component inflamatori i al·lèrgic, així com per a inhibir el rebuig en el trasplantament d’òrgans. A l’Estat espanyol i a altres països se n’ha autoritzat l’ús per al tractament de la COVID-19. És d’origen sintètic. 2. La denominació dexametasona és la forma catalana corresponent a la DCI."
     },
     "diagnòstic": {
@@ -1897,9 +1985,7 @@
             "francês": "diagnose",
             "português": "diagnóstico",
             "holandês": "diagnose"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Determinació de la naturalesa de la malaltia o el problema de salut d’un pacient per mitjà de l’estudi dels seus símptomes i signes i de la realització d’exploracions complementàries."
+        }
     },
     "diarrea": {
         "id": 183,
@@ -1914,7 +2000,7 @@
             "português": "diarreia",
             "holandês": "diarree"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Evacuació de femta de menor consistència i major fluïdesa i, sovint, amb un augment del nombre i el volum de les deposicions."
     },
     "detecció precoç": {
@@ -1930,9 +2016,7 @@
             "português (PT)": "deteção precoce",
             "português (BR)": "detecção precoce",
             "holandês": "vroegtijdige opsporing"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Detecció d’un problema de salut durant el període asimptomàtic que permet aplicar mesures per a intentar modificar-ne la història natural i evitar-ne la progressió."
+        }
     },
     "dexametasona": {
         "id": 180,
@@ -1946,7 +2030,9 @@
             "francês": "dexaméthasone",
             "português": "dexametasona",
             "holandês": "dexamethason"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antiinflamatori i immunosupressor que inhibeix l’apoptosi dels neutròfils i els factors de transcripció inflamatoris."
     },
     "dímer-D": {
         "id": 184,
@@ -1961,9 +2047,7 @@
             "português": "D-dímero",
             "português (BR)": "dímero D",
             "holandês": "D-dimer"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Producte de degradació de la fibrina que es produeix quan un coàgul de sang és dissolt en l’organisme."
+        }
     },
     "discapacitat": {
         "id": 185,
@@ -1977,7 +2061,9 @@
             "francês": "incapacité",
             "português": "incapacidade",
             "holandês": "beperking"
-        }
+        },
+        "categoria": "ENTORN SOCIAL.",
+        "definicao": "Condició de la persona que presenta un trastorn físic, mental o sensorial que li impedeix o li dificulta desenvolupar la seva activitat dins dels límits considerats normals."
     },
     "disfonia": {
         "id": 186,
@@ -1992,7 +2078,7 @@
             "português": "disfonia",
             "holandês": "dysfonie"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Trastorn de la fonació degut a canvis en les cordes vocals que causen una alteració en els paràmetres normals de to, intensitat o timbre."
     },
     "dispnea": {
@@ -2007,7 +2093,7 @@
             "francês": "dyspnée",
             "português": "dispneia"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Conjunt de mesures de salut pública de reducció dels contactes físics directes i indirectes entre persones per a evitar el contagi d’una malaltia."
     },
     "distanciament físic": {
@@ -2029,7 +2115,7 @@
             "português (PT)": "falta de ar",
             "holandês": "ademnood"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Sensació de dificultat respiratòria associada a un augment de l’esforç per a respirar."
     },
     "distància de seguretat": {
@@ -2042,7 +2128,7 @@
             "espanhol": "distancia de seguridad",
             "português": "distância de segurança"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Interval d’espai que hi ha d’haver entre dues persones com a mesura de prevenció per a evitar el contagi d’una malaltia."
     },
     "distància física": {
@@ -2056,7 +2142,7 @@
         "traducoes": {
             "holandês": "leed"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Resposta emocional previsible a la mort d’un ésser estimat."
     },
     "dolor toràcic": {
@@ -2073,7 +2159,7 @@
             "português (PT)": "dor no peito",
             "holandês": "borstpijn"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Molèstia anòmala localitzada al tòrax, entre la base del coll i el diafragma."
     },
     "dosi de record": {
@@ -2087,7 +2173,7 @@
             "inglês": "booster dose",
             "português": "dose de reforço"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Dosi addicional d’una vacuna que s’administra amb l’objectiu d’augmentar i prolongar l’efecte immunitari de la dosi o de les dosis administrades en la primovacunació."
     },
     "edatisme": {
@@ -2104,7 +2190,7 @@
             "português (BR)": "discriminação contra idosos",
             "holandês": "agisme"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Actitud discriminatòria envers una persona consistent a abstenir-se d’aplicar-li mitjans diagnòstics o terapèutics que li serien beneficiosos a causa exclusivament de la seva edat avançada."
     },
     "efectivitat vacunal": {
@@ -2128,7 +2214,9 @@
             "português (PT)": "eculizumab",
             "português (BR)": "eculizumabe",
             "holandês": "eculizumab"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac immunomodulador selectiu que s’uneix a la proteïna C5 del complement per a impedir-ne l’escissió i posterior activació, però que preserva els primers components de l’activació del complement, necessaris per a l’opsonització dels microorganismes i l’eliminació d’immunocomplexos."
     },
     "èczema": {
         "id": 200,
@@ -2144,7 +2232,7 @@
             "português (PT)": "efetividade vacinal",
             "português (BR)": "efetividade da vacina"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Grau en què una vacuna produeix l’efecte desitjat en la població diana quan s’aplica en les condicions reals de la pràctica clínica habitual."
     },
     "eficàcia vacunal": {
@@ -2160,7 +2248,7 @@
             "português (PT)": "eficácia vacinal",
             "português (BR)": "eficácia da vacina"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Grau en què una vacuna produeix l’efecte desitjat quan s’aplica en condicions experimentals."
     },
     "eficiència vacunal": {
@@ -2176,7 +2264,7 @@
             "português (PT)": "eficiência vacinal",
             "português (BR)": "eficiência da vacina"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Relació que s’estableix entre el cost econòmic que comporta l’administració d’una vacuna i la seva efectivitat."
     },
     "elasomeran": {
@@ -2189,7 +2277,7 @@
             "português": "elasomeran",
             "português (PT)": "vacina Moderna"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Membrana externa que envolta la càpsida d’alguns virus, formada per una bicapa lipídica i per glicoproteïnes, que poden sobresortir en forma d’espícules."
     },
     "embòlia pulmonar": {
@@ -2205,7 +2293,7 @@
             "português": "embolia pulmonar",
             "holandês": "longembolie"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Embòlia que afecta els pulmons, a partir d’una vena afectada per trombosi, i que pot ser bruscament mortal."
     },
     "emergència sanitària": {
@@ -2221,7 +2309,7 @@
             "português": "emergência sanitária",
             "português (PT)": "emergência de saúde pública"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Situació clínica extraordinària greu, sobtada, inusual o inesperada que comporta un risc per a la salut pública d’un territori i que pot propagar-se a altres territoris."
     },
     "emapalumab": {
@@ -2237,7 +2325,9 @@
             "português (PT)": "emapalumab",
             "português (BR)": "emapalumabe",
             "holandês": "emapalumab"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac immunomodulador dirigit contra l’interferó gamma que, en unir- s’hi, pot fer disminuir la inflamació i la resposta immunitària."
     },
     "embolcall": {
         "id": 208,
@@ -2266,7 +2356,9 @@
             "francês": "emtricitabine",
             "português": "emtricitabina",
             "holandês": "emtricitabine"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antivíric inhibidor de la transcriptasa inversa anàleg de nucleòsid, que s’integra a la cadena de DNA durant la replicació, en força la terminació i atura la replicació vírica."
     },
     "emvododstat": {
         "id": 213,
@@ -2280,7 +2372,9 @@
             "francês": "emvododstat",
             "português": "emvododstat",
             "holandês": "emvododstat"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac en investigació amb efecte inhibidor de l’enzim dihidroorotat- deshidrogenasa que bloca la biosíntesi de novo de la pirimidina i inhibeix la replicació de l’RNA víric."
     },
     "encebador": {
         "id": 214,
@@ -2294,9 +2388,7 @@
             "francês": "amorce",
             "português": "iniciador",
             "holandês": "primer"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Seqüència curta de DNA o d’RNA unida per complementarietat a una cadena de DNA que s’ha de replicar i a la qual s’aniran unint els nous nucleòtids."
+        }
     },
     "endèmia": {
         "id": 215,
@@ -2311,7 +2403,7 @@
             "português": "endemia",
             "holandês": "endemie"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Malaltia, en general de tipus infecciós, que incideix de manera permanent i elevada en una determinada zona geogràfica."
     },
     "enoxaparina": {
@@ -2335,7 +2427,9 @@
             "francês": "ensovibep",
             "português": "ensovibep",
             "holandês": "ensovibep"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac en investigació basat en una proteïna mimètica d’anticòs modificada genèticament, amb capacitat neutralitzant contra el SARS-CoV-2, que s’uneix a la proteïna S per a inhibir l’entrada del virus a la cèl·lula hoste."
     },
     "enzimoimmunoassaig sobre fase sòlida": {
         "id": 219,
@@ -2346,7 +2440,9 @@
             "francês": "énoxaparine",
             "português": "enoxaparina",
             "holandês": "enoxaparine"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac anticoagulant que potencia l’efecte inhibidor de l’antitrombina III sobre els factors IIa i Xa."
     },
     "enpatoran": {
         "id": 217,
@@ -2362,8 +2458,8 @@
             "holandês": "enpatoran",
             "português (BR)": "ensaio imunoenzimático"
         },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Enzimoimmunoassaig en què un dels dos elements de la reacció, l’antigen o l’anticòs, és unit a un suport sòlid."
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac en investigació que inhibeix la immunitat innata i l’autoimmunitat mitjançant el blocatge dels receptors de tipus Toll i l’impediment per a detectar de cadenes simples d’RNA víric. en enzyme-linked immunosorbent assay n; ELISA n fr\t\u0007 analyse ELISA n f; essai d'immuno-adsorption enzymatique n m; essai immuno-enzymatique n m; essai par immunoadsorbant lié à une enzyme n m; test ELISA n m; ELISA n m pt ensaio de imunoadsorção enzimática n m; \t\t ELISA n m pt [BR] ensaio imunoenzimático n m nl\t\u0007 enzymgebonden immuunadsorbent-techniek n; \t\t\t enzymgekoppelde immuunadsorbent- \t\t techniek n; ELISA n ar\t\u0007 ‫م‬‫باإلنزي‬ ‫المرتبط‬ ‫المناعي‬ ‫االمتصاص‬ ‫اختبار‬ ‫المناعية‬ ‫الصلبة‬ ‫المرحلة‬ ‫إنزيم‬ DIAGNÒSTIC. Enzimoimmunoassaig en què un dels dos elements de la reacció, l’antigen o l’anticòs, és unit a un suport sòlid."
     },
     "epidèmia": {
         "id": 221,
@@ -2378,7 +2474,7 @@
             "português": "epidemia",
             "holandês": "epidemie"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Aparició, en una comunitat o una àrea geogràfica, durant un període de temps concret, d’un nombre inesperat de casos d’una determinada malaltia, que excedeixen clarament els valors habituals."
     },
     "epidemiologia": {
@@ -2394,7 +2490,7 @@
             "português": "epidemiologia",
             "holandês": "epidemiologie"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Disciplina que estudia la distribució, la incidència i la prevalença dels estats relacionats amb la salut en una població, els seus determinants i l’aplicació del coneixement obtingut al control de problemes sanitaris."
     },
     "equip de protecció individual": {
@@ -2408,9 +2504,7 @@
             "português (PT)": "zaragatoa",
             "português (BR)": "cotonete",
             "holandês": "kweekstokje"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Tija metàl·lica o de plàstic, amb l’extremitat coberta de cotó estèril, utilitzada per a aplicar medicacions en forma de tocs o per a obtenir mostres en un examen citològic, bacteriològic o genètic."
+        }
     },
     "esdeveniment advers": {
         "id": 228,
@@ -2423,7 +2517,9 @@
             "português (PT)": "acontecimento adverso",
             "português (BR)": "evento adverso",
             "holandês": "ongewenst voorval"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Experiència clínica no desitjada que pateix una persona que participa en un assaig clínic."
     },
     "erradicació": {
         "id": 225,
@@ -2438,7 +2534,7 @@
             "português": "erradicação",
             "holandês": "uitbanning"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Eliminació completa d’una malaltia, especialment una malaltia infecciosa."
     },
     "escovilló": {
@@ -2466,7 +2562,7 @@
             "português (BR)": "expectativa de vida",
             "holandês": "levensverwachting"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Indicador dels anys que viuria una persona si les taxes de mortalitat de la població a la qual pertany es mantinguessin estables."
     },
     "esperança de vida en bona salut": {
@@ -2482,7 +2578,7 @@
             "português (PT)": "esperança de vida sem incapacidade",
             "português (BR)": "expectativa de vida saudável"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Esperança de vida ajustada segons la qualitat de vida, tenint en compte les dades sobre autopercepció de la salut en enquestes de població."
     },
     "espícula": {
@@ -2499,7 +2595,7 @@
             "português (PT)": "peplómero",
             "português (BR)": "peplômero"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Protuberància proteica de l’embolcall víric que té la funció de reconèixer determinades estructures de la membrana cel·lular per a facilitar l’entrada del virus a les cèl·lules susceptibles d’infecció."
     },
     "estacionalitat": {
@@ -2514,7 +2610,7 @@
             "francês": "saisonnalité",
             "português": "sazonalidade"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Variació previsible i de caràcter repetitiu en el comportament d’una malaltia, que s’associa a un període de temps determinat, pròpia de la majoria de malalties infeccioses."
     },
     "estudi de fase 0": {
@@ -2528,7 +2624,9 @@
             "português (PT)": "estudo de fase 0",
             "português (BR)": "estudo clínico de fase 0",
             "holandês": "fase-0-onderzoek"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Cadascun dels estudis que tenen lloc abans dels estudis de fase I, com a primera prova d’un nou fàrmac en humans, que tenen com a objectiu obtenir una primera aproximació de si el fàrmac serà ben tolerat i de si presenta perfils farmacocinètics i farmacodinàmics acceptables."
     },
     "estat d’alarma": {
         "id": 236,
@@ -2543,7 +2641,9 @@
             "português (PT)": "estado de alerta",
             "português (BR)": "estado de alarme",
             "holandês": "noodtoestand"
-        }
+        },
+        "categoria": "ENTORN SOCIAL.",
+        "definicao": "Situació d’excepció decretada pel govern d’un estat, el qual suspèn determinades garanties i llibertats personals."
     },
     "estudi clínic": {
         "id": 237,
@@ -2557,7 +2657,9 @@
             "francês": "étude clinique",
             "português": "estudo clínico",
             "português (BR)": "estudo clínico de fase 2"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Estudi realitzat en éssers humans que es duu a terme amb finalitats mèdiques o de salut."
     },
     "estudi de fase III": {
         "id": 245,
@@ -2568,7 +2670,9 @@
             "português": "estudo de fase 3",
             "português (PT)": "estudo de confirmação",
             "português (BR)": "estudo clínico de fase 3"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Cadascun dels estudis que formen part de l’últim estadi de la prova d’un"
     },
     "estudi de fase I": {
         "id": 243,
@@ -2579,7 +2683,9 @@
             "português": "estudo de fase 1",
             "português (PT)": "estudo farmacológico",
             "português (BR)": "estudo clinico de fase 1"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Cadascun dels estudis que formen part del primer estadi de la prova d’un nou fàrmac en humans, que tenen com a objectiu verificar que el fàrmac és tolerat de manera satisfactòria."
     },
     "estudi de fase II": {
         "id": 244,
@@ -2602,7 +2708,9 @@
             "inglês": "preclinical study",
             "francês": "essai préclinique",
             "português": "estudo pré-clínico"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Estudi que es duu a terme in vitro o en animals durant el desenvolupament preclínic d’un fàrmac amb la finalitat d’obtenir la informació necessària per al desenvolupament del fàrmac."
     },
     "etesevimab": {
         "id": 249,
@@ -2617,7 +2725,9 @@
             "português": "etesevimab",
             "português (BR)": "etesevimabe",
             "holandês": "etesevimab"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac en investigació, amb efecte neutralitzant i antivíric, que s’uneix a la superfície de la proteïna S del SARS-CoV-2 per a evitar que el virus infecti la cèl·lula hoste."
     },
     "estudi de fase IV": {
         "id": 246,
@@ -2628,7 +2738,9 @@
             "português": "estudo de fase 4",
             "português (PT)": "apoio extraordinário à manutenção",
             "português (BR)": "decreto de regulamentação de trabalho"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Cadascun dels estudis que es duen a terme després del registre d’un producte, que tenen com a objectiu adquirir més experiència en el seu ús respecte a la seguretat, l’eficàcia i les noves indicacions. pt [PT] apoio extraordinário à manutenção \t\t de contrato de trabalho n m; \t\t lay-off simplificado n m pt [BR] decreto de regulamentação de trabalho \t\t temporário n m nl\t\u0007 coronawerkloosheid n; NOW-regeling n; tijdelijke noodmaatregel overbrugging voor behoud van werkgelegenheid (NOW) n; tijdelijke werkloosheidsregeling wegens overmacht n ar ‫المؤقت‬ ‫العمل‬ ‫تقنين‬ ‫ملف‬ ENTORN SOCIAL. Procediment administratiu mitjançant el qual una organització, per causes econòmiques, tècniques, organitzatives o de producció, pot procedir a la suspensió temporal del contracte de treball o a la reducció de la jornada laboral d’una part significativa de la plantilla."
     },
     "exsudat": {
         "id": 253,
@@ -2644,7 +2756,7 @@
             "português (BR)": "exsudato",
             "holandês": "exsudaat"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Líquid orgànic, ric en proteïnes plasmàtiques, cèl·lules i productes de la descomposició de teixits inflamats, que s’extravasa d’un vas en els processos inflamatoris i es diposita en els intersticis dels teixits o en la cavitat de les seroses. avançada com a possible tractament per a aquesta malaltia. És d’origen biotecnològic. 2. La denominació etesevimab és la forma catalana corresponent a la DCI."
     },
     "excés de mortalitat": {
@@ -2660,7 +2772,7 @@
             "português (BR)": "excesso de mortes",
             "holandês": "oversterfte"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Augment del nombre de defuncions durant un període determinat."
     },
     "expedient de regulació temporal d’ocupació": {
@@ -2683,8 +2795,8 @@
             "português": "falha vacinal",
             "holandês": "vaccinfalen"
         },
-        "categoria": "TRACTAMENT",
-        "definicao": "Retirada d’un tub col·locat prèviament en el cos d’un pacient, especialment un tub que ha estat introduït a la laringe o la tràquea per a ajudar la respiració. gl fallo vacinal n m es fallo vacunal n m en vaccine failure n fr échec vaccinal n m pt falha vacinal n f nl vaccinfalen n ar ‫لقاح‬ ‫فشل‬ PREVENCIÓ. Situació en què una persona desenvolupa una malaltia després d'haver rebut la pauta de vacunació completa d'una vacuna que ha demostrat ser eficaç contra aquesta malaltia."
+        "categoria": "PREVENCIÓ.",
+        "definicao": "Situació en què una persona desenvolupa una malaltia després d'haver rebut la pauta de vacunació completa d'una vacuna que ha demostrat ser eficaç contra aquesta malaltia."
     },
     "fallada vacunal primària": {
         "id": 260,
@@ -2699,7 +2811,7 @@
             "português": "falha vacinal primária",
             "holandês": "primair vaccinfalen"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Fallada vacunal en una persona que no genera resposta immunitària després de l’administració d’una vacuna."
     },
     "fallada vacunal secundària": {
@@ -2727,7 +2839,7 @@
             "português": "fator de risco",
             "holandês": "risicofactor"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Factor que al llarg del temps pot fer augmentar la probabilitat d’una persona o d’un grup de persones de desenvolupar o de presentar un problema social o de salut."
     },
     "fagocitosi": {
@@ -2743,7 +2855,7 @@
             "português": "fagocitose",
             "holandês": "fagocytose"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Procés pel qual un fagòcit engloba i digereix material, com ara bacteris i altres gèrmens, cossos estranys o deixalles metabòliques."
     },
     "fallada vacunal": {
@@ -2752,9 +2864,7 @@
         "traducoes": {
             "occitan": "falhada vacunau",
             "euskera": "txertoaren hutsegite"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Resultat positiu d’una prova diagnòstica en una persona que no posseeix realment l’atribut o la malaltia que es vol detectar amb aquesta prova."
+        }
     },
     "falta de concentració": {
         "id": 264,
@@ -2768,7 +2878,7 @@
             "francês": "manque de concentration",
             "português": "falta de concentração"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Dificultat per a mantenir l’atenció en alguna cosa."
     },
     "fase de contenció": {
@@ -2784,7 +2894,7 @@
             "português": "falha vacinal secundária",
             "holandês": "secundair vaccinfalen"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Primera etapa que activen les autoritats sanitàries davant l’aparició d’un agent pt falha vacinal secundária n f nl secundair vaccinfalen n ar ‫ثانوي‬ ‫لقاح‬ ‫فشل‬ PREVENCIÓ. Fallada vacunal en una persona que, malgrat haver generat resposta immunitària després de l’administració d’una vacuna, ha perdut immunitat amb el pas del temps."
     },
     "fals negatiu": {
@@ -2798,9 +2908,7 @@
             "inglês": "false negative",
             "francês": "faux négatif",
             "português": "falso negativo"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Resultat negatiu d’una prova diagnòstica en una persona que posseeix efectivament l’atribut o la malaltia que es vol detectar amb aquesta prova."
+        }
     },
     "fals positiu": {
         "id": 263,
@@ -2828,7 +2936,7 @@
             "português": "fase de mitigação",
             "holandês": "mitigatiefase"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Segona etapa que activen les autoritats sanitàries davant l’aparició d’un agent infecciós nou o desconegut, quan la fase de contenció no aconsegueix contenir la propagació de l’agent."
     },
     "fatiga": {
@@ -2845,7 +2953,7 @@
             "português (PT)": "exaustão",
             "holandês": "uitputting"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Disminució de les forces o de la resistència física o mental com a conseqüència d’un esforç, d’una feina o d’una tensió intensos i perllongats."
     },
     "fatiga mental": {
@@ -2862,7 +2970,7 @@
             "português (BR)": "cansaço mental",
             "holandês": "mentale uitputting"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Fatiga caracteritzada per un estat de saturació mental en què es manifesten una sèrie de símptomes psíquics i físics molt diversos, com ara estrès, irritabilitat, ansietat, depressió, desconcentració, cefalea, malestar digestiu o parestèsies a les extremitats."
     },
     "fatiga pandèmica": {
@@ -2877,7 +2985,7 @@
             "francês": "fatigue pandémique",
             "holandês": "koorts"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Augment de la temperatura corporal per damunt de la xifra màxima normal, que manifesta la reacció de l’organisme a algun procés patològic."
     },
     "febrícula": {
@@ -2893,7 +3001,7 @@
             "português": "febrícula",
             "holandês": "lichte koorts"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Febre lleugera."
     },
     "fenofibrat": {
@@ -2909,7 +3017,7 @@
             "português": "fadiga pandêmica",
             "holandês": "coronamoeheid"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Fatiga mental provocada pels efectes de la pandèmia en la societat, tant localment com globalment."
     },
     "favipiravir": {
@@ -2924,7 +3032,9 @@
             "francês": "favipiravir",
             "português": "favipiravir",
             "holandês": "favipiravir"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antivíric que, en inhibir l’RNA-polimerasa, impedeix la replicació del genoma víric."
     },
     "febre": {
         "id": 272,
@@ -2938,9 +3048,7 @@
             "francês": "fièvre",
             "português": "febre",
             "holandês": "fibrinogeen"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Proteïna fibrosa soluble del plasma sanguini i de la limfa, causant de la coagulació, que se sintetitza en el fetge i es transforma en fibrina per l'acció de la trombina."
+        }
     },
     "fibrosi": {
         "id": 277,
@@ -2955,7 +3063,7 @@
             "português": "fibrose",
             "holandês": "fibrose"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Formació de teixit fibrós, per una producció excessiva de col·lagen per causes diverses."
     },
     "fingolimod": {
@@ -2985,9 +3093,7 @@
             "francês": "ferritine",
             "português": "ferritina",
             "holandês": "ferritine"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Ferroproteïna que es presenta en els macròfags i també en les cèl·lules epitelials de la mucosa gastrointestinal, on regula l’absorció de ferro de la dieta."
+        }
     },
     "fibrinogen": {
         "id": 276,
@@ -3016,8 +3122,8 @@
             "português": "esfregaço",
             "holandês": "uitstrijkje"
         },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Preparació microscòpica, prima i transparent, d’una mostra de líquid orgànic espès o un teixit semilíquid o pastós, obtinguda estenent-la damunt el portaobjectes i assecant-la a l’aire o amb alguna substància."
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac immunomodulador que s’uneix al receptor de l’esfingosina-1-fosfat per a inhibir la migració de limfòcits al sistema nerviós central."
     },
     "fòmit": {
         "id": 281,
@@ -3032,7 +3138,7 @@
             "português (BR)": "vacina Sputnik",
             "português": "vacina Sputnik V"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Objecte o superfície que pot hostatjar microorganismes patògens i convertir-se en un agent transmissor d’infeccions. fr\t\u0007 Gam-COVID-Vac n m; Sputnik V n m; vaccin Gamaleya n m pt vacina Sputnik V n f; Sputnik V n f pt [PT] Gam-COVID-Vac n f; vacina Gamaleya n f pt [BR] vacina Sputnik n f; Sputnik n f nl\t\u0007 Gam-COVID-Vac n; Spoetnik V-vaccin n; Spoetnikvaccin n; Sputnik V-vaccin n; Sputnik-vaccin n; Sputnik n; Sputnik V n ar ‫فاك‬ ‫كوفيد‬ ‫جام‬ PREVENCIÓ. Vacuna anti COVID-19 de vectors vírics no replicatius preparada amb adenovirus humans Ad26 i Ad5, que introdueixen en l’organisme el material genètic que expressa la proteïna S del SARS-CoV-2."
     },
     "gel hidroalcohòlic": {
@@ -3053,7 +3159,7 @@
             "português": "genoma",
             "holandês": "genoom"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Contingut total de gens propis en el conjunt de cromosomes d’una espècie."
     },
     "gimsilumab": {
@@ -3069,7 +3175,9 @@
             "português (PT)": "gimsilumab",
             "português (BR)": "gimsilumabe",
             "holandês": "gimsilumab"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac immunomodulador en investigació que s’uneix al factor estimulant de colònies de granulòcits i macròfags."
     },
     "goflikicept": {
         "id": 293,
@@ -3085,7 +3193,7 @@
             "português (BR)": "álcool gel",
             "holandês": "alcoholgel"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Gel aquós amb una elevada concentració d’alcohol que permet eliminar microorganismes patògens de les mans i de superfícies."
     },
     "genoma": {
@@ -3119,7 +3227,7 @@
             "português (BR)": "agudo",
             "holandês": "acuut, acute"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Dit del mal o de la malaltia que es manifesta de manera intensa o amb possibles conseqüències importants."
     },
     "grup bombolla": {
@@ -3131,7 +3239,9 @@
             "inglês": "bubble group",
             "português": "goflikicept",
             "holandês": "goflikicept"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac en investigació que inhibeix la via de senyalització i també bloca la interleucina 1 beta humana."
     },
     "goteta respiratòria": {
         "id": 296,
@@ -3143,7 +3253,7 @@
             "português": "gotícula respiratória",
             "holandês": "druppeltje van Flügge"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Cadascuna de les petites gotes de saliva o de fluid respiratori de mida superior a 100 micròmetres que s’expulsen en tossir, esternudar, parlar o respirar, i que poden econòmiques o pel seu comportament, tenen una gran probabilitat de contraure algun tipus de malaltia o de patir algun accident."
     },
     "guant": {
@@ -3160,7 +3270,7 @@
             "português (BR)": "grupo bolha social",
             "holandês": "bubbel"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Grup de persones que, en el context d’una pandèmia, es relacionen entre si d’una manera estable generant un espai de confiança i seguretat."
     },
     "grup de convivència": {
@@ -3191,7 +3301,7 @@
             "português": "grupo de risco",
             "holandês": "risicogroep"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Grup de persones que, per les seves característiques biològiques, socials i i la prevenció de la trombosi. Se n’ha suggerit l’ús per al tractament de la COVID-19. És d’origen natural. 2. La denominació heparina és la forma catalana corresponent a la DCI."
     },
     "hepatotoxicitat": {
@@ -3207,7 +3317,7 @@
             "português": "hepatotoxicidade",
             "holandês": "hepatotoxiciteit"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Propietat d’exercir una acció tòxica sobre els hepatòcits."
     },
     "hidroxicloroquina": {
@@ -3223,7 +3333,9 @@
             "português": "hidroxicloroquina",
             "português (BR)": "sulfato de hidroxicloroquina",
             "holandês": "hydroxychloroquine"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antipalúdic, antiprotozoari i antireumàtic, del grup de les 4-aminoquinolines, que causa la mort dels paràsits del gènere Plasmodium mitjançant la inhibició de l’enzim hemopolimerasa i la consegüent acumulació tòxica del grup hemo dins el paràsit."
     },
     "hemograma": {
         "id": 305,
@@ -3238,9 +3350,7 @@
             "português": "hemograma",
             "português (PT)": "contagem sanguínea",
             "holandês": "bloedbeeld"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Resultat de l’estudi quantitatiu i qualitatiu dels elements que constitueixen la sang, com ara eritròcits, leucòcits i plaquetes."
+        }
     },
     "heparina": {
         "id": 306,
@@ -3256,7 +3366,7 @@
             "holandês": "handhygiëne",
             "português (PT)": "\u0007"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Conjunt de normes, tècniques i hàbits d’higiene aplicat a les mans, destinat a evitar les infeccions."
     },
     "hipogèusia": {
@@ -3271,7 +3381,7 @@
             "português": "hipogeusia",
             "português (PT)": "hipoestesia gustativa"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Disminució de la sensibilitat gustativa."
     },
     "higiene": {
@@ -3287,7 +3397,7 @@
             "português (PT)": "saúde pública",
             "português (BR)": "higiene"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Ciència que estudia les condicions i els factors personals o ambientals que influeixen en la salut física i mental i prescriu les normes que se’n dedueixen, amb la voluntat de prevenir l’aparició i la difusió de malalties i de conservar millors condicions de vida tant individuals com poblacionals."
     },
     "higiene de mans": {
@@ -3302,7 +3412,7 @@
             "português (BR)": "hipóxia",
             "holandês": "hypoxie"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Disminució de la concentració d’oxigen a les cèl·lules i els teixits."
     },
     "història clínica": {
@@ -3316,9 +3426,7 @@
             "francês": "dossier du patient",
             "português": "história clínica",
             "português (BR)": "histórico clínico"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Relació ordenada de les dades amb significació mèdica referents a un pacient, al tractament a què està sotmès i a l’evolució de la malaltia, obtingudes per mitjà de l’anamnesi, l’exploració i els exàmens complementaris."
+        }
     },
     "hipoòsmia": {
         "id": 314,
@@ -3332,7 +3440,7 @@
             "português": "hiposmia",
             "português (PT)": "hipoestesia olfativa"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Disminució anormal de l’agudesa olfactòria."
     },
     "hipoxèmia": {
@@ -3348,7 +3456,7 @@
             "português": "hipoxemia",
             "holandês": "hypoxemie"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Dèficit d’oxigenació de la sang."
     },
     "hipòxia": {
@@ -3376,7 +3484,7 @@
             "português (PT)": "espécie hospedeira",
             "holandês": "gastheer"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Organisme que dona allotjament o nodriment o les dues coses alhora a un altre d’una altra espècie paràsita, comensal o simbiont."
     },
     "hoste intermediari": {
@@ -3393,7 +3501,7 @@
             "português (BR)": "acetato de icatibanto",
             "holandês": "icatibant"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Hoste que alberga un altre organisme, paràsit, durant un període de transició cap a un tercer hoste. en icatibant n fr icatibant n m pt [PT] icatibant n m pt [BR] acetato de icatibanto n m; icatibanto n m nl icatibant n ar ‫آيساتيبانت‬ CAS 130308-48-4 PRINCIPIS ACTIUS. Fàrmac antiinflamatori que actua com a antagonista del receptor de la bradicina."
     },
     "imdevimab": {
@@ -3409,7 +3517,9 @@
             "português": "imdevimab",
             "português (BR)": "imdevimabe",
             "holandês": "imdevimab"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac en investigació, amb efecte neutralitzant i antivíric, que s’uneix a la superfície de la proteïna S del SARS-CoV-2 per a evitar que el virus infecti la cèl·lula hoste."
     },
     "ibuprofèn": {
         "id": 324,
@@ -3423,7 +3533,9 @@
             "francês": "ibuprofène",
             "português": "ibuprofeno",
             "holandês": "ibuprofen"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antiinflamatori no esteroidal que bloqueja la síntesi de les prostaglandines mitjançant la inhibició de les ciclooxigenases COX-1 i COX-2."
     },
     "icatibant": {
         "id": 325,
@@ -3437,7 +3549,9 @@
             "francês": "immunité",
             "português": "imunidade",
             "holandês": "afweer"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Resistència congènita o adquirida d’un organisme contra una malaltia infecciosa o un antigen determinat."
     },
     "immunitat activa": {
         "id": 332,
@@ -3451,7 +3565,9 @@
             "francês": "immunité active",
             "português": "imunidade ativa",
             "holandês": "actieve afweer"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Immunitat adaptativa resultant del contacte amb un antigen, ja sigui per un procés natural, com una infecció, o per un procés artificial, com la vacunació."
     },
     "immunitat adaptativa": {
         "id": 333,
@@ -3472,7 +3588,9 @@
             "francês": "immun -une",
             "português": "imune",
             "holandês": "immuun -mune"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Que posseeix immunitat."
     },
     "immunitari -ària adj": {
         "id": 330,
@@ -3486,7 +3604,9 @@
             "português": "imunitário",
             "português (BR)": "imune",
             "holandês": "immunologisch -e"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Relatiu o pertanyent a la immunitat."
     },
     "immunitat": {
         "id": 331,
@@ -3500,7 +3620,7 @@
             "português (PT)": "imunidade comunitária",
             "português (BR)": "imunidade de massa"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Immunitat adquirida per a una malatia d’un nombre prou gran de persones d’una comunitat, que disminueix el risc de contagi entre les persones susceptibles."
     },
     "immunitat específica artificial": {
@@ -3513,7 +3633,9 @@
             "francês": "immunité acquise",
             "português": "imunidade adaptativa",
             "português (PT)": "imunidade adquirida"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Immunitat produïda després del contacte amb un antigen o bé aconseguida mitjançant anticossos."
     },
     "immunitat adquirida": {
         "id": 334,
@@ -3527,7 +3649,9 @@
             "francês": "immunité spécifique naturelle",
             "português": "imunidade específica natural",
             "português (PT)": "imunidade específica espontânea"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Immunitat adaptativa induïda per una exposició involuntària a un determinat agent causal."
     },
     "immunitat específica passiva": {
         "id": 345,
@@ -3540,7 +3664,9 @@
             "inglês": "passive specific immunity",
             "francês": "immunité spécifique passive",
             "português": "imunidade específica passiva"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Immunitat adaptativa resultant d’una transferència immunitària."
     },
     "immunitat específica natural": {
         "id": 343,
@@ -3563,7 +3689,9 @@
             "francês": "immunisation",
             "português (PT)": "imunização ativa",
             "português (BR)": "imunização"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Administració d’un antigen o d’un anticòs feta amb l’objectiu d’induir una resposta immunitària."
     },
     "immunocromatografia": {
         "id": 351,
@@ -3577,9 +3705,7 @@
             "francês": "immunochromatographie",
             "português": "imunocromatografia",
             "holandês": "immunochromatografie"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Tècnica diagnòstica que permet visualitzar la reacció antigen-anticòs d’una manera senzilla i ràpida, sense necessitat de reactius ni d’instrumentació."
+        }
     },
     "immunogen -ògena adj": {
         "id": 352,
@@ -3598,7 +3724,9 @@
             "euskera": "sortzetiko immunitate",
             "português (PT)": "imunidade congénita",
             "português (BR)": "\u0007"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Immunitat contra qualsevol agent patogen, que no comporta el reconeixement específic d’un antigen i es manifesta sempre de la mateixa manera, sense incrementar-se com a resultat de l’exposició repetida a aquest antigen."
     },
     "immunitat natural": {
         "id": 348,
@@ -3617,9 +3745,7 @@
             "francês": "immunoglobuline G",
             "português": "imunoglobulina G",
             "holandês": "immunoglobuline G"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Immunoglobulina que conté cadenes pesants γ, amb tres dominis constants, que intervé en diversos processos immunitaris, com ara l’opsonització, l’activació del complement o la citotoxicitat cel·lular dependent d’anticossos."
+        }
     },
     "immunoglobulina M": {
         "id": 356,
@@ -3635,7 +3761,9 @@
             "holandês": "immunogeen -gene",
             "português (PT)": "imunogénico",
             "português (BR)": "imunogênico"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Que indueix una resposta immunitària adaptativa."
     },
     "immunogenicitat": {
         "id": 353,
@@ -3649,7 +3777,9 @@
             "francês": "immunogénicité",
             "português": "imunogenicidade",
             "holandês": "immunogeniciteit"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Capacitat d’un antigen per a induir una resposta immunitària."
     },
     "immunoglobulina": {
         "id": 354,
@@ -3664,8 +3794,8 @@
             "português": "imunoglobulina",
             "holandês": "immunoglobuline"
         },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Proteïna present en el sèrum i en altres fluids corporals que participa en la resposta immunitària."
+        "categoria": "ENTORN SOCIAL.",
+        "definicao": "Impossibilitat total o parcial d’una persona de desenvolupar la seva feina habitual a causa d’un accident o d’una malaltia."
     },
     "incapacitat permanent": {
         "id": 360,
@@ -3679,7 +3809,9 @@
             "francês": "incapacité permanente",
             "português (PT)": "incapacitação permanente",
             "português (BR)": "incapacidade permanente"
-        }
+        },
+        "categoria": "ENTORN SOCIAL.",
+        "definicao": "Incapacitat derivada de la situació en què es troba un treballador quan, després d’haver estat sotmès al tractament mèdic prescrit, presenta reduccions anatòmiques o funcionals greus, susceptibles de determinació objectiva i previsiblement definitives, que disminueixen o anul·len la seva capacitat laboral."
     },
     "incapacitat temporal": {
         "id": 361,
@@ -3690,9 +3822,7 @@
             "galego": "incapacidade temporal",
             "espanhol": "incapacidad temporal",
             "inglês": "temporary disability"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Immunoglobulina que conté cadenes pesants μ, amb quatre dominis constants, que actua com a BCR dels limfòcits B naïfs i que intervé en l’activació de la via clàssica del complement."
+        }
     },
     "immunològic -a adj": {
         "id": 358,
@@ -3706,7 +3836,9 @@
             "francês": "immunologique",
             "português": "imunológico",
             "holandês": "immunologisch -e"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Relatiu o pertanyent a la immunologia."
     },
     "incapacitat": {
         "id": 359,
@@ -3735,7 +3867,7 @@
             "português": "incubação",
             "holandês": "incubatie"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Temps transcorregut entre l’entrada en un organisme de l’agent d’una malaltia i l’aparició dels primers símptomes."
     },
     "infecció": {
@@ -3752,7 +3884,7 @@
             "português (BR)": "infecção",
             "holandês": "infectie"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Entrada d’un patogen en un organisme, amb capacitat de multiplicar-se activament o de produir elements tòxics que poden actuar com un antigen i provocar una resposta immunitària d’aquest organisme."
     },
     "infecció hospitalària": {
@@ -3761,7 +3893,9 @@
         "traducoes": {
             "francês": "incapacité temporaire",
             "português": "incapacidade temporária"
-        }
+        },
+        "categoria": "ENTORN SOCIAL.",
+        "definicao": "Incapacitat derivada de la situació en què es troba un treballador quan no pot treballar transitòriament a causa d’un accident o una malaltia i necessita assistència sanitària, a efectes de les prestacions de la Seguretat Social."
     },
     "incidència": {
         "id": 362,
@@ -3776,7 +3910,7 @@
             "português": "incidência",
             "holandês": "incidentie"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Nombre de casos nous d’una malaltia determinada que apareixen en un grup o una població durant un període de temps concret."
     },
     "incidència acumulada": {
@@ -3792,8 +3926,8 @@
             "português": "incidência acumulada",
             "holandês": "cumulatieve incidentie"
         },
-        "categoria": "CLÍNICA",
-        "definicao": "Infecció adquirida per la inhalació d’agents patògens suspesos en gotetes respiratòries que una persona o un animal infectats exhalen especialment quan esternuden o tussen."
+        "categoria": "EPIDEMIOLOGIA.",
+        "definicao": "Proporció de persones sanes que desenvolupen una malaltia en un període de temps concret. CLÍNICA. Infecció adquirida per la inhalació d’agents patògens suspesos en gotetes respiratòries que una persona o un animal infectats exhalen especialment quan esternuden o tussen."
     },
     "infectologia": {
         "id": 371,
@@ -3809,7 +3943,7 @@
             "português (BR)": "infectologia",
             "holandês": "infectiologie"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Branca de la medicina interna que estudia, diagnostica, prevé i tracta les malalties causades per organismes."
     },
     "infiltrat": {
@@ -3825,7 +3959,7 @@
             "português": "infiltrado",
             "holandês": "infiltraat"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Lesió resultant d’una infiltració, especialment de les infiltracions pulmonars tuberculoses."
     },
     "inflamació": {
@@ -3839,7 +3973,7 @@
             "português (BR)": "infecção hospitalar",
             "holandês": "nosocomiale infectie"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Infecció adquirida en un hospital o centre mèdic per un malalt en qui la infecció no era present ni estava incubant-se en el moment de l’ingrés."
     },
     "infecció nosocomial": {
@@ -3860,7 +3994,9 @@
             "português (PT)": "infeção por gotículas",
             "português (BR)": "inibidor da ECA",
             "holandês": "druppelinfectie"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac que evita el pas d’angiotensina I a angiotensina II, produeix vasodilatació arteriovenosa i inhibeix els mecanismes compensatoris neuroendocrins que s’activen en la insuficiència cardíaca."
     },
     "insomni": {
         "id": 376,
@@ -3877,7 +4013,7 @@
             "holandês": "inflammatie",
             "português": "inflamação"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Reacció inespecífica com a resposta a una agressió física, química o infecciosa, consistent en un seguit de fenòmens tendents a eliminar, diluir o encerclar l’agent agressiu i els teixits lesionats, que es caracteritza per enrogiment, dolor, calor i inflor a la part afectada."
     },
     "infodèmia": {
@@ -3892,7 +4028,9 @@
             "francês": "infodémie",
             "português": "infodemia",
             "holandês": "infodemie"
-        }
+        },
+        "categoria": "ENTORN SOCIAL.",
+        "definicao": "Difusió ràpida de rumors, informació inexacta i notícies enganyoses amb relació a una malaltia infecciosa o un problema de salut pública paral·lelament a la seva propagació o evolució."
     },
     "inhibidor de l’enzim conversiu": {
         "id": 375,
@@ -3903,7 +4041,9 @@
             "francês": "interféron bêta",
             "português (PT)": "interferão beta",
             "português (BR)": "IFN-beta"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac immunomodulador, antivíric i antineoplàstic, que actua imitant els interferons beta endògens."
     },
     "intubació": {
         "id": 380,
@@ -3918,7 +4058,7 @@
             "português": "intubação",
             "holandês": "intubatie"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Col·locació temporal o permanent d’un tub en un conducte, un òrgan buit o en una cavitat orgànica en el cos d’un pacient."
     },
     "intel·ligència artificial": {
@@ -3932,9 +4072,7 @@
             "inglês": "artificial intelligence",
             "francês": "intelligence artificielle",
             "português": "inteligência artificial"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Tecnologia que permet a les màquines analitzar i processar una gran quantitat de dades, que en el camp de la salut poden abastar des de la recerca fins al tractament, passant pel diagnòstic i la prevenció."
+        }
     },
     "interferó": {
         "id": 378,
@@ -3950,7 +4088,7 @@
             "português (BR)": "interferon",
             "holandês": "interferon"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Citocina amb un efecte inhibidor sobre la replicació vírica que és sintetitzada per algunes cèl·lules en resposta a infeccions víriques o a agents patògens intracel·lulars."
     },
     "interferó beta": {
@@ -3977,7 +4115,7 @@
             "português (BR)": "lanadelumabe",
             "holandês": "lanadelumab"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Principi de justícia aplicat a la distribució del bé comú, que estableix un repartiment proporcional i un ús adequat dels recursos. en lanadelumab n fr lanadélumab n m pt [PT] lanadelumab n m pt [BR] lanadelumabe n m nl lanadelumab n ar ‫اناديلوماب‬ CAS 1426055-14-2 PRINCIPIS ACTIUS. Fàrmac antiinflamatori i immunomodulador que inhibeix l’activitat proteolítica de la calicreïna plasmàtica."
     },
     "latència": {
@@ -3993,7 +4131,7 @@
             "português": "latência",
             "holandês": "latentie"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Període d’una malaltia en què no dona símptomes i aparentment no és activa."
     },
     "lactat-deshidrogenasa": {
@@ -4004,9 +4142,7 @@
             "português (PT)": "desidrogenase láctica",
             "português (BR)": "desidrogenase lática",
             "inglês": "l’última etapa de la glucòlisi."
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Enzim del grup de les deshidrogenases que catalitza la reducció reversible del piruvat a L-lactat pel coenzim NADH en l’última etapa de la glucòlisi."
+        }
     },
     "lanadelumab": {
         "id": 385,
@@ -4030,7 +4166,9 @@
             "francês": "lymphocyte",
             "português": "linfócito",
             "holandês": "lymfecel"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Leucòcit mononucleat de dimensions petites, amb el citoplasma sense granulacions, present normalment a la sang circulant i als teixits limfoides, que és responsable dels mecanismes de resposta immunitària."
     },
     "limfòcit B": {
         "id": 392,
@@ -4054,7 +4192,9 @@
             "português (PT)": "lenzilumab",
             "português (BR)": "lenzilumabe",
             "holandês": "lenzilumab"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac immunomodulador en investigació que s’uneix al factor estimulant de colònies de granulòcits i macròfags."
     },
     "leronlimab": {
         "id": 389,
@@ -4070,7 +4210,9 @@
             "português (BR)": "leronlimabe",
             "holandês": "B-cel",
             "português": "célula B"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Limfòcit produït a la medul·la òssia en els mamífers que té capacitat de produir anticossos i és responsable de la resposta immunitària humoral."
     },
     "limfòcit de memòria": {
         "id": 393,
@@ -4083,7 +4225,9 @@
             "inglês": "memory cell",
             "português": "célula de memória",
             "português (BR)": "linfócito de memória"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Limfòcit T o limfòcit B producte d’una resposta anterior contra un antigen i amb capacitat de produir una resposta immunitària secundària quan es troba de nou amb aquest antigen."
     },
     "limfòcit T": {
         "id": 394,
@@ -4097,7 +4241,9 @@
             "francês": "cellule T",
             "português": "célula T",
             "holandês": "T-cel"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Limfòcit diferenciat en el timus que no té capacitat de produir anticossos i és responsable de la resposta immunitària cel·lular."
     },
     "limfopènia": {
         "id": 396,
@@ -4112,9 +4258,7 @@
             "português": "linfopenia",
             "português (PT)": "linfocitopenia",
             "holandês": "lymfocytopenie"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Disminució del nombre de limfòcits a la sang circulant."
+        }
     },
     "lopinavir": {
         "id": 398,
@@ -4129,8 +4273,8 @@
             "português": "marcador inflamatório",
             "holandês": "ontstekingsmarker"
         },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Molècula que es fa servir com a indici per a valorar el grau d’inflamació d’un organisme."
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antiretroviral inhibidor de la proteasa 1 del virus de la immunodeficiència humana 1."
     },
     "mareig": {
         "id": 405,
@@ -4146,7 +4290,7 @@
             "português (BR)": "tontura",
             "holandês": "duizeligheid"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Estat vegetatiu distònic molt molest, de predomini vagotònic, que apareix quan el cos és sotmès a canvis posturals passivament adquirits i repetits durant el moviment."
     },
     "màscara1": {
@@ -4171,7 +4315,9 @@
             "francês": "macrophage",
             "português": "macrófago",
             "holandês": "macrofaag"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Cèl·lula del sistema mononuclear fagocític derivada d’un monòcit, de grans dimensions i localitzada als teixits, que es caracteritza per una gran activitat fagocítica i per la capacitat migratòria a través del teixit connectiu."
     },
     "marcador inflamatori": {
         "id": 404,
@@ -4194,7 +4340,7 @@
             "francês": "masque",
             "português": "máscara"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Màscara reutilitzable o d’un sol ús emprada per a evitar la inhalació d’agents patògens o d’elements tòxics o nocius, amb una capacitat elevada de filtrar l’aire inhalat."
     },
     "màscara2": {
@@ -4209,7 +4355,7 @@
             "português": "máscara",
             "holandês": "masker"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Peça que tapa la boca i el nas emprada per a administrar medicaments, anestèsics o oxigen."
     },
     "màscara quirúrgica": {
@@ -4224,7 +4370,7 @@
             "francês": "masque chirurgical",
             "português": "máscara cirúrgica"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Màscara reutilitzable o d’un sol ús emprada per a evitar l’exhalació d’agents patògens o d’elements tòxics o nocius, feta de roba o de paper, amb capacitat elevada de filtrar l’aire exhalat."
     },
     "MEDI 3506": {
@@ -4248,7 +4394,7 @@
             "português (BR)": "perícia médica",
             "holandês": "medische evaluatie"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Màscara reutilitzable o d’un sol ús emprada per a evitar l’exhalació d’agents patògens o d’elements tòxics o nocius, feta d’una o més capes de material tèxtil, amb capacitat baixa o mitjana de filtrar l’aire exhalat."
     },
     "memòria immunitària": {
@@ -4264,7 +4410,7 @@
             "português (BR)": "memória imunitária",
             "holandês": "immunologisch geheugen"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Capacitat desenvolupada per un organisme, com a conseqüència del contacte amb un agent patogen, que li permet respondre posteriorment amb més rapidesa i eficàcia a un contacte específic amb l'antigen o antígens d'aquest agent patogen o a un contacte inespecífic amb aquest agent patogen o altres de similars."
     },
     "meplazumab": {
@@ -4279,7 +4425,9 @@
             "francês": "MEDI 3506",
             "português": "MEDI 3506",
             "holandês": "MEDI 3506"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac en investigació que actua contra la interleucina 33 i interfereix en els mecanismes de la inflamació."
     },
     "medicalitzar v tr": {
         "id": 419,
@@ -4292,7 +4440,9 @@
             "inglês": "medicalize v tr",
             "francês": "médicaliser v tr",
             "português": "medicalizar v tr"
-        }
+        },
+        "categoria": "ENTORN SOCIAL.",
+        "definicao": "Dotar de personal sanitari i d’equipament mèdic un vehicle o un espai."
     },
     "medicina avaluadora": {
         "id": 420,
@@ -4317,7 +4467,9 @@
             "francês": "méthylprednisolone",
             "português": "metilprednisolona",
             "holandês": "methylprednisolon"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac de naturalesa corticoesteroide derivat de la prednisolona amb activitat antiinflamatòria."
     },
     "miàlgia": {
         "id": 427,
@@ -4334,7 +4486,7 @@
             "português (PT)": "meplazumab",
             "português (BR)": "meplazumabe"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Dolor espontani i a la pressió que es localitza en un o diversos músculs esquelètics. es meplazumab n m en meplazumab n fr meplazumab n m pt [PT] meplazumab n m pt [BR] meplazumabe n m nl meplazumab n ar ‫ميبوليزوماب‬ PRINCIPIS ACTIUS. Fàrmac en investigació, amb efecte antivíric i neutralitzant contra el SARS-CoV-2, que bloca el receptor CD147 de la cèl·lula hoste per a evitar que el virus la infecti."
     },
     "mesura de contenció": {
@@ -4349,7 +4501,7 @@
             "francês": "mesure de confinement",
             "português": "medida de contenção"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Acció enfocada a prevenir la propagació d’una malaltia infecciosa."
     },
     "montelukast": {
@@ -4362,7 +4514,9 @@
             "inglês": "montelukast",
             "francês": "montélukast",
             "holandês": "montelukast"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac broncodilatador antagonista dels receptors de leucotriens CysLT1, que atura la broncoconstricció mediada per leucotriens de les vies aèries."
     },
     "mort digna": {
         "id": 431,
@@ -4377,7 +4531,7 @@
             "português": "morte digna",
             "holandês": "waardig sterven"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Mort d’acord amb els valors, les creences i el sentit de dignitat de cada persona."
     },
     "mortalitat": {
@@ -4404,7 +4558,9 @@
             "francês": "molnupiravir",
             "português": "molnupiravir",
             "holandês": "molnupiravir"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antivíric d’ampli espectre en investigació, inhibidor de ribonucleòsid, que impedeix la replicació del SARS-CoV-2."
     },
     "monitoratge": {
         "id": 429,
@@ -4421,7 +4577,7 @@
             "holandês": "mortaliteit",
             "português": "mortalidade"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Nombre de defuncions en una població determinada en un període de temps concret."
     },
     "mostra nasofaríngia": {
@@ -4433,9 +4589,7 @@
             "francês": "échantillon nasopharyngé",
             "português": "amostra nasofaríngea",
             "português (PT)": "exsudado nasofaríngeo"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Fluid corporal extret de la part de la faringe de darrere les fosses nasals, per damunt del vel del paladar, amb l’ajuda d’un escovilló, amb finalitats diagnòstiques."
+        }
     },
     "mostra orofaríngia": {
         "id": 435,
@@ -4447,9 +4601,7 @@
             "francês": "échantillon oropharyngé",
             "português": "amostra orofaríngea",
             "português (PT)": "exsudado orofaríngeo"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Líquid corporal extret de la part mitjana de la faringe situada entre el vel del paladar i la vora superior de l’epiglotis amb l’ajuda d’un escovilló amb finalitats diagnòstiques."
+        }
     },
     "mupadolimab": {
         "id": 438,
@@ -4463,7 +4615,9 @@
             "francês": "mupadolimab",
             "português": "mupadolimab",
             "holandês": "mupadolimab"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac en investigació com a immunoestimulant pels seus efectes contra el CD73 i com a estimulant dels limfòcits B."
     },
     "mutació": {
         "id": 441,
@@ -4478,7 +4632,7 @@
             "português": "mutação",
             "holandês": "mutatie"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Alteració permanent d’un o més caràcters transmesos per herència com a conseqüència d’un canvi en el material genètic d’una cèl·lula o un virus. CLÍNICA. Sensació desagradable que sol indicar la proximitat del vòmit."
     },
     "nebulització": {
@@ -4494,7 +4648,7 @@
             "português": "nebulização",
             "holandês": "verneveling"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Conversió d’una solució en una boira o en un aerosol de gotetes fines mitjançant un nebulitzador."
     },
     "nebulitzador": {
@@ -4510,7 +4664,7 @@
             "português": "nebulizador",
             "holandês": "vernevelaar"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Aparell polvoritzador que permet d’obtenir una dispersió fina d’una substància medicamentosa amb l’objectiu d’afavorir la seva acció sobre l’organisme."
     },
     "nafamostat": {
@@ -4526,7 +4680,9 @@
             "português (PT)": "nafamostat",
             "português (BR)": "mesilato de nafamostato",
             "holandês": "nafamostat"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac anticoagulant que actua inhibint proteases com la trombina, mitjançant la interferència del pas de fibrinogen a fibrina."
     },
     "nàusea": {
         "id": 443,
@@ -4556,7 +4712,7 @@
             "português": "NVX-CoV2373",
             "holandês": "NovaVax-vaccin"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Vacuna anti COVID-19 que conté nanopartícules formades per trímers de proteïna S recombinant del SARS-CoV-2."
     },
     "no inici de tractament": {
@@ -4566,7 +4722,7 @@
             "euskera": "tratamendua ez emate",
             "galego": "abstención de tratamento"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Adequació de les actuacions sanitàries consistent en la no aplicació d’actuacions sanitàries que no aporten beneficis al curs evolutiu d’una malaltia o que no són acceptades pel pacient."
     },
     "nova normalitat": {
@@ -4584,7 +4740,7 @@
             "português (PT)": "vaga",
             "português (BR)": "onda epidêmica"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Augment brusc del nombre de casos d’una malaltia contagiosa en el curs d’una epidèmia que dibuixa una corba en forma d’onada en el gràfic de casos en relació amb el temps o l’espai."
     },
     "OP-101": {
@@ -4599,7 +4755,9 @@
             "francês": "OP-101",
             "português": "OP-101",
             "holandês": "OP-101"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antiinflamatori no esteroidal en investigació, format per la combinació d’un dendrímer hidroxil conjugat amb N-acetilcisteïna, que s’uneix a macròfags reactius,"
     },
     "obstinació terapèutica": {
         "id": 450,
@@ -4613,14 +4771,14 @@
             "português (PT)": "distanásia",
             "inglês": "fase crítica o una malaltia terminal, la qual no li"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Actuació sanitària que té per objectiu prolongar, per tots els mitjans mèdics, la vida d’un pacient que té una malaltia irreversible en fase crítica o una malaltia terminal, la qual no li aporta prou qualitat de vida."
     },
     "onada epidèmica": {
         "id": 454,
         "termo_catalao": "onada epidèmica",
         "traducoes": {},
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Organisme de l’Organització de les Nacions Unides que té com a finalitat promoure i gestionar les polítiques de prevenció, promoció i intervenció en salut a escala mundial."
     },
     "oseltamivir": {
@@ -4636,7 +4794,9 @@
             "português": "oseltamivir",
             "português (BR)": "fosfato de oseltamivir",
             "holandês": "oseltamivir"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antivíric inhibidor selectiu de les neuraminidases víriques, que evita l’entrada del virus a les cèl·lules no infectades i l’alliberament de partícules víriques de les cèl·lules infectades."
     },
     "otilimab": {
         "id": 459,
@@ -4665,7 +4825,9 @@
             "português (PT)": "opaganib",
             "português (BR)": "opaganibe",
             "holandês": "opaganib"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antivíric i antiinflamatori en investigació que actua com a inhibidor de l’esfingosina-cinasa 2."
     },
     "Organització Mundial de la Salut": {
         "id": 457,
@@ -4680,7 +4842,7 @@
             "português (BR)": "Organização Mundial da Saúde",
             "holandês": "otilimab"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Tractament d’oxigenació, per via inhalatòria, indicat en la insuficiència respiratòria i en la malaltia pulmonar obstructiva crònica."
     },
     "oxigenació": {
@@ -4696,7 +4858,7 @@
             "português": "oxigenação",
             "holandês": "zuurstoftoediening"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Administració d'oxigen amb finalitats terapèutiques."
     },
     "oxigenoteràpia": {
@@ -4724,7 +4886,7 @@
             "português (BR)": "face shield",
             "holandês": "gelaatsscherm"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Accessori en forma de visera transparent que serveix per a protegir la cara de l’impacte de partícules externes."
     },
     "paràsit": {
@@ -4754,7 +4916,7 @@
             "português": "pandemia",
             "holandês": "pandemie"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Epidèmia d’una malaltia transmissible que s’estén a molts països i afecta un nombre molt elevat d’individus."
     },
     "pangolí": {
@@ -4770,7 +4932,7 @@
             "português": "pangolim",
             "holandês": "schubdier"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Mamífer de l’ordre dels folidots, de la família dels mànids, d’una longitud aproximada d’1,5 m, escatat des del cap fins a la cua i sense dents, que s’alimenta de formigues i tèrmits gràcies a la seva llengua llarga, estreta i mucosa, que fa servir per a extraure’ls dels nius. acredita la seva condició d’immunitat respecte a una malaltia determinada."
     },
     "patogen -ògena adj": {
@@ -4786,7 +4948,7 @@
             "português (PT)": "patogénico",
             "português (BR)": "patogênico"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Dit del microorganisme susceptible de causar una malaltia o alteracions més o menys greus a un organisme."
     },
     "patogenicitat": {
@@ -4802,7 +4964,7 @@
             "português": "patogenicidade",
             "holandês": "pathogeniteit"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Capacitat que posseeixen els microorganismes per a produir una malaltia, ja sigui espontàniament en animals i en l'espècie humana o bé experimentalment en animals de laboratori."
     },
     "passaport immunitari": {
@@ -4816,7 +4978,7 @@
             "francês": "pemziviptadil",
             "holandês": "pemziviptadil"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Document atorgat a una persona per una autoritat sanitària o governamental que en pemziviptadil n fr pemziviptadil n m pt pemziviptadil n m nl pemziviptadil n ar ‫بيمزيفيبتاديل‬ CAS 1265655-87-5 PRINCIPIS ACTIUS. Fàrmac en investigació, anàleg del pèptid intestinal vasoactiu, que produeix efectes vasodilatadors."
     },
     "penelló": {
@@ -4832,7 +4994,7 @@
             "português": "eritema pérnio",
             "português (PT)": "frieira"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Eritema blavós amb tumefacció, habitualment circumscrit, a vegades més difús i poc delimitat, que es presenta principalment en els dits de les mans i dels peus, les orelles, la cara interna dels genolls i les parts laterals de les cuixes i els malucs, ocasionat per l’exposició al fred."
     },
     "peplòmer": {
@@ -4853,7 +5015,7 @@
             "holandês": "vaccinatieprogramma",
             "inglês": "relació amb el nombre de dosis"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Règim d’administració d’una vacuna, en relació amb el nombre de dosis i l’interval d’administració de cada dosi."
     },
     "pauta vacunal": {
@@ -4870,7 +5032,7 @@
             "galego": "pemziviptadil",
             "espanhol": "pemziviptadil"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Temps en què una persona pot transmetre una malaltia, un cop ha estat infectada per un microorganisme patogen."
     },
     "peritatge mèdic": {
@@ -4886,7 +5048,9 @@
             "português": "perícia médica",
             "português (PT)": "perícia médico-legal",
             "holandês": "medische expertise"
-        }
+        },
+        "categoria": "ENTORN SOCIAL.",
+        "definicao": "Activitat mèdica, que uneix la medicina i el dret, que s’ocupa de l’avaluació de la pràctica mèdica i de la valoració del dany corporal que ha patit una persona."
     },
     "període d’incubació": {
         "id": 478,
@@ -4897,7 +5061,7 @@
             "português (PT)": "fase de incubação",
             "português (BR)": "período de incubação"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Temps que transcorre entre l’entrada del germen i l’aparició dels símptomes en el curs d’una malaltia infecciosa."
     },
     "període d’infecció": {
@@ -4928,7 +5092,7 @@
             "português (BR)": "pico epidêmico",
             "holandês": "besmettingspiek"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Moment de màxima intensitat d’una epidèmia que, gràficament, es representa en el punt més alt de la corba epidèmica."
     },
     "pla de contingència contra la COVID-19": {
@@ -4946,7 +5110,9 @@
         "traducoes": {
             "português (PT)": "pessoa com maior risco de contrair",
             "holandês": "coronarisicopatiënt | coronarisicopatiënte"
-        }
+        },
+        "categoria": "ENTORN SOCIAL.",
+        "definicao": "Persona que té més vulnerabilitat per infectar-se pel SARS-CoV-2 o per emmalaltir de COVID-19 de manera greu."
     },
     "plitidepsina": {
         "id": 494,
@@ -4961,7 +5127,9 @@
             "português": "plitidepsina",
             "português (PT)": "desidrodidemnina B",
             "holandês": "plitidepsin"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antineoplàstic en investigació que atura el creixement cel·lular i indueix l’apoptosi mitjançant la inhibició de la secreció del factor de creixement de l’endoteli vascular."
     },
     "pneumònia": {
         "id": 495,
@@ -4976,7 +5144,9 @@
             "holandês": "coronanoodplan",
             "português (PT)": "plano de contingência para",
             "português (BR)": "plano de contingência para COVID-19"
-        }
+        },
+        "categoria": "ENTORN SOCIAL.",
+        "definicao": "Conjunt de procediments i instruccions alternatives a les condicions operatives normals d’una empresa, de manera que se’n permeti el funcionament, malgrat que determinats departaments, seccions, llocs de treball o funcions hagin d’interrompre la seva activitat a causa d’algun incident o per causes alienes a l’organització, en relació amb les restriccions per la pandèmia de COVID-19."
     },
     "placebo": {
         "id": 493,
@@ -4993,8 +5163,8 @@
             "português (BR)": "grupo-sentinela",
             "holandês": "peilgroep"
         },
-        "categoria": "EPIDEMIOLOGIA",
-        "definicao": "Conjunt d’habitants d’una àrea geogràfica o d’un grup de població concrets el monitoratge dels quals permet obtenir informació per a interpretar adequadament la situació epidemiològica d’una determinada malaltia en aquella àrea o grup i actuar en conseqüència."
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Substància farmacològicament inerta, sense cap principi actiu, preparada amb els mateixos aspecte, gust, olor i forma d’administració que una substància activa, que s’utilitza en la investigació farmacològica per a mesurar per comparació l’acció real d’aquesta substància."
     },
     "polaina": {
         "id": 500,
@@ -5009,7 +5179,7 @@
             "português (PT)": "polaina",
             "português (BR)": "propés"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Inflamació pulmonar aguda, sense participació bronquial, causada per un agent infecciós i caracteritzada per l’ocupació dels alvèols per un exsudat que es consolida i dona al pulmó una consistència semblant a la del fetge, que s’associa a una simptomatologia variable, com ara febre alta, cefalea, tos productiva, dispnea i dolor agut i punxant al tòrax."
     },
     "població diana": {
@@ -5025,7 +5195,7 @@
             "português": "população-alvo",
             "holandês": "doelgroep"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Conjunt de persones que són objecte d’estudi en una recerca."
     },
     "població objectiu": {
@@ -5053,7 +5223,7 @@
             "português": "vacinação primária",
             "português (BR)": "primo vacinação"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Administració de la dosi inicial o del conjunt de dosis inicials d’una vacuna a una persona susceptible amb l’objectiu que adquireixi una immunitat adequada contra la malaltia o les malalties que combat la vacuna."
     },
     "principi de beneficència": {
@@ -5082,7 +5252,9 @@
             "francês": "prednisolone",
             "português": "prednisolona",
             "holandês": "prednisolon"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antiinflamatori, antial·lèrgic, immunosupressor i antineoplàstic que inhibeix la síntesi de les prostaglandines i dels leucotriens."
     },
     "prevalença": {
         "id": 503,
@@ -5097,7 +5269,7 @@
             "português": "princípio da precaução",
             "holandês": "voorzorgsbeginsel"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Nombre de persones afectades per una malaltia determinada, o exposades a un en precautionary principle n fr principe de précaution n m pt princípio da precaução n m nl voorzorgsbeginsel n ar ‫الحذر‬ ‫مبدأ‬ ‫الوقاية؛‬ ‫مبدأ‬ TRACTAMENT. Principi segons el qual s’han de promoure mesures protectores quan se sospita que una acció pot tenir conseqüències adverses per a la salut humana, per als animals o per al medi ambient, encara que no se’n tingui la certesa absoluta des d’un punt de vista científic."
     },
     "priorització": {
@@ -5113,7 +5285,7 @@
             "português": "priorização",
             "holandês": "prioritering"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Decisió en virtut de la qual es dona atenció preferent a una persona, a una situació o a un tema per davant d’altres, segons determinats valors, oportunitats o preferències."
     },
     "principi de no-maleficència": {
@@ -5125,7 +5297,7 @@
             "português": "princípio da não-maleficência",
             "português (BR)": "não maleficência"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Principi bioètic que implica l’obligació de no fer mal a les persones ateses."
     },
     "principi de precaució": {
@@ -5141,7 +5313,7 @@
             "português": "proteína estrutural",
             "holandês": "structureel eiwit"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Proteïna la funció principal de la qual és contribuir a donar la forma i l’estructura de les cèl·lules i dels teixits."
     },
     "proteïna S": {
@@ -5156,7 +5328,7 @@
             "português (BR)": "proteína da espícula",
             "holandês": "spike-eiwit"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Proteïna transmembrana constituent de les espícules dels coronavirus que conté el domini d’unió al receptor cel·lular i possibilita la fusió de la membrana del virus amb la membrana cel·lular, de manera que l’RNA víric s’allibera dins la cèl·lula infectada."
     },
     "pròdrom": {
@@ -5171,7 +5343,7 @@
             "francês": "prodrome",
             "português": "pródromo"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Senyal precursor d’alguna malaltia."
     },
     "proteïna C reactiva": {
@@ -5187,9 +5359,7 @@
             "português (PT)": "proteína C-reativa",
             "português (BR)": "proteína C reativa",
             "holandês": "C-reactief proteïne"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Pentraxina que s’uneix a la fosforilcolina constituent del polisacàrid C dels pneumococs, i actua com a opsonina."
+        }
     },
     "proteïna estructural": {
         "id": 514,
@@ -5201,9 +5371,7 @@
             "português (PT)": "teste combinado",
             "português (BR)": "teste de amostras combinadas",
             "holandês": "mengmonster"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Sistema de cribratge que consisteix a combinar diverses mostres en una única mescla, de manera que es fa una única prova diagnòstica sobre la mostra combinada."
+        }
     },
     "prova diagnòstica amb PCR": {
         "id": 521,
@@ -5223,9 +5391,7 @@
             "português (PT)": "teste de antigénio",
             "português (BR)": "teste de antígeno",
             "holandês": "antigeen-sneltest"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Prova de detecció de proteïnes de microorganismes presents en una mostra biològica."
+        }
     },
     "prova de mostres combinades": {
         "id": 519,
@@ -5236,9 +5402,7 @@
             "português (PT)": "teste de diagnóstico rápido",
             "holandês": "sneltest",
             "inglês": "uns 10-15 minuts."
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Prova qualitativa de diagnòstic o de cribratge de la COVID-19, en què es detecta mitjançant immunocromatografia la presència d’antígens en una mostra de mucosa orofaríngia o nasofaríngia o la presència d’anticossos en una gota de sang, respectivament, de manera senzilla i en uns 10-15 minuts."
+        }
     },
     "prova serològica": {
         "id": 526,
@@ -5250,9 +5414,7 @@
             "português (BR)": "teste de reação em cadeia da",
             "holandês": "PCR-test",
             "português": "teste PCR"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Prova quantitativa de diagnòstic o de cribratge, en què es detecta la presència d’antígens o d’anticossos en la sang, en unes 48-72 hores. es\t\u0007 prueba de PCR n f; prueba de reacción en cadena de la polimerasa n f; prueba diagnóstica mediante PCR n f; test de PCR n m en\t\u0007 PCR diagnostic test n; PCR test n; polymerase chain reaction test n fr test diagnostique par PCR n m; test PCR n m pt teste PCR n m pt [PT] teste de diagnóstico por PCR n m; \t\t teste de PCR n m pt [BR] teste de reação em cadeia da \t\t polimerase n m nl PCR-test n; PCR n ar \"‫آر‬ ‫سي‬ ‫\"بي‬ ‫الـ‬ ‫المتسلسل‬ ‫البلمرة‬ ‫تفاعل‬ ‫اختبار‬"
+        }
     },
     "hores mitjançant una PCR.": {
         "id": 4,
@@ -5274,7 +5436,7 @@
             "português (BR)": "local da aplicação",
             "holandês": "injectieplaats"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Punt anatòmic en què s’injecta una vacuna."
     },
     "quarantenar v tr": {
@@ -5289,7 +5451,7 @@
             "português": "ficar em quarentena v tr",
             "holandês": "in quarantaine gaan v intr"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Posar algú en quarantena."
     },
     "quarantenat -ada adj": {
@@ -5305,7 +5467,7 @@
             "português": "colocado em quarentena",
             "holandês": "in quarantaine loc"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Dit de la persona posada en quarantena."
     },
     "qualitat de vida": {
@@ -5321,7 +5483,7 @@
             "português": "qualidade de vida",
             "holandês": "levenskwaliteit"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Percepció que té una persona de la seva condició de vida, determinada a partir de l’escala de valors, les aspiracions i les expectatives personals en els diferents àmbits de la vida personal, familiar i social."
     },
     "quarantena": {
@@ -5337,7 +5499,7 @@
             "português": "quarentena",
             "holandês": "quarantaine"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Restricció de les activitats de persones o animals sans que han estat en contacte amb una persona o un animal amb una malaltia contagiosa durant la fase en què la malaltia que identifica les característiques pròpies de la infecció pulmonar dels pacients amb COVID-19."
     },
     "rastreig de contactes": {
@@ -5347,7 +5509,7 @@
             "português (PT)": "rastreio de contactos",
             "português (BR)": "rastreamento de contatos"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Tècnica per a fer el seguiment i tractament de les persones que han tingut contacte estret amb una persona infectada per una malaltia epidèmica, amb la finalitat de frenar la progressió de la malaltia."
     },
     "radiografia": {
@@ -5362,9 +5524,7 @@
             "francês": "radiographie",
             "português": "radiografia",
             "holandês": "radiografie"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Tècnica exploratòria que consisteix a sotmetre un cos o un objecte a l’acció dels raigs X per a obtenir-ne una imatge sobre una superfície sensible, com ara una placa radiogràfica."
+        }
     },
     "radiòmica": {
         "id": 538,
@@ -5379,9 +5539,7 @@
             "português (PT)": "radiómica",
             "português (BR)": "radiômica",
             "holandês": "radiomics"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Tècnica que aprofita els avenços en les aplicacions d’intel·ligència artificial per a oferir un rendiment més alt en les proves d’imatge clàssiques."
+        }
     },
     "ratpenat": {
         "id": 545,
@@ -5400,7 +5558,7 @@
             "português (PT)": "morcego-de-ferradura-pequeno",
             "português (BR)": "morcego de ferradura pequeno"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Ratapinyada molt petita, d’entre"
     },
     "i 45 cm, d’orelles doblegades": {
@@ -5419,7 +5577,7 @@
             "português (BR)": "rastreador de contato | rastreadora de",
             "holandês": "\u0007contactonderzoeker | contactonderzoekster"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Persona que s’encarrega d’entrevistar els contactes estrets d’una persona amb una malaltia infecciosa per a fer-ne el rastreig."
     },
     "ratapinyada": {
@@ -5435,7 +5593,7 @@
             "português": "morcego",
             "holandês": "vleermuis"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Mamífer volador de l’ordre quiròpters, de mida petita i d’orelles grosses,"
     },
     "reacció en cadena per la polimerasa": {
@@ -5447,9 +5605,7 @@
             "galego": "reacción en cadea da polimerase",
             "inglês": "polymerase chain reaction",
             "holandês": "polymerasekettingreactie"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Tècnica de genètica molecular consistent en cicles repetits de separació, associació i síntesi de DNA conduïts per parells d’encebadors orientats recíprocament, que permet copiar i amplificar in vitro seqüències de DNA específiques."
+        }
     },
     "reacció general": {
         "id": 551,
@@ -5472,7 +5628,9 @@
             "português": "ravulizumab",
             "português (BR)": "ravulizumabe",
             "holandês": "ravulizumab"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac contra la proteïna factor del complement 5 que, potencialment, impedeix la destrucció de glòbuls vermells i la formació de coàguls."
     },
     "reacció adversa a vacuna": {
         "id": 549,
@@ -5489,7 +5647,7 @@
             "holandês": "bijwerking van een vaccin",
             "português (BR)": "nova onda epidêmica"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Brot epidèmic d’una malaltia que es produeix en un territori durant la fase de remissió d’una epidèmia d’aquesta mateixa malaltia."
     },
     "recaiguda": {
@@ -5506,7 +5664,7 @@
             "português (BR)": "recidiva",
             "holandês": "hervallen"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Represa evolutiva d’una malaltia en el període de convalescència, quan era aparentment en vies de guarició."
     },
     "recidiva": {
@@ -5524,7 +5682,7 @@
             "português (BR)": "reação sistêmica",
             "holandês": "systeemreactie"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Reacció a una vacuna que afecta tot l’organisme o un o més dels seus sistemes."
     },
     "reacció local": {
@@ -5540,7 +5698,7 @@
             "português": "reação local",
             "holandês": "locale reactie"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Reacció a una vacuna que apareix al punt d’injecció, consistent generalment en una inflamació."
     },
     "reacció sistèmica": {
@@ -5575,7 +5733,7 @@
             "português (BR)": "fisioterapia respiratória",
             "holandês": "ademhalingsrevalidatie"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Maniobres i exercicis per a entrenar els músculs respiratoris amb l’objectiu de millorar la capacitat pulmonar, la dispnea, la tolerància a l’esforç i la qualitat de vida de les persones amb patologies respiratòries."
     },
     "reinfecció": {
@@ -5592,7 +5750,7 @@
             "português (BR)": "recidiva",
             "holandês": "recidief"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Infecció nova, en una persona ja infectada per un bacteri o un virus determinat, per una soca o una variant diferent de la mateixa espècie de l’agent infecciós actiu. fr récidive n f pt [BR] recidiva n f; recorrência n f nl recidief n; recidieve n ar ‫َضية‬‫ر‬َ‫م‬ ‫انتكاسة‬"
     },
     "recrudescència": {
@@ -5609,7 +5767,7 @@
             "português (BR)": "exacerbação",
             "holandês": "recrudescentie"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Exacerbació d’un símptoma o d’una malaltia després d’una remissió temporal, sense que hi hagi hagut convalescència, i que pot produir-se després d’alguns dies o setmanes de remissió."
     },
     "regdanvimab": {
@@ -5625,7 +5783,9 @@
             "português (PT)": "regdanvimab",
             "português (BR)": "regdanvimabe",
             "holandês": "regdanvimab"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac en investigació, amb efecte neutralitzant i antivíric, que s’uneix a la"
     },
     "respiració artificial": {
         "id": 568,
@@ -5637,7 +5797,7 @@
             "português": "respiração artificial",
             "português (BR)": "respiração assistida"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Substitució de la funció pulmonar, manualment o amb un aparell, quan la respiració és insuficient per al manteniment de la vida."
     },
     "respirador": {
@@ -5666,7 +5826,9 @@
             "francês": "remdésivir",
             "português": "remdesivir",
             "holandês": "remdesivir"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antivíric que provoca un decrement de la producció d’RNA víric mitjançant la inhibició de l’RNA-polimerasa dirigida per RNA."
     },
     "reservori": {
         "id": 567,
@@ -5681,7 +5843,7 @@
             "português": "reservatório",
             "holandês": "reservoir"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Organisme, teixit o cèl·lula que actua com a dipòsit on un agent infecciós es manté en estat de latència o en condicions de resistència."
     },
     "revacunació": {
@@ -5697,7 +5859,7 @@
             "português": "revacinação",
             "holandês": "herhaalvaccinatie"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Administració a una persona d’una vacuna que ja li havia estat administrada en primovacunació."
     },
     "ribavirina": {
@@ -5713,7 +5875,7 @@
             "português": "ribavirina",
             "holandês": "ribavirine"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Aparell utilitzat per a proporcionar una respiració artificial mecànica."
     },
     "resposta immunitària": {
@@ -5730,7 +5892,7 @@
             "português (BR)": "resposta imune",
             "holandês": "immuniteitsreactie"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Reacció d’un organisme contra la presència de substàncies estranyes vehiculada per les cèl·lules i les molècules del sistema immunitari."
     },
     "retrovirus": {
@@ -5759,7 +5921,9 @@
             "francês": "ritonavir",
             "português": "ritonavir",
             "holandês": "ritonavir"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antiretroviral que inhibeix les proteases 1 i 2 del virus de la immunodeficiència humana."
     },
     "RNA missatger": {
         "id": 577,
@@ -5768,7 +5932,7 @@
             "occitan": "RNA messatgèr",
             "português (BR)": "ácido ribonucleico mensageiro"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Àcid ribonucleic que conté la informació genètica en forma de codó o triplet de nucleòtids que determina la seqüència d'aminoàcids d'una proteïna."
     },
     "ruxolitinib": {
@@ -5784,7 +5948,9 @@
             "português (PT)": "ruxolitinib",
             "português (BR)": "ruxolitinibe",
             "holandês": "ruxolitinib"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac immunomodulador i antineoplàstic que inhibeix de forma selectiva les cinases JAK1 i JAK2."
     },
     "salut pública": {
         "id": 582,
@@ -5800,7 +5966,7 @@
             "português (BR)": "saúde pública",
             "holandês": "volksgezondheid"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Conjunt d’accions col·lectives de la societat que asseguren les condicions de salut de la població."
     },
     "sanitarització": {
@@ -5815,7 +5981,9 @@
             "francês": "assainissement",
             "português": "uso de locais ou espaços públicos",
             "holandês": "omvorming tot sanitaire ruimte"
-        }
+        },
+        "categoria": "ENTORN SOCIAL.",
+        "definicao": "Convertir un espai en un lloc sanitari, especialment un espai públic que habitualment té un altre ús."
     },
     "salt d’espècie": {
         "id": 579,
@@ -5831,7 +5999,7 @@
             "português (BR)": "salto de espécie",
             "holandês": "oversprong"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Pas d’un agent infecciós des d’un reservori fins a un hoste nou."
     },
     "salut en el treball": {
@@ -5847,7 +6015,9 @@
             "português": "saúde ocupacional",
             "português (PT)": "medicina do trabalho",
             "português (BR)": "saúde do trabalhador"
-        }
+        },
+        "categoria": "ENTORN SOCIAL.",
+        "definicao": "Estat de benestar físic, psíquic i social dels treballadors en relació amb el seu lloc de treball i amb les condicions de l’entorn laboral."
     },
     "selinexor": {
         "id": 590,
@@ -5861,7 +6031,9 @@
             "francês": "selinexor",
             "português": "selinexor",
             "holandês": "selinexor"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac inhibidor selectiu de l’exportació nuclear, mitjançant la inhibició de l’exportina 1, que bloca el transport de diverses proteïnes relacionades amb el creixement de cèl·lules canceroses i provoca l’aturada del cicle cel·lular i la inducció de l’apoptosi."
     },
     "sarilumab": {
         "id": 584,
@@ -5876,7 +6048,9 @@
             "português (PT)": "sarilumab",
             "português (BR)": "sarilumabe",
             "holandês": "sarilumab"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac immunomodulador que inhibeix el receptor de la interleucina 6."
     },
     "sedació": {
         "id": 589,
@@ -5890,9 +6064,7 @@
             "português (PT)": "serologia",
             "português (BR)": "sorologia",
             "holandês": "serologie"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Branca de la immunologia que estudia les reaccions dels antígens amb els anticossos i que s’ocupa del diagnòstic de malalties mitjançant l’estudi in vitro de les reaccions antigen-anticòs."
+        }
     },
     "seroprevalença": {
         "id": 595,
@@ -5908,7 +6080,7 @@
             "português (BR)": "soroprevalência",
             "holandês": "seroprevalentie"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Nombre de persones seropositives respecte a un antigen concret amb relació al nombre total de persones a les quals s’ha realitzat una prova serològica."
     },
     "seroteràpia": {
@@ -5939,7 +6111,7 @@
             "português (BR)": "sepse",
             "holandês": "sepsis"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Disfunció orgànica potencialment mortal causada per una resposta desregulada de l’hoste a una infecció."
     },
     "seqüela": {
@@ -5955,7 +6127,7 @@
             "português": "sequela",
             "holandês": "gevolg"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Alteració funcional o orgànica, amb tendència a persistir, que apareix com a conseqüència d’una malaltia, un traumatisme, una intervenció quirúrgica o un tractament mèdic."
     },
     "serologia": {
@@ -5970,7 +6142,9 @@
             "francês": "service de prévention",
             "português": "serviço de prevenção",
             "holandês": "preventieafdeling"
-        }
+        },
+        "categoria": "ENTORN SOCIAL.",
+        "definicao": "Conjunt de mitjans materials i humans necessaris per a dur a terme activitats preventives en un centre de treball amb l’objectiu de garantir la protecció de la salut i la seguretat a la feina."
     },
     "signe": {
         "id": 602,
@@ -5984,7 +6158,7 @@
             "francês": "signe",
             "português": "sinal"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Manifestació objectiva que evidencia l’existència d’una malaltia i que constitueix un factor de diagnòstic i de pronòstic."
     },
     "siltuximab": {
@@ -6001,7 +6175,7 @@
             "português (BR)": "siltuximabe",
             "holandês": "serotherapie"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Tractament d’una malaltia infecciosa mitjançant l’administració d’un antisèrum, que pot conferir immunització passiva."
     },
     "serotip": {
@@ -6017,7 +6191,7 @@
             "português (BR)": "sorotipo",
             "holandês": "serotype"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Categoria taxonòmica subespecífica que s’aplica a les soques d’un microorganisme que presenten característiques antigèniques distintives."
     },
     "servei de prevenció": {
@@ -6030,7 +6204,7 @@
             "português (PT)": "semiologia",
             "holandês": "semiologie"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Conjunt dels símptomes d’una malaltia o d’un malalt."
     },
     "sindèmia": {
@@ -6046,13 +6220,15 @@
             "português": "sindemia",
             "holandês": "syndemie"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Epidèmia caracteritzada per la coexistència de dues o més malalties que interaccionen de manera sinergètica i produeixen una càrrega excessiva de malaltia en una població."
     },
     "síndrome del destret respiratori de l’adult": {
         "id": 609,
         "termo_catalao": "síndrome del destret respiratori de l’adult",
-        "traducoes": {}
+        "traducoes": {},
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antineoplàstic i immunomodulador que inhibeix la interleucina 6 mitjançant la formació de complexos d’alta afinitat."
     },
     "símptoma": {
         "id": 604,
@@ -6066,7 +6242,7 @@
             "francês": "symptôme",
             "português": "sintoma"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Manifestació subjectiva percebuda pel pacient que indica la possible existència d’una malaltia."
     },
     "simptomatologia": {
@@ -6089,7 +6265,7 @@
             "português (PT)": "síndrome de dificuldade respiratória",
             "português (BR)": "síndrome da angústia respiratória"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Síndrome pulmonar amb un quadre d’insuficiència respiratòria, d’etiologia molt diversa, que es dona en nadons, més freqüentment en gl\t\u0007 pulmón de choque n m; síndrome de dificultade respiratoria aguda n f; síndrome do desconforto respiratorio agudo n f; síndrome do desconforto respiratorio do adulto n f; SDRA n f es\t\u0007 pulmón de shock n m; síndrome de dificultad respiratoria aguda n m; síndrome de dificultad respiratoria del adulto n m; síndrome de distrés respiratorio agudo n m; SDRA n m en\t\u0007 acute respiratory distress syndrome n; adult respiratory distress syndrome n; respiratory distress syndrome n; shock lung n; ARDS n fr\t\u0007 détresse respiratoire de l’adulte n f; syndrome de détresse respiratoire n m; syndrome de détresse respiratoire aiguë n m; syndrome de détresse respiratoire de l’adulte n m; SDRA n m pt [PT] síndrome de dificuldade respiratória \t\t aguda n f; síndrome de dificuldade \t\t respiratória do adulto n f; SDRA n f pt [BR] síndrome da angústia respiratória \t\t aguda n f; síndrome de angústia respiratória \t\t aguda n f; síndrome de angústia \t\t respiratória do adulto n f; SARA n f nl\t\u0007 acuut ademhalingsnoodsyndroom n; shocklong n; ARDS n ar\t\u0007 ‫ن‬‫البالغي‬ ‫لدى‬ ‫التنفسية‬ ‫الضائقة‬ ‫متالزمة‬"
     },
     "síndrome respiratòria de l’Orient Mitjà": {
@@ -6100,7 +6276,7 @@
             "português": "síndrome respiratória",
             "português (BR)": "síndrome respiratória"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Malaltia respiratòria causada pel MERS- CoV, que es manifesta amb febre, tos, pneumònia, dificultat respiratòria i afectació renal, i que presenta una mortalitat alta."
     },
     "siròlimus": {
@@ -6127,7 +6303,7 @@
             "português (BR)": "pneumonia por coronavírus SARS-CoV",
             "holandês": "socialisatie"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Malaltia respiratòria causada pel SARS-CoV, que es manifesta amb febre alta, tos seca, cefalees i miàlgies, de vegades amb diarrea, i que pot derivar en una pneumònia greu."
     },
     "sonda": {
@@ -6142,9 +6318,7 @@
             "francês": "sonde",
             "português": "sonda",
             "holandês": "probe"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Molècula marcada amb isòtops radioactius o amb altres mètodes per a poder-la identificar fàcilment que s’utilitza per a identificar o aïllar un gen, un producte gènic o una proteïna."
+        }
     },
     "sotrovimab": {
         "id": 619,
@@ -6155,7 +6329,9 @@
             "galego": "sotrovimab",
             "espanhol": "sotrovimab",
             "inglês": "sotrovimab"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac immunosupressor que inhibeix la proteïna-cinasa mTOR i interfereix en la senyalització de la interleucina 2, de manera que evita la proliferació dels limfòcits."
     },
     "soca": {
         "id": 615,
@@ -6170,7 +6346,7 @@
             "português": "cepa",
             "holandês": "stam"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Variant genèticament estable d’un virus que difereix de la variant tipus de referència per a aquest virus en algun tret que li confereix un fenotip d’infecció significativament diferent i observable."
     },
     "socialització": {
@@ -6184,7 +6360,9 @@
             "inglês": "socialization",
             "francês": "socialisation",
             "português": "socialização"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antineoplàstic en investigació que podria actuar interferint els processos de producció de SUMO."
     },
     "supercontagiador -a adj": {
         "id": 624,
@@ -6198,7 +6376,7 @@
             "português (PT)": "supercontagiador",
             "holandês": "superbesmetter superverspreider -ster"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Dit de la persona infectada o de la situació de contacte personal amb capacitat de transmetre una malaltia a un gran nombre de persones no infectades."
     },
     "suport vital": {
@@ -6213,7 +6391,9 @@
             "português (PT)": "sotrovimab",
             "português (BR)": "sotrovimabe",
             "holandês": "sotrovimab"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antivíric amb efecte neutralitzant que s’uneix a la superfície de la proteïna S del SARS-CoV-2 per a evitar que el virus infecti la cèl·lula hoste."
     },
     "subasumstat": {
         "id": 623,
@@ -6230,7 +6410,7 @@
             "português (PT)": "suporte vital",
             "português (BR)": "suporte básico de vida"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Conjunt de mesures que substitueixen una funció vital, les quals en algunes circumstàncies poden proporcionar el temps necessari per a la recuperació, si bé per si mateixes no reverteixen la malaltia del pacient."
     },
     "susceptible adj": {
@@ -6246,7 +6426,7 @@
             "português": "suscetível",
             "holandês": "vatbaar -are"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Que no presenta immunitat contra una malaltia infecciosa determinada."
     },
     "taquicàrdia": {
@@ -6262,7 +6442,7 @@
             "português (PT)": "taquisistolia",
             "holandês": "tachycardie"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Augment de la freqüència cardíaca per sobre les 100 contraccions per minut, que no altera la regularitat del ritme cardíac."
     },
     "taxa de contagi": {
@@ -6291,7 +6471,9 @@
             "francês": "thalidomide",
             "português": "talidomida",
             "holandês": "thalidomide"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac immunomodulador i teratogen que inhibeix el factor de necrosi tumoral alfa, activa els limfòcits T, inhibeix l’angiogènesi i modula l’alliberament de citocines."
     },
     "telemedicina": {
         "id": 636,
@@ -6305,7 +6487,9 @@
             "francês": "télémédecine",
             "português": "telemedicina",
             "holandês": "telegeneeskunde"
-        }
+        },
+        "categoria": "ENTORN SOCIAL.",
+        "definicao": "Atenció no presencial d’un pacient basada en l’intercanvi d’informació entre professionals sanitaris o entre professionals sanitaris i pacients per mitjà de les tecnologies de la informació i la comunicació."
     },
     "teletreball": {
         "id": 637,
@@ -6321,7 +6505,7 @@
             "português (BR)": "home office",
             "holandês": "afstandswerk"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Nombre de persones de mitjana que infecta una persona contagiada."
     },
     "taxa de letalitat": {
@@ -6337,7 +6521,7 @@
             "português": "taxa de letalidade",
             "holandês": "letaliteit"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Taxa que expressa el nombre de morts en una població de persones afectades per una malaltia o un problema de salut, per unitat de temps."
     },
     "taxa de mortalitat": {
@@ -6350,7 +6534,7 @@
             "português": "taxa de mortalidade",
             "holandês": "mortaliteit"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Taxa que expressa la relació entre el nombre de persones d’un grup o comunitat que han mort en un període de temps DIAGNÒSTIC. Prova per a determinar el temps de coagulació d’un plasma descalcificat en presència d’un excés de protrombocinasa tissular."
     },
     "temps de recuperació": {
@@ -6364,7 +6548,9 @@
             "português": "tempo de recuperação",
             "português (BR)": "tempo de convalescença",
             "holandês": "convalescentieperiode"
-        }
+        },
+        "categoria": "ENTORN SOCIAL.",
+        "definicao": "Període de temps després d’una malaltia, una lesió o una intervenció quirúrgica fins a la completa restauració de la salut."
     },
     "tenofovir": {
         "id": 643,
@@ -6390,7 +6576,9 @@
             "espanhol": "tormenta de citocinas",
             "português": "tempestade de citocinas",
             "holandês": "cytokinestorm"
-        }
+        },
+        "categoria": "CONCEPTES GENERALS.",
+        "definicao": "Situació de gran desequilibri immunitari, potencialment mortal, en què es produeix un fenomen de retroalimentació positiva incontrolable entre les citocines i les cèl·lules immunitàries per la infecció de determinats agents patògens."
     },
     "temps de protrombina": {
         "id": 640,
@@ -6420,9 +6608,7 @@
             "francês": "testage massif",
             "português": "testagem em massa",
             "holandês": "massaal testen"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Estratègia per a avaluar la presència d’alguna patologia en una gran part de la població mitjançant l’administració de proves diagnòstiques a un nombre elevat de persones."
+        }
     },
     "títol d’anticossos": {
         "id": 653,
@@ -6436,7 +6622,9 @@
             "francês": "titre d’anticorps",
             "português (PT)": "título de anticorpos",
             "português (BR)": "titulação de anticorpos"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antivíric inhibidor de la transcriptasa inversa, anàleg de nucleòtid acíclic, que interfereix en la replicació vírica i s’incorpora a la nova cadena de DNA forçant la terminació de la cadena i aturant-ne la replicació."
     },
     "test d’anticossos": {
         "id": 644,
@@ -6450,9 +6638,7 @@
             "português": "teste de anticorpos",
             "português (PT)": "análise de anticorpos",
             "holandês": "antilichaamtest"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Prova diagnòstica serològica basada en la detecció d’anticossos en la sang."
+        }
     },
     "test d’antígens": {
         "id": 645,
@@ -6472,7 +6658,9 @@
             "português (PT)": "tocilizumab",
             "português (BR)": "tocilizumabe",
             "holandês": "tocilizumab"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac immunomodulador que inhibeix el receptor de la interleucina 6 i interfereix la senyalització mediada per aquest receptor."
     },
     "tos": {
         "id": 657,
@@ -6481,9 +6669,7 @@
             "occitan": "tos",
             "euskera": "eztul",
             "holandês": "antilichaamtiter"
-        },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Estimació semiquantitativa de la concentració d’anticossos en una mostra de sang."
+        }
     },
     "tixagevimab": {
         "id": 654,
@@ -6498,7 +6684,9 @@
             "português": "tixagevimab",
             "português (BR)": "tixagevimabe",
             "holandês": "tixagevimab"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac en investigació, amb efecte neutralitzant i antivíric, que s’uneix a la superfície de la proteïna S del SARS-CoV-2 per a evitar que el virus infecti la cèl·lula hoste."
     },
     "toc de queda": {
         "id": 655,
@@ -6513,7 +6701,9 @@
             "português (PT)": "recolher obrigatório",
             "português (BR)": "toque de recolher",
             "holandês": "avondklok"
-        }
+        },
+        "categoria": "ENTORN SOCIAL.",
+        "definicao": "Mesura governativa que, en circumstàncies excepcionals, prohibeix a la"
     },
     "tovalloleta antibaf": {
         "id": 660,
@@ -6528,7 +6718,7 @@
             "português (BR)": "lenço antiembaçamento",
             "holandês": "anticondensdoekje"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Tovalloleta impregnada amb una substància que, un cop fregada sobre una superfície de vidre, especialment en unes ulleres, impedeix que el vidre s’enteli."
     },
     "tozinameran": {
@@ -6543,7 +6733,7 @@
             "francês": "toux",
             "holandês": "hoest"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Expulsió brusca, violenta i sorollosa de l’aire toràcic produïda per la irritació de les vies respiratòries o per un reflex nerviós originat en un altre òrgan."
     },
     "tos productiva": {
@@ -6559,7 +6749,7 @@
             "português": "tosse produtiva",
             "holandês": "natte hoest"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Tos que va seguida d’expectoració."
     },
     "tos seca": {
@@ -6577,7 +6767,7 @@
             "português (BR)": "tratamento ambulatorial",
             "holandês": "ambulante behandeling"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Tos que no va seguida d’expectoració. fr traitement ambulatoire n m pt [PT] tratamento em ambulatório n m pt [BR] tratamento ambulatorial n m nl ambulante behandeling n; ambulante zorg n ar ‫الخارجية‬ ‫بالعيادات‬ ‫عالج‬ TRACTAMENT. Tractament que és compatible amb el desplaçament del malalt al centre mèdic."
     },
     "transmissible adj": {
@@ -6593,7 +6783,7 @@
             "português": "transmissível",
             "holandês": "besmettelijk -e"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Dit de la malaltia que pot ser propagada d’un individu a un altre o d’una espècie a una altra per contagi."
     },
     "transmissió": {
@@ -6608,7 +6798,7 @@
             "francês": "transmission",
             "português": "transmissão"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Pas de malalties infeccioses o de caràcters hereditaris per contagi o per transferència."
     },
     "transmissió comunitària": {
@@ -6619,7 +6809,7 @@
             "euskera": "transmisio komunitario",
             "português (BR)": "vacina da Pfizer"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Vacuna anti COVID-19 que utilitza l’RNA missatger codificador de la proteïna S del SARS-CoV-2."
     },
     "traçabilitat": {
@@ -6635,7 +6825,7 @@
             "português": "rastreabilidade",
             "holandês": "traceerbaarheid"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Capacitat de reproduir l’historial d’un producte o d’un fet esdevingut, a fi de localitzar ràpidament l’origen de problemes que puguin sorgir, controlar-los, resoldre’ls i, si és possible, evitar-los en el futur."
     },
     "tractament ambulatori": {
@@ -6650,7 +6840,7 @@
             "francês": "transmission verticale",
             "português": "transmissão vertical"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Transmissió d’una infecció de la mare al fetus."
     },
     "traqueotomia": {
@@ -6666,7 +6856,7 @@
             "português": "traqueotomia",
             "holandês": "tracheotomie"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Operació que consisteix a obrir la tràquea, ja sigui per a extreure’n un cos estrany, per a crear una traqueostomia o per a facilitar la respiració quan hi ha un obstacle a la part superior de l’aparell respiratori."
     },
     "triatge": {
@@ -6681,7 +6871,7 @@
             "francês": "transmission communautaire",
             "português": "transmissão comunitária"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Transmissió local d’una malaltia infecciosa entre els membres d’una mateixa comunitat, que no és deguda a casos importats de fora de la comunitat."
     },
     "transmissió horitzontal": {
@@ -6696,7 +6886,7 @@
             "francês": "transmission horizontale",
             "português": "transmissão horizontal"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Transmissió d’una infecció d’un individu a un altre, generalment per contacte a través de les seves secrecions."
     },
     "transmissió vertical": {
@@ -6705,7 +6895,7 @@
         "traducoes": {
             "occitan": "transmission verticau"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Coagulació intravascular de la sang arterial o venosa, que produeix l’oclusió o l’estretor de la llum del vas sanguini afectat i, com a conseqüència, una isquèmia o un infart del territori orgànic irrigat."
     },
     "TRV027": {
@@ -6721,8 +6911,8 @@
             "português": "triagem",
             "holandês": "luchtpijpsnede"
         },
-        "categoria": "DIAGNÒSTIC",
-        "definicao": "Procediment sistemàtic de classificació de persones malaltes o accidentades que necessiten atenció urgent, amb l’objectiu de prioritzar l’atenció de les que estan més greus o de les que necessiten una atenció sense demora, a fi que puguin rebre el tractament més adequat."
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac en investigació agonista selectiu del receptor AT1 del sistema renina-angiotensina que atura la hiperactivació causada pel SARS-CoV-2, de manera que permet reduir la formació anormal de coàguls sanguinis associada a la COVID-19."
     },
     "trombe": {
         "id": 673,
@@ -6737,7 +6927,7 @@
             "português": "trombo",
             "holandês": "bloedprop"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Massa de sang coagulada dins un vas, arterial o venós."
     },
     "trombosi": {
@@ -6763,7 +6953,7 @@
             "português": "unidade de cuidados intensivos",
             "português (BR)": "centro de terapia intensiva"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Unitat hospitalària on es té cura constant de pacients en estat crític o de gravetat extrema."
     },
     "ulleres nasals n f pl": {
@@ -6779,7 +6969,7 @@
             "português": "cânula nasal",
             "holandês": "neusbril"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Instrument utilitzat per a fluxos d’oxigen reduïts que consta de dos tubs petits flexibles que s’introdueixen a l’entrada de les fosses nasals."
     },
     "umifenovir": {
@@ -6794,7 +6984,9 @@
             "francês": "umifénovir",
             "português": "umifenovir",
             "holandês": "umifenovir"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antivíric i immunomodulador que té activitat viricida dual, directa i inhibidora de diverses etapes del cicle vital dels virus."
     },
     "unitat de vigilància intensiva": {
         "id": 681,
@@ -6814,7 +7006,7 @@
             "português": "urticária",
             "holandês": "netelroos"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Exantema caracteritzat per la formació de favasses pruriginoses i evanescents, que pot tenir causes diverses i pot evolucionar de forma aguda o crònica."
     },
     "ús compassiu": {
@@ -6830,8 +7022,8 @@
             "português": "uso compassivo",
             "português (BR)": "uso humanitário"
         },
-        "categoria": "TRACTAMENT",
-        "definicao": "Utilització d’un medicament que encara es troba en període experimental per a tractar malalts en fase molt avançada o per als quals no hi ha cap altre tractament possible. PREVENCIÓ. Vacuna preventiva que té com a objectiu potenciar una resposta immunitària específica contra la COVID-19."
+        "categoria": "PREVENCIÓ.",
+        "definicao": "Vacuna preventiva que té com a objectiu potenciar una resposta immunitària específica contra la COVID-19."
     },
     "vacuna AstraZeneca": {
         "id": 690,
@@ -6842,7 +7034,7 @@
             "português (BR)": "vacina de Oxford",
             "holandês": "AstraZeneca"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Vacuna anti COVID-19 de vectors vírics preparada amb adenovirus atenuat de ximpanzé, que introdueix en l’organisme el material genètic que expressa la proteïna S del SARS-CoV-2."
     },
     "vacuna": {
@@ -6858,7 +7050,7 @@
             "português": "vacina",
             "holandês": "entstof"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Preparat que s’utilitza amb finalitat preventiva o terapèutica per a provocar immunitat activa contra una possible infecció o contra altres malalties."
     },
     "vacuna anti COVID-19": {
@@ -6888,7 +7080,7 @@
             "português (PT)": "CVnCoV",
             "holandês": "CureVac-vaccin"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Vacuna anti COVID-19 que utilitza l’RNA missatger codificador de la proteïna S del SARS-CoV-2."
     },
     "vacuna BBIBP-CorV": {
@@ -6904,7 +7096,7 @@
             "português (BR)": "vacina da Sinopharm",
             "holandês": "BBIBP-CorV-vaccin"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Vacuna anti COVID-19 que conté el SARS-CoV-2 inactivat mitjançant propiolactona beta, la qual s’uneix a l’RNA víric i n’evita la replicació però deixa la proteïna S intacta."
     },
     "vacuna CanSino": {
@@ -6916,7 +7108,7 @@
             "português (PT)": "vacina Convidecia",
             "holandês": "CanSino-vaccin"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Vacuna anti COVID-19 de vectors vírics no replicatius preparada amb adenovirus"
     },
     "vacuna Janssen": {
@@ -6930,7 +7122,7 @@
             "português (BR)": "vacina da Janssen",
             "holandês": "Janssen-vaccin"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Vacuna anti COVID-19 de vectors vírics no replicatius preparada amb adenovirus humà Ad26, que introdueix en l’organisme el material genètic que expressa la proteïna S del SARS-CoV-2."
     },
     "vacuna Johnson & Johnson": {
@@ -6952,14 +7144,14 @@
             "português": "vacina de RNA mensageiro",
             "português (PT)": "vacina ARNm"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Vacuna preparada mitjançant tècniques d’enginyeria genètica amb una cadena d’RNA missatger sintetitzat a partir del codi genètic d’un agent patogen, amb l’objectiu que l’organisme vacunat sintetitzi una proteïna innòcua d’aquest agent, la qual funciona com a antigen i activa el sistema immunitari."
     },
     "vacuna Gamaleya": {
         "id": 700,
         "termo_catalao": "vacuna Gamaleya",
         "traducoes": {},
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Vacuna anti COVID-19 que conté el SARS-CoV-2 inactivat mitjançant propiolactona beta, la qual s’uneix a l’RNA víric i n’evita la replicació però deixa la proteïna S intacta."
     },
     "vacuna VeroCell": {
@@ -6974,7 +7166,7 @@
             "português": "vacina de Wuhan",
             "holandês": "Vero Cell-vaccin"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Vacuna anti COVID-19 preparada amb SARS-CoV-2 inactivat."
     },
     "vacuna vírica": {
@@ -7007,7 +7199,7 @@
             "português (PT)": "vacina profilática",
             "holandês": "preventief vaccinn"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Vacuna emprada per a produir una resposta immunitària concreta en la prevenció de malalties infeccioses, abans que puguin afectar un organisme."
     },
     "vacuna Sinovac": {
@@ -7023,7 +7215,9 @@
             "português (BR)": "vacina do Butatan",
             "holandês": "vafidemstat",
             "inglês": "investigació optimitzat per al sistema"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac immunomodulador en investigació optimitzat per al sistema nerviós central, que redueix el deteriorament cognitiu i la neuroinflamació, i presenta efectes neuroprotectors mitjançant la inhibició de la histona desmetilasa 1A específica de la lisina."
     },
     "variant": {
         "id": 715,
@@ -7039,7 +7233,7 @@
             "holandês": "vectorvaccin",
             "português (BR)": "vacina de vírus"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Aïllat víric amb una seqüència genòmica diferent de la del virus de referència, amb un nombre relativament baix d’aminoàcids afectats."
     },
     "vacunació": {
@@ -7055,7 +7249,7 @@
             "português (PT)": "imunização",
             "holandês": "inenting"
         },
-        "categoria": "PREVENCIÓ",
+        "categoria": "PREVENCIÓ.",
         "definicao": "Administració d’una vacuna a un ésser humà o a un animal amb la finalitat de potenciar una resposta immunitària específica concreta contra un agent extern o un tumor propi."
     },
     "vafidemstat": {
@@ -7079,7 +7273,7 @@
             "francês": "variant préoccupant",
             "português": "variante de preocupação"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Variant d’interès del SARS-CoV-2 que, en un estudi comparatiu, s’ha demostrat que està associada amb un o més canvis significatius per a la salut pública global, com ara un increment en la transmissibilitat, un increment en la virulència o la clínica, o una disminució de l’efectivitat dels mètodes diagnòstics, les vacunes o la terapèutica en ús."
     },
     "variant d’interès": {
@@ -7093,7 +7287,7 @@
             "inglês": "textos de salut pública, divulgatius o periodístics.",
             "português": "variante de interesse"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Variant del SARS-CoV-2 que, en comparació amb un aïllat víric de referència, té un genoma amb mutacions que causen efectes fenotípics establerts o sospitats i, o bé ha estat identificada com a causant de múltiples casos de transmissió comunitària o detectada en múltiples països, o bé ha estat classificada en aquesta categoria per l’OMS."
     },
     "velocitat reproductiva empírica": {
@@ -7108,7 +7302,7 @@
             "português (BR)": "taxa de reprodução empírica",
             "holandês": "empirisch reproductiegetal"
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Velocitat reproductiva efectiva determinada empíricament per càlcul directe a partir de les dades del nombre de persones contagiades al llarg del temps."
     },
     "ventilació": {
@@ -7133,7 +7327,7 @@
             "português (BR)": "número reprodutivo básico",
             "inglês": "el moment que s’inicia una possible epidèmia."
         },
-        "categoria": "EPIDEMIOLOGIA",
+        "categoria": "EPIDEMIOLOGIA.",
         "definicao": "Mesura del nombre d’infeccions produïdes, com a mitjana, per un individu infectat en el moment que s’inicia una possible epidèmia."
     },
     "velocitat reproductiva efectiva": {
@@ -7160,7 +7354,9 @@
             "inglês": "viricide",
             "francês": "virocide",
             "português": "viricida"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac o agent que destrueix un virus."
     },
     "virió": {
         "id": 729,
@@ -7176,7 +7372,7 @@
             "português (BR)": "vírion",
             "holandês": "luchtverversing"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Partícula vírica completa que representa la fase extracel·lular i infecciosa d’un virus. nl luchtverversing n; ventilatie n ar ‫تنفس‬ PREVENCIÓ. Renovació de l’aire que hi ha en un espai tancat mitjançant la creació d’un corrent, especialment per a fer-hi entrar aire de fora i treure’n el viciat."
     },
     "via d’administració": {
@@ -7192,7 +7388,7 @@
             "português": "via de administração",
             "holandês": "toedieningswijze"
         },
-        "categoria": "TRACTAMENT",
+        "categoria": "TRACTAMENT.",
         "definicao": "Forma i punt d’introducció d’un medicament, d’un aliment o d’un medi de contrast radiològic en un organisme."
     },
     "vidofludimús": {
@@ -7207,7 +7403,9 @@
             "francês": "vidofludimus",
             "português (PT)": "vidofludimus",
             "holandês": "vidofludimus"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac en investigació amb accions d’immunomodulador, antiinflamatori i antivíric que actua inhibint l’enzim dihidroorat- deshidrogenasa."
     },
     "virulència": {
         "id": 730,
@@ -7222,7 +7420,7 @@
             "português": "virulência",
             "holandês": "virulentie"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Grau de patogenicitat entre les diferents soques de microorganismes que componen una espècie."
     },
     "virus": {
@@ -7238,7 +7436,7 @@
             "português": "vírus",
             "holandês": "virus"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Microorganisme acel·lular paràsit obligat de plantes, animals i bacteris, format per un sol tipus d’àcid nucleic, DNA o RNA, envoltat d’una càpsida proteica i, en alguns casos, d’un embolcall, que utilitza la maquinària biosintètica de la cèl·lula hoste per a multiplicar-se."
     },
     "vòmit": {
@@ -7254,7 +7452,7 @@
             "português": "vômito",
             "português (PT)": "emese"
         },
-        "categoria": "CLÍNICA",
+        "categoria": "CLÍNICA.",
         "definicao": "Expulsió convulsiva del contingut de l’estómac per la boca."
     },
     "vorapaxar": {
@@ -7269,7 +7467,9 @@
             "francês": "vorapaxar",
             "português": "vorapaxar",
             "holandês": "vorapaxar"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac antiagregant plaquetari que antagonitza el receptor plaquetari de la trombina PAR-1 i n’impedeix tant l’activació com el reclutament de plaquetes."
     },
     "xoc": {
         "id": 739,
@@ -7284,7 +7484,7 @@
             "português (PT)": "colapso circulatório",
             "holandês": "shock"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Malaltia infecciosa que es transmet de manera natural dels animals a l’espècie humana i viceversa."
     },
     "zoonòtic -a adj": {
@@ -7300,7 +7500,7 @@
             "português": "zoonótico",
             "holandês": "zoönotisch -e"
         },
-        "categoria": "ETIOPATOGÈNIA",
+        "categoria": "ETIOPATOGÈNIA.",
         "definicao": "Relatiu o pertanyent a la zoonosi."
     },
     "zorecimeran": {
@@ -7320,7 +7520,9 @@
             "francês": "zilucoplan",
             "português": "zilucoplan",
             "holandês": "zilucoplan"
-        }
+        },
+        "categoria": "PRINCIPIS ACTIUS.",
+        "definicao": "Fàrmac en investigació basat en un pèptid macrolític que atura la resposta immunitària innata i que inhibeix la via del complement i la formació del complex d’atac de la membrana, de manera que evita la destrucció d’eritròcits."
     },
     "zoonosi": {
         "id": 741,

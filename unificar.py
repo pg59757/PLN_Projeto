@@ -2,93 +2,103 @@ import json
 import unicodedata
 import re
 
-# Função para remover acentos e normalizar texto
+#FUNÇÕES AUXILIARES
+# Função auxiliar para remover acentos e normalizar texto, tornando o todo em minúsculas
 def normalizar(texto):
     if not texto:
         return ""
     nfkd_form = unicodedata.normalize('NFKD', texto.lower().strip())
     return "".join([char for char in nfkd_form if not unicodedata.combining(char)])
 
-# Função para remover tags tipo [Br.], [Pt.], etc.
-def limpar_tags(texto):
+# Função auxiliar para remover tags tipo [Br.], [Pt.], etc.
+def remover_tags(texto):
     if not texto:
         return ""
     return re.sub(r"\s*\[.*?\]", "", texto).strip()
 
-# 1. Carregar os ficheiros
-with open('medicina2.json', 'r', encoding='utf-8') as f:
-    pln_data = json.load(f)
-with open('dicionario_covid.json', 'r', encoding='utf-8') as f:
-    covid_data = json.load(f)
-with open('glossario_enfermagem_final.json', 'r', encoding='utf-8') as f:
-    enfermagem_data = json.load(f)
-with open('glossario_medico_portugal.json', 'r', encoding='utf-8') as f:
-    portugal_data = json.load(f)
-
-vocabulario = pln_data["Vocabulário médico"]
-
-# --- PADRONIZAÇÃO INICIAL ---
-# Removemos as notas antigas do medicina2 para garantir que só ficam as dos glossários
-for item in vocabulario:
-    item.pop("nota", None)
-    item["definição"] = None
-    item.pop("tipo_entrada", None)
-    item.pop("id_entrada", None)
-
-# 2. Mapeamento
-pln_lookup_galego = {}
-pt_lookup = {}
-
-for i, item in enumerate(vocabulario):
-    if "termo_galego" in item and item["termo_galego"].get("palavra"):
-        pln_lookup_galego[normalizar(item["termo_galego"]["palavra"])] = i
+# Função auxiliar juntar novas traduções às já existentes
+def juntar_traducao(traducao_atual, nova_traducao):
+    nova_traducao = remover_tags(nova_traducao)
+    if not traducao_atual: 
+        return nova_traducao
     
-    if "traducoes" in item and item["traducoes"].get("português"):
-        termos_pt = item["traducoes"]["português"].split(";")
-        for t in termos_pt:
-            t_norm = normalizar(limpar_tags(t))
-            if t_norm:
-                pt_lookup[t_norm] = i
+    termos_existentes = [remover_tags(t.strip()) for t in traducao_atual.split(";") if t.strip()]
+    if nova_traducao not in termos_existentes:
+        termos_existentes.append(nova_traducao)
+    return "; ".join(termos_existentes)
 
-# 3. Funções auxiliares
-def juntar_traducao(atual, novo):
-    novo = limpar_tags(novo)
-    if not atual: return novo
-    partes = [limpar_tags(p.strip()) for p in atual.split(";") if p.strip()]
-    if novo not in partes:
-        partes.append(novo)
-    return "; ".join(partes)
-
-def adicionar_ou_fundir_definicao(idx, nova_def):
-    if not nova_def: return
+def integrar_definicao(indice, nova_definicao):
+    if not nova_definicao: 
+        return
     
     # Se o campo estiver vazio, coloca a definição
-    if not vocabulario[idx]["definição"]:
-        vocabulario[idx]["definição"] = nova_def
+    if not vocabulario[indice]["definição"]:
+        vocabulario[indice]["definição"] = nova_definicao
     else:
         # Se já tiver algo (de outro glossário), junta com |
         # Verificamos se a definição já não está lá para não duplicar
-        if nova_def not in vocabulario[idx]["definição"]:
-            vocabulario[idx]["definição"] += f" | Definição: {nova_def}"
+        if nova_definicao not in vocabulario[indice]["definição"]:
+            vocabulario[indice]["definição"] += f" | {nova_definicao}"
 
-# 4. Processar COVID
-for chave_covid, info in covid_data.items():
+# Passo 1: Leitura dos ficheiros
+with open('medicina.json', 'r', encoding='utf-8') as f:
+    dados_medicina = json.load(f)
+with open('dicionario_covid.json', 'r', encoding='utf-8') as f:
+    dados_covid = json.load(f)
+with open('glossario_enfermagem.json', 'r', encoding='utf-8') as f:
+    dados_enfermagem = json.load(f)
+with open('glossario_termos_medicos.json', 'r', encoding='utf-8') as f:
+    dados_termos = json.load(f)
+
+# Definição do dicionário principal
+vocabulario = dados_medicina["Vocabulário médico"]
+
+# Passo 2: Remoção de atributos desnecessários no medicina - ficheiro base 
+for item in vocabulario:
+    item.pop("nota", None)
+    item.pop("tipo_entrada", None)
+    item.pop("id_entrada", None)
+    # Inicialização o campo de definição
+    item["definição"] = None
+
+
+# Passo 3: Criação de dicionários para os termos em galego e português
+# Úteis para encontrar termos  sem percorrer a lista toda 
+mapa_galego = {}
+mapa_portugues = {}
+
+for i, item in enumerate(vocabulario):
+    if "termo_galego" in item and item["termo_galego"].get("palavra"):
+        mapa_galego[normalizar(item["termo_galego"]["palavra"])] = i
+    
+    # Mapear pelas traduções em Português já existentes
+    if "traducoes" in item and item["traducoes"].get("português"):
+        termos_pt = item["traducoes"]["português"].split(";")
+        for t in termos_pt:
+            t_normalizado = normalizar(remover_tags(t))
+            if t_normalizado:
+                mapa_portugues[t_normalizado] = i
+
+
+
+# Passo 4: Processar os dados do dicionário covid
+for chave_covid, info in dados_covid.items():
     traducoes = info.get("traducoes", {})
     termo_gal_norm = normalizar(traducoes.get("galego", ""))
 
-    if termo_gal_norm in pln_lookup_galego:
-        idx = pln_lookup_galego[termo_gal_norm]
+    if termo_gal_norm in mapa_galego:
+        indice = mapa_galego[termo_gal_norm]
         
         # Atualizar traduções
-        if "traducoes" not in vocabulario[idx]: vocabulario[idx]["traducoes"] = {}
-        for lingua, valor in traducoes.items():
-            if valor and lingua != "galego":
-                vocabulario[idx]["traducoes"][lingua] = juntar_traducao(
-                    vocabulario[idx]["traducoes"].get(lingua, ""), valor
-                )
+        if "traducoes" not in vocabulario[indice]: 
+            vocabulario[indice]["traducoes"] = {}
+
+        for lingua, termo_traduzido in traducoes.items():
+            if termo_traduzido and lingua != "galego":
+                vocabulario[indice]["traducoes"][lingua] = juntar_traducao(vocabulario[indice]["traducoes"].get(lingua, ""), termo_traduzido)
         
         # Adicionar definição
-        adicionar_ou_fundir_definicao(idx, info.get("definicao"))
+        integrar_definicao(indice, info.get("definicao"))
     else:
         # Criar nova entrada se não existir
         nova_entrada = {
@@ -98,37 +108,45 @@ for chave_covid, info in covid_data.items():
                 "sinonimos_galego": []
             },
             "tema": [info["categoria"]] if info.get("categoria") else [],
-            "traducoes": {l: limpar_tags(v) for l, v in traducoes.items() if v and l != "galego"},
+            "traducoes": {l: remover_tags(v) for l, v in traducoes.items() if v and l != "galego"},
             "definição": info.get("definicao") or None
         }
         vocabulario.append(nova_entrada)
-        idx_nova = len(vocabulario) - 1
-        pln_lookup_galego[termo_gal_norm] = idx_nova
+
+        # Atualizar os mapas para futuras consultas neste mesmo loop
+        indice_nova = len(vocabulario) - 1
+        mapa_galego[termo_gal_norm] = indice_nova
         if "português" in nova_entrada["traducoes"]:
-            pt_lookup[normalizar(nova_entrada["traducoes"]["português"])] = idx_nova
+            pt_norm = normalizar(nova_entrada["traducoes"]["português"])
+            mapa_portugues[pt_norm] = indice_nova
 
-# 5. Integrar Glossários (Enfermagem e Portugal)
-for glossario in [enfermagem_data, portugal_data]:
+# Passo 5. Integrar as definições dos glossários
+for glossario in [dados_enfermagem, dados_termos]:
     for termo, definicao in glossario.items():
-        t_norm = normalizar(limpar_tags(termo))
-        if t_norm in pt_lookup:
-            adicionar_ou_fundir_definicao(pt_lookup[t_norm], definicao)
+        t_norm = normalizar(remover_tags(termo))
 
-# 6. Limpeza final de traduções PT (duplicados)
+        #se o termo existir no dicionário principal
+        if t_norm in mapa_portugues:
+            integrar_definicao(mapa_portugues[t_norm], definicao)
+
+# Passo 6. Limpeza das traduções em português (duplicados)
 for item in vocabulario:
     if "traducoes" in item and "português" in item["traducoes"]:
         termos = item["traducoes"]["português"].split(";")
         vistos = set()
         termos_limpos = []
+
         for t in termos:
-            t_l = limpar_tags(t.strip())
+            t_l = remover_tags(t.strip())
             if t_l and t_l not in vistos:
                 vistos.add(t_l)
                 termos_limpos.append(t_l)
+
         item["traducoes"]["português"] = "; ".join(termos_limpos)
 
-# 7. Gravar
-with open('dicionario_unificado.json', 'w', encoding='utf-8') as f:
-    json.dump(pln_data, f, ensure_ascii=False, indent=4)
+# Passo 7: Criação do ficheiro JSON com a informação unida de todos os JSONs
+f_out="dicionario_unificado.json"
+with open(f_out, 'w', encoding='utf-8') as f:
+    json.dump(dados_medicina, f, ensure_ascii=False, indent=4)
 
-print("Processo concluído.")
+print(f"Concluído. Termos guardados em {f_out}.")

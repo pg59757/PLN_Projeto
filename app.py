@@ -1,5 +1,6 @@
-from flask import Flask, render_template, redirect, url_for
+from flask import Flask, render_template, redirect, url_for, request
 import json
+import re
 
 app = Flask(__name__)
 
@@ -17,7 +18,7 @@ db_conceitos = carregar_dados()
 
 @app.route("/")
 def home():
-    return render_template("layout.html")
+    return render_template("home.html")
 
 @app.route("/conceitos")
 def listar_conceitos():
@@ -41,12 +42,41 @@ def detalhe(designacao):
     if not item:
         return "Termo não encontrado", 404
 
-    # Lógica de redirecionamento se for um termo "alternativa"
-    if item.get("tipo_entrada") == "alternativa":
-        alvo = item.get("termo_equivalente")
-        return redirect(url_for('detalhe', designacao=alvo))
 
     return render_template("conceito.html", conceito=item)
+
+@app.route("/pesquisar", methods=["GET", "POST"])
+def pesquisar_conceitos():
+    if request.method == "GET":
+        return render_template("pesquisar.html", resultados=[], query=None)
+
+    palavra = request.form.get('palavra', '').strip()
+
+    if not palavra:
+        return render_template("pesquisar.html", resultados=[], query=palavra)
+
+    def match_exato(texto):
+        return str(texto).strip().lower() == palavra.lower() if texto else False
+
+    resultados = []
+    for item in db_conceitos:
+        termo_galego = item.get('termo_galego', {})
+        palavra_original = termo_galego.get('palavra', '')
+        traducoes = item.get('traducoes', {})
+        sinonimos = termo_galego.get('sinonimos_galego', [])
+
+        campos = [palavra_original] + list(traducoes.values()) + (sinonimos if isinstance(sinonimos, list) else [])
+
+        if any(match_exato(c) for c in campos):
+            resultados.append({
+                'palavra_original': palavra_original,
+                'palavra': palavra_original,
+                'genero': termo_galego.get('genero_palavra'),
+                'tema': item.get('tema', []),
+                'traducoes': traducoes,
+            })
+
+    return render_template("pesquisar.html", resultados=resultados, query=palavra)
 
 if __name__ == "__main__":
     app.run(host="localhost", port=4003, debug=True)

@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container">
+    <h2 class="mb-4 text-dark">Pesquisar Conceitos</h2>
+
+    <form action="/pesquisar" method="POST" class="d-flex gap-2 mb-4">
+        <input type="text" class="form-control" name="palavra"
+               value="{{ query or '' }}" placeholder="Ex: coração, heart, corazón...">
+        <button type="submit" class="btn btn-dark">Pesquisar</button>
+    </form>
+
+    {% if query is not none %}
+        <p class="text-muted">
+            {% if resultados %}
+                {{ resultados|length }} resultado(s) para "<strong>{{ query }}</strong>"
+            {% else %}
+                Nenhum resultado encontrado para "<strong>{{ query }}</strong>".
+            {% endif %}
+        </p>
+
+        {% for r in resultados %}
+        <div class="card shadow-sm mb-3">
+            <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">{{ r.palavra }}</h5>
+                {% if r.genero %}
+                    <span class="badge bg-secondary">{{ r.genero }}</span>
+                {% endif %}
+            </div>
+            <div class="card-body">
+                {% if r.tema %}
+                <p class="mb-2">
+                    <strong>Áreas:</strong>
+                    {% for t in r.tema %}
+                        <span class="badge bg-info text-dark">{{ t }}</span>
+                    {% endfor %}
+                </p>
+                {% endif %}
+
+                <a href="{{ url_for('detalhe', designacao=r.palavra_original) }}"
+                   class="btn btn-sm btn-outline-dark">Ver detalhe</a>
+            </div>
+        </div>
+        {% endfor %}
+    {% endif %}
+</div>
+{% endblock %}
