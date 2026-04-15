@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Função para carregar os dados com segurança
 def carregar_dados():
     try:
-        with open("pln_final_com_todas_linguas.json", "r", encoding="utf-8") as f:
+        with open("dicionario_unificado.json", "r", encoding="utf-8") as f:
             conteudo = json.load(f)
             return conteudo.get("Vocabulário médico", [])
     except Exception as e:
