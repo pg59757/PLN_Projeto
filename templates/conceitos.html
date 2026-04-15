@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container">
+    <h2 class="mb-4 text-primary">Índice Alfabético</h2>
+    
+    <div class="row">
+        {% for t in lista_termos %}
+        <div class="col-md-4 mb-2">
+            <a href="{{ url_for('detalhe', designacao=t) }}" class="list-group-item list-group-item-action border rounded p-2 shadow-sm">
+                {{ t }}
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
