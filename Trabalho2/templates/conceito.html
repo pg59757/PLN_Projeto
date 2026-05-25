@@ -1,0 +1,145 @@
+{% extends "layout.html" %}
+{% block title %}{{ conceito.tg.pal }}{% endblock %}
+
+{% block head %}
+<style>
+.detail-header {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 28px 32px;
+    display: flex; align-items: flex-start; justify-content: space-between; gap: 16px;
+    box-shadow: var(--shadow);
+    margin-bottom: 20px;
+}
+.detail-title {
+    font-family: var(--font-serif);
+    font-size: 2.4rem; letter-spacing: -.04em;
+    color: var(--ink); line-height: 1.1;
+}
+.detail-title sup {
+    font-family: var(--font-sans);
+    font-size: .75rem; color: var(--ink3); font-style: italic;
+    vertical-align: middle; margin-left: 6px;
+}
+.detail-meta { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+.detail-actions { display: flex; gap: 8px; flex-shrink: 0; }
+.section-title {
+    font-size: .75rem; font-weight: 600; letter-spacing: .08em;
+    text-transform: uppercase; color: var(--ink3);
+    margin-bottom: 10px;
+}
+.lang-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; }
+.lang-card {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 6px; padding: 12px 14px;
+}
+.lang-name { font-size: .72rem; text-transform: uppercase; letter-spacing: .07em; color: var(--ink3); margin-bottom: 3px; }
+.lang-value { font-size: .95rem; font-weight: 500; color: var(--ink); }
+.definicao-box {
+    background: var(--blue-soft);
+    border: 1px solid #bdd6ed;
+    border-radius: var(--radius);
+    padding: 16px 20px;
+    font-size: .9rem; line-height: 1.7; color: var(--ink2);
+}
+.related-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(160px,1fr)); gap: 8px;
+}
+.related-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 6px; padding: 10px 12px;
+    text-decoration: none; color: var(--ink2);
+    font-size: .85rem; transition: all .12s;
+}
+.related-card:hover { border-color: var(--accent2); color: var(--ink); }
+.sinonimos-list { display: flex; flex-wrap: wrap; gap: 6px; }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="detail-header">
+    <div>
+        <div class="detail-title">
+            {{ conceito.tg.pal }}
+            {% if conceito.tg.gen %}
+            <sup>{{ conceito.tg.gen }}</sup>
+            {% endif %}
+        </div>
+        <div class="detail-meta">
+            {% for t in conceito.tema or [] %}
+            <a href="/conceitos?tema={{ t | urlencode }}" class="badge badge-tema">{{ t }}</a>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="detail-actions">
+        <a href="/conceitos/{{ conceito.tg.pal | urlencode }}/editar" class="btn btn-ghost btn-sm">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+            Editar
+        </a>
+        <a href="/conceitos" class="btn btn-ghost btn-sm">← Voltar</a>
+    </div>
+</div>
+
+<div class="grid-2">
+    <div style="display:flex; flex-direction:column; gap:16px;">
+        {% if conceito.def %}
+        <div class="card">
+            <div class="card-header"><span class="section-title" style="margin:0">Definição</span></div>
+            <div class="card-body">
+                <div class="definicao-box">{{ conceito.def }}</div>
+            </div>
+        </div>
+        {% endif %}
+
+        {% if conceito.tg.sin %}
+        <div class="card">
+            <div class="card-header"><span class="section-title" style="margin:0">Sinónimos (Galego)</span></div>
+            <div class="card-body">
+                <div class="sinonimos-list">
+                    {% for s in conceito.tg.sin %}
+                    <span class="badge badge-tema" style="font-size:.85rem; padding:4px 12px">{{ s }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+    <div>
+        <div class="card">
+            <div class="card-header"><span class="section-title" style="margin:0">Traduções &amp; Equivalências</span></div>
+            <div class="card-body">
+                {% if conceito.trad %}
+                <div class="lang-grid">
+                    {% for sigla, termo in conceito.trad.items() %}
+                    {% if termo %}
+                    <div class="lang-card">
+                        <div class="lang-name">{{ lingua_label.get(sigla, sigla) }}</div>
+                        <div class="lang-value">{{ termo }}</div>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+                {% else %}
+                <p class="text-muted">Sem traduções disponíveis.</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% if relacionados %}
+<div class="divider"></div>
+<p class="section-title">Termos Relacionados</p>
+<div class="related-grid">
+    {% for r in relacionados %}
+    <a href="/conceitos/{{ r.tg.pal | urlencode }}" class="related-card">
+        {{ r.tg.pal }}
+        {% if r.tema %}<span class="text-muted" style="font-size:.75rem; display:block">{{ r.tema[0] }}</span>{% endif %}
+    </a>
+    {% endfor %}
+</div>
+{% endif %}
+{% endblock %}

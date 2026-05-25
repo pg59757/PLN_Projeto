@@ -1,0 +1,133 @@
+{% extends "layout.html" %}
+{% block title %}Artigos Científicos{% endblock %}
+
+{% block head %}
+<style>
+.ir-hero {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 28px 32px;
+    margin-bottom: 24px;
+    box-shadow: var(--shadow);
+}
+.ir-hero h2 { font-family: var(--font-serif); font-size: 1.6rem; letter-spacing: -.03em; margin-bottom: 12px; }
+.result-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px 24px;
+    margin-bottom: 12px;
+    box-shadow: var(--shadow);
+    transition: transform .12s, box-shadow .12s;
+}
+.result-card:hover { transform: translateY(-1px); box-shadow: var(--shadow-lg); }
+.result-rank {
+    font-family: var(--font-mono);
+    font-size: .72rem; color: var(--ink3);
+    text-transform: uppercase; letter-spacing: .06em;
+    margin-bottom: 6px; display: flex; align-items: center; gap: 8px;
+}
+.result-title {
+    font-family: var(--font-serif);
+    font-size: 1.15rem; color: var(--ink);
+    text-decoration: none; letter-spacing: -.02em;
+}
+.result-title:hover { color: var(--accent2); }
+.result-meta { font-size: .8rem; color: var(--ink3); margin: 4px 0 8px; }
+.result-resumo { font-size: .875rem; color: var(--ink2); line-height: 1.6; }
+.result-footer {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-top: 12px; flex-wrap: wrap; gap: 8px;
+}
+.kw-list { display: flex; flex-wrap: wrap; gap: 4px; }
+.kw-badge {
+    display: inline-block; padding: 2px 8px;
+    background: var(--surface2); border: 1px solid var(--border);
+    border-radius: 4px; font-size: .72rem;
+    color: var(--ink3); font-family: var(--font-mono);
+}
+.artigos-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px,1fr)); gap: 12px; }
+.artigo-mini {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 6px; padding: 14px 16px;
+    text-decoration: none; color: var(--ink);
+    display: flex; flex-direction: column; gap: 4px;
+    transition: border-color .12s;
+}
+.artigo-mini:hover { border-color: var(--accent2); }
+.artigo-mini .title { font-weight: 500; font-size: .875rem; line-height: 1.4; }
+.artigo-mini .meta { font-size: .75rem; color: var(--ink3); }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1>Information Retrieval</h1>
+    <p>Pesquise a coleção de artigos científicos médicos por relevância (TF-IDF)</p>
+</div>
+
+<div class="ir-hero">
+    <h2>Pesquisar Artigos</h2>
+    <form method="get" action="/ir" class="search-wrap">
+        <input type="text" class="search-input" name="q" value="{{ query }}"
+               placeholder="Ex: COVID-19 symptoms, diabetes management, hypertension treatment…" autofocus>
+        <button type="submit" class="btn btn-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+            Pesquisar
+        </button>
+    </form>
+</div>
+
+{% if query %}
+    {% if resultados %}
+    <p class="text-muted mb-4">{{ resultados|length }} resultado(s) para "<strong>{{ query }}</strong>" — ordenados por relevância TF-IDF</p>
+
+    {% for r in resultados %}
+    <div class="result-card">
+        <div class="result-rank">
+            <span>#{{ loop.index }}</span>
+            <div class="score-bar" style="width:120px">
+                <div class="score-fill" style="width:{{ (r.score * 100)|round }}%"></div>
+            </div>
+            <span class="badge badge-score">score: {{ r.score }}</span>
+        </div>
+        <a href="/ir/artigo/{{ r.id }}?q={{ query | urlencode }}" class="result-title">{{ r.titulo }}</a>
+        <div class="result-meta">{{ r.autores }} &middot; {{ r.ano }}</div>
+        <div class="result-resumo">{{ r.resumo[:250] }}…</div>
+        <div class="result-footer">
+            <div class="kw-list">
+                {% for kw in r.keywords[:5] %}
+                <span class="kw-badge">{{ kw }}</span>
+                {% endfor %}
+            </div>
+            <div class="flex gap-2">
+                <a href="/ir/artigo/{{ r.id }}?q={{ query | urlencode }}" class="btn btn-ghost btn-sm">Ver artigo</a>
+                <a href="/qa?artigo_id={{ r.id }}" class="btn btn-accent btn-sm">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    Perguntar (QA)
+                </a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+    {% else %}
+    <div class="alert alert-info">Nenhum artigo encontrado para "<strong>{{ query }}</strong>". Tente termos mais gerais.</div>
+    {% endif %}
+{% else %}
+<div>
+    <p class="text-muted mb-4" style="font-size:.85rem; text-transform:uppercase; letter-spacing:.06em">Todos os artigos na coleção</p>
+    <div class="artigos-list">
+        {% for a in artigos %}
+        <a href="/ir/artigo/{{ a.id }}" class="artigo-mini">
+            <span class="title">{{ a.titulo }}</span>
+            <span class="meta">{{ a.autores }} · {{ a.ano }}</span>
+            <div class="kw-list" style="margin-top:6px">
+                {% for kw in a.keywords[:3] %}<span class="kw-badge">{{ kw }}</span>{% endfor %}
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+{% endblock %}

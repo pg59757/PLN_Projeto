@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}MedLex{% endblock %} — Plataforma Médica PLN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #f7f6f3;
+            --surface: #ffffff;
+            --surface2: #f0eee9;
+            --border: #e2ddd6;
+            --ink: #1a1816;
+            --ink2: #5a5550;
+            --ink3: #9a9490;
+            --accent: #c4472a;
+            --accent2: #2a6496;
+            --accent-soft: #fdf0ed;
+            --blue-soft: #edf4fb;
+            --green: #2a7a4b;
+            --green-soft: #edf7f2;
+            --shadow: 0 1px 3px rgba(0,0,0,.08), 0 4px 12px rgba(0,0,0,.06);
+            --shadow-lg: 0 4px 6px rgba(0,0,0,.06), 0 10px 30px rgba(0,0,0,.1);
+            --radius: 8px;
+            --font-serif: 'DM Serif Display', Georgia, serif;
+            --font-sans: 'DM Sans', system-ui, sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--ink);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* ── Nav ── */
+        .nav {
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+            position: sticky; top: 0; z-index: 100;
+        }
+        .nav-inner {
+            max-width: 1200px; margin: 0 auto;
+            padding: 0 24px;
+            display: flex; align-items: center; gap: 8px;
+            height: 60px;
+        }
+        .nav-brand {
+            font-family: var(--font-serif);
+            font-size: 1.4rem;
+            color: var(--ink);
+            text-decoration: none;
+            margin-right: auto;
+            letter-spacing: -.02em;
+        }
+        .nav-brand span { color: var(--accent); }
+        .nav-link {
+            display: flex; align-items: center; gap: 6px;
+            padding: 6px 14px; border-radius: 6px;
+            font-size: .875rem; font-weight: 500;
+            color: var(--ink2); text-decoration: none;
+            transition: all .15s;
+        }
+        .nav-link:hover { background: var(--surface2); color: var(--ink); }
+        .nav-link.active { background: var(--accent-soft); color: var(--accent); }
+        .nav-icon { width: 16px; height: 16px; }
+
+        /* ── Main layout ── */
+        main { flex: 1; max-width: 1200px; margin: 0 auto; width: 100%; padding: 32px 24px 64px; }
+
+        /* ── Page header ── */
+        .page-header { margin-bottom: 32px; }
+        .page-header h1 {
+            font-family: var(--font-serif);
+            font-size: 2.2rem;
+            letter-spacing: -.03em;
+            color: var(--ink);
+        }
+        .page-header p { color: var(--ink2); margin-top: 6px; font-size: .95rem; }
+
+        /* ── Cards ── */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+        }
+        .card-header {
+            padding: 16px 20px;
+            border-bottom: 1px solid var(--border);
+            display: flex; align-items: center; gap: 12px;
+        }
+        .card-body { padding: 20px; }
+
+        /* ── Badges ── */
+        .badge {
+            display: inline-flex; align-items: center;
+            padding: 2px 10px; border-radius: 99px;
+            font-size: .78rem; font-weight: 500; font-family: var(--font-sans);
+        }
+        .badge-tema { background: var(--blue-soft); color: var(--accent2); }
+        .badge-genero { background: var(--surface2); color: var(--ink2); border: 1px solid var(--border); }
+        .badge-score { background: var(--green-soft); color: var(--green); }
+        .badge-accent { background: var(--accent-soft); color: var(--accent); }
+
+        /* ── Buttons ── */
+        .btn {
+            display: inline-flex; align-items: center; gap: 6px;
+            padding: 8px 18px; border-radius: 6px;
+            font-family: var(--font-sans); font-size: .875rem; font-weight: 500;
+            cursor: pointer; text-decoration: none; border: none;
+            transition: all .15s; white-space: nowrap;
+        }
+        .btn-primary { background: var(--ink); color: #fff; }
+        .btn-primary:hover { background: #333; }
+        .btn-accent { background: var(--accent); color: #fff; }
+        .btn-accent:hover { background: #a83920; }
+        .btn-ghost { background: transparent; color: var(--ink2); border: 1px solid var(--border); }
+        .btn-ghost:hover { background: var(--surface2); color: var(--ink); }
+        .btn-sm { padding: 5px 12px; font-size: .8rem; }
+
+        /* ── Form elements ── */
+        .form-group { margin-bottom: 20px; }
+        .form-label {
+            display: block; margin-bottom: 6px;
+            font-size: .85rem; font-weight: 500; color: var(--ink2);
+        }
+        .form-control {
+            width: 100%; padding: 9px 14px;
+            background: var(--surface); border: 1px solid var(--border);
+            border-radius: 6px; font-family: var(--font-sans);
+            font-size: .9rem; color: var(--ink);
+            transition: border-color .15s, box-shadow .15s;
+        }
+        .form-control:focus {
+            outline: none; border-color: var(--accent2);
+            box-shadow: 0 0 0 3px rgba(42,100,150,.12);
+        }
+        textarea.form-control { resize: vertical; min-height: 100px; }
+        .form-hint { font-size: .78rem; color: var(--ink3); margin-top: 4px; }
+
+        /* ── Search bar ── */
+        .search-wrap {
+            display: flex; gap: 8px; align-items: stretch;
+        }
+        .search-input {
+            flex: 1; padding: 10px 16px;
+            background: var(--surface); border: 1px solid var(--border);
+            border-radius: 6px; font-size: .95rem; font-family: var(--font-sans);
+            color: var(--ink); transition: border-color .15s;
+        }
+        .search-input:focus { outline: none; border-color: var(--accent2); }
+
+        /* ── Table ── */
+        .table { width: 100%; border-collapse: collapse; }
+        .table th { 
+            padding: 10px 16px; text-align: left;
+            font-size: .8rem; font-weight: 600; letter-spacing: .04em;
+            text-transform: uppercase; color: var(--ink3);
+            border-bottom: 2px solid var(--border);
+        }
+        .table td { 
+            padding: 12px 16px; 
+            border-bottom: 1px solid var(--border);
+            font-size: .9rem;
+        }
+        .table tr:last-child td { border-bottom: none; }
+        .table tr:hover td { background: var(--surface2); }
+
+        /* ── Alert ── */
+        .alert { padding: 12px 16px; border-radius: 6px; font-size: .9rem; }
+        .alert-info { background: var(--blue-soft); color: var(--accent2); border: 1px solid #bdd6ed; }
+        .alert-warning { background: #fdf6e3; color: #856404; border: 1px solid #faecb0; }
+        .alert-danger { background: var(--accent-soft); color: var(--accent); border: 1px solid #f5c4bb; }
+
+        /* ── Pagination ── */
+        .pagination { display: flex; gap: 4px; align-items: center; }
+        .page-btn {
+            display: inline-flex; align-items: center; justify-content: center;
+            min-width: 36px; height: 36px; padding: 0 8px;
+            border-radius: 6px; border: 1px solid var(--border);
+            background: var(--surface); color: var(--ink2);
+            text-decoration: none; font-size: .875rem;
+            transition: all .15s;
+        }
+        .page-btn:hover { background: var(--surface2); }
+        .page-btn.current { background: var(--ink); color: #fff; border-color: var(--ink); }
+        .page-btn.disabled { opacity: .4; pointer-events: none; }
+
+        /* ── Score bar ── */
+        .score-bar {
+            height: 4px; background: var(--surface2); border-radius: 99px; overflow: hidden;
+            margin-top: 4px;
+        }
+        .score-fill {
+            height: 100%; background: linear-gradient(90deg, var(--green), #4caf50);
+            border-radius: 99px; transition: width .3s;
+        }
+
+        /* ── Footer ── */
+        footer {
+            border-top: 1px solid var(--border);
+            background: var(--surface);
+            padding: 20px 24px;
+            text-align: center;
+            font-size: .8rem; color: var(--ink3);
+        }
+
+        /* ── Utility ── */
+        .flex { display: flex; }
+        .flex-wrap { flex-wrap: wrap; }
+        .items-center { align-items: center; }
+        .gap-2 { gap: 8px; }
+        .gap-3 { gap: 12px; }
+        .gap-4 { gap: 16px; }
+        .mt-1 { margin-top: 4px; }
+        .mt-2 { margin-top: 8px; }
+        .mt-3 { margin-top: 12px; }
+        .mt-4 { margin-top: 16px; }
+        .mt-6 { margin-top: 24px; }
+        .mb-4 { margin-bottom: 16px; }
+        .mb-6 { margin-bottom: 24px; }
+        .text-muted { color: var(--ink3); font-size: .85rem; }
+        .text-sm { font-size: .875rem; }
+        .font-mono { font-family: var(--font-mono); }
+        .divider { height: 1px; background: var(--border); margin: 24px 0; }
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+        .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+        @media (max-width: 768px) {
+            .grid-2, .grid-3 { grid-template-columns: 1fr; }
+            main { padding: 20px 16px 48px; }
+        }
+    </style>
+    {% block head %}{% endblock %}
+</head>
+<body>
+<nav class="nav">
+    <div class="nav-inner">
+        <a class="nav-brand" href="/">Med<span>Lex</span></a>
+        <a href="/" class="nav-link {% if request.endpoint == 'home' %}active{% endif %}">
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+            Início
+        </a>
+        <a href="/conceitos" class="nav-link {% if request.endpoint in ['listar_conceitos','detalhe','editar'] %}active{% endif %}">
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            Vocabulário
+        </a>
+        <a href="/ir" class="nav-link {% if request.endpoint in ['information_retrieval','artigo'] %}active{% endif %}">
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+            Artigos
+        </a>
+        <a href="/qa" class="nav-link {% if request.endpoint == 'question_answering' %}active{% endif %}">
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            Q&amp;A
+        </a>
+        <a href="/conceitos/novo" class="btn btn-accent btn-sm" style="margin-left:8px">
+            + Novo Termo
+        </a>
+    </div>
+</nav>
+
+<main>
+    {% block content %}{% endblock %}
+</main>
+
+<footer>
+    MedLex — Plataforma de Processamento de Linguagem Natural em Biomédica &nbsp;·&nbsp; TP2 2025-2026
+</footer>
+</body>
+</html>

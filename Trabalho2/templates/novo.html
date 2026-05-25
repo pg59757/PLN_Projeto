@@ -1,0 +1,83 @@
+{% extends "layout.html" %}
+{% block title %}Novo Termo{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1>Adicionar Novo Termo</h1>
+    <p>Enriqueça o dataset com um novo conceito médico.</p>
+</div>
+
+{% if erro %}
+<div class="alert alert-danger mb-4">{{ erro }}</div>
+{% endif %}
+
+<div class="card" style="max-width:700px">
+    <div class="card-header">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        <strong>Novo Conceito</strong>
+    </div>
+    <div class="card-body">
+        <form method="POST">
+            <div class="grid-2">
+                <div class="form-group">
+                    <label class="form-label">Termo (Galego) *</label>
+                    <input class="form-control" name="palavra" required placeholder="Ex: corazón">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Género Gramatical</label>
+                    <select class="form-control" name="genero">
+                        <option value="">—</option>
+                        <option value="m">m</option>
+                        <option value="f">f</option>
+                        <option value="mf">mf</option>
+                        <option value="n">n</option>
+                        <option value="m/f">m/f</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Sinónimos (Galego)</label>
+                <input class="form-control" name="sinonimos" placeholder="Ex: corazón, músculo cardíaco">
+                <div class="form-hint">Separar por vírgula</div>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Áreas Temáticas</label>
+                <input class="form-control" name="tema" placeholder="Ex: Anatomía, Cardioloxía">
+                <div class="form-hint">Separar por vírgula</div>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Definição</label>
+                <textarea class="form-control" name="definicao" rows="4" placeholder="Definição do conceito…"></textarea>
+            </div>
+            <div class="divider"></div>
+            <p style="font-size:.8rem; font-weight:600; letter-spacing:.07em; text-transform:uppercase; color:var(--ink3); margin-bottom:16px">Traduções</p>
+            <div class="grid-2">
+                <div class="form-group">
+                    <label class="form-label">Português</label>
+                    <input class="form-control" name="pt" placeholder="Tradução em português">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Espanhol</label>
+                    <input class="form-control" name="es" placeholder="Traducción en español">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Inglês</label>
+                    <input class="form-control" name="en" placeholder="English translation">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Latim</label>
+                    <input class="form-control" name="la" placeholder="Translatio latina">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Francês</label>
+                    <input class="form-control" name="fr" placeholder="Traduction en français">
+                </div>
+            </div>
+            <div class="flex gap-2 mt-4">
+                <button type="submit" class="btn btn-primary">Guardar Termo</button>
+                <a href="/conceitos" class="btn btn-ghost">Cancelar</a>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

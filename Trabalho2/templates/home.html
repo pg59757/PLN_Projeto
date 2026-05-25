@@ -1,0 +1,174 @@
+{% extends "layout.html" %}
+{% block title %}Início{% endblock %}
+
+{% block head %}
+<style>
+.hero {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 56px 48px;
+    text-align: center;
+    box-shadow: var(--shadow);
+    margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+}
+.hero::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(196,71,42,.06) 0%, transparent 70%);
+    pointer-events: none;
+}
+.hero h1 {
+    font-family: var(--font-serif);
+    font-size: 3rem;
+    letter-spacing: -.04em;
+    color: var(--ink);
+    line-height: 1.1;
+    margin-bottom: 16px;
+}
+.hero h1 em { color: var(--accent); font-style: italic; }
+.hero p {
+    color: var(--ink2); font-size: 1.05rem;
+    max-width: 540px; margin: 0 auto 28px;
+    line-height: 1.7;
+}
+.hero-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+.stat-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px; margin-bottom: 40px;
+}
+.stat-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px 24px;
+    box-shadow: var(--shadow);
+}
+.stat-card .num {
+    font-family: var(--font-serif);
+    font-size: 2rem; color: var(--accent);
+    letter-spacing: -.04em; line-height: 1;
+}
+.stat-card .lbl { font-size: .8rem; color: var(--ink3); margin-top: 4px; text-transform: uppercase; letter-spacing: .06em; }
+.feature-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 16px; margin-bottom: 40px; }
+.feature-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 24px;
+    text-decoration: none; color: inherit;
+    box-shadow: var(--shadow);
+    display: flex; gap: 16px; align-items: flex-start;
+    transition: transform .15s, box-shadow .15s;
+}
+.feature-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-lg); }
+.feature-icon {
+    width: 44px; height: 44px; border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+}
+.fi-blue { background: var(--blue-soft); color: var(--accent2); }
+.fi-red { background: var(--accent-soft); color: var(--accent); }
+.fi-green { background: var(--green-soft); color: var(--green); }
+.fi-gray { background: var(--surface2); color: var(--ink2); }
+.feature-card h3 { font-size: 1rem; font-weight: 600; margin-bottom: 4px; }
+.feature-card p { font-size: .85rem; color: var(--ink2); line-height: 1.5; }
+.temas-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+@media (max-width: 768px) {
+    .hero { padding: 36px 24px; }
+    .hero h1 { font-size: 2rem; }
+    .stat-row { grid-template-columns: repeat(2,1fr); }
+    .feature-grid { grid-template-columns: 1fr; }
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="hero">
+    <h1>Dicionário Médico<br><em>Multilingue</em></h1>
+    <p>Explore terminologia médica em Galego, Português, Espanhol, Inglês e Latim. Pesquise artigos científicos e obtenha respostas com IA.</p>
+    <div class="hero-actions">
+        <a href="/conceitos" class="btn btn-primary">Explorar Vocabulário</a>
+        <a href="/ir" class="btn btn-ghost">Pesquisar Artigos</a>
+    </div>
+</div>
+
+<div class="stat-row">
+    <div class="stat-card">
+        <div class="num">{{ total }}</div>
+        <div class="lbl">Termos no dataset</div>
+    </div>
+    <div class="stat-card">
+        <div class="num">5</div>
+        <div class="lbl">Línguas disponíveis</div>
+    </div>
+    <div class="stat-card">
+        <div class="num">8</div>
+        <div class="lbl">Artigos científicos</div>
+    </div>
+    <div class="stat-card">
+        <div class="num">TF-IDF</div>
+        <div class="lbl">Motor de recuperação</div>
+    </div>
+</div>
+
+<div class="feature-grid">
+    <a href="/conceitos" class="feature-card">
+        <div class="feature-icon fi-blue">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        </div>
+        <div>
+            <h3>Vocabulário Médico</h3>
+            <p>Navegue, filtre e explore os termos por letra, tema, género gramatical ou tradução.</p>
+        </div>
+    </a>
+    <a href="/conceitos/novo" class="feature-card">
+        <div class="feature-icon fi-gray">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </div>
+        <div>
+            <h3>Enriquecer Dataset</h3>
+            <p>Adicione novos conceitos ou edite termos existentes com definições, sinónimos e traduções.</p>
+        </div>
+    </a>
+    <a href="/ir" class="feature-card">
+        <div class="feature-icon fi-red">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        </div>
+        <div>
+            <h3>Information Retrieval</h3>
+            <p>Pesquise artigos científicos médicos usando o modelo TF-IDF com ranking por relevância.</p>
+        </div>
+    </a>
+    <a href="/qa" class="feature-card">
+        <div class="feature-icon fi-green">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        </div>
+        <div>
+            <h3>Question Answering</h3>
+            <p>Faça perguntas sobre artigos científicos e obtenha respostas com modelo BERT do HuggingFace.</p>
+        </div>
+    </a>
+</div>
+
+{% if top_temas %}
+<div class="card">
+    <div class="card-header">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+        <strong>Áreas Temáticas Principais</strong>
+    </div>
+    <div class="card-body">
+        <div class="temas-grid">
+            {% for tema, count in top_temas %}
+            <a href="/conceitos?tema={{ tema | urlencode }}" class="btn btn-ghost btn-sm">
+                {{ tema }} <span class="badge badge-accent" style="margin-left:4px">{{ count }}</span>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endif %}
+{% endblock %}
